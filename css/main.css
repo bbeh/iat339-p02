@@ -101,7 +101,7 @@
     text-align: center;
     width: 10em;
     padding: 0.5em 0.75em;
-    color: #333;
+    color: #F95738;
     margin-left: -0.2em;
     margin-right: -0.2em;
     background-color: #fff;
@@ -329,6 +329,7 @@
     border-top: dotted;
     border-color: #f2f2f2;
     border-top-width: 0.04em;
+    margin-top: 1.5em;
     margin-right: -1em;
     margin-left: -1em;
     padding-top: 1em;
