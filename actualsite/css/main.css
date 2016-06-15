@@ -16,7 +16,7 @@
     text-transform: uppercase;
   }
 
-  #fat-footer {
+  #wide-footer {
     /* Background Gradient Generated with ColorZilla.com/gradient-editor */
     background: #ededed; /* Old browsers */
     background: -moz-linear-gradient(top, #ededed 0%, #f6f6f6 53%, #ffffff 100%); /* FF3.6-15 */
@@ -32,13 +32,13 @@
     padding: 1em;
   }
 
-  #fat-footer h4 {
+  #wide-footer h4 {
     margin: 0;
     font-size: 1.5em;
 
   }
 
-  #skinny-footer {
+  #thin-footer {
     background: #DE4B2F;
     text-align: center;
     padding: 0.25em;
@@ -100,6 +100,57 @@
     margin: 0;
   }
 
+/*product listing styling*/
+  .hero-banner-2 {
+    background-color: #DBDBDB;
+    padding: 1em;
+    margin: 1em 0;
+    height: 21.875em; /*350px*/
+  }
+
+  .hero-banner-2 h2 {
+    float: left;
+    margin-top: 12em;
+  }
+
+  .hero-banner-2-btns {
+    float: right;
+    margin-top: 18em;
+  }
+
+  .product-listing {
+    background-color: #D0D0D0;
+    display: block;
+    margin: 20px;
+    height: 30em;
+    width: 300px;
+  }
+
+
+  .product-image {
+    background-color: #777777;
+    height: 26em;
+    width: 300px;
+  }
+
+
+  .product-info {
+    background-color: #D0D0D0;
+    height: 4em;
+    width: 300px;
+    padding: 0.5em;
+  }
+
+  .product-info h2 {
+    margin-top: -0.15em;
+  }
+  .product-info h3 {
+    font-size: 1em;
+    margin-top: -1.5em;
+  }
+
+/*end of product listing*/  
+
   .mini-hero {
     background-color: #D0D0D0;
     margin: 0 0.5em;
@@ -123,7 +174,7 @@
     transition: all 0.25s ease-out;
   }
 
-  .btn-std:hover, .btn-std:focus {
+  .btn-std:hover, .btn-std:focus, .btn-std-current {
     border-color: rgba(249,87,56,1);
     background-color: rgba(255,255,255,1);
   }
