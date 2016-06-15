@@ -25,8 +25,7 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
     /* End Generated Code */
 
-    font-size: 0.9em;
-
+    font-size: 0.8em;
     border-top: 3px solid #F95738;
     height: 5em;
     margin-top: 2em;
@@ -35,6 +34,7 @@
 
   #fat-footer h4 {
     margin: 0;
+    font-size: 1.5em;
 
   }
 
@@ -47,7 +47,7 @@
   }
 
   .text-center {
-  text-align: center;
+    text-align: center;
   }
 
   .button-navbar {
@@ -60,7 +60,10 @@
     margin-left: -0.2em;
     margin-right: -0.2em;
     background-color: #fff;
-    border: 2px solid;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
     border-color: #F95738;
     text-decoration: none;
     -webkit-transition: all 0.25s ease-out;
@@ -100,6 +103,8 @@
   .mini-hero {
     background-color: #D0D0D0;
     margin: 0 0.5em;
+    height: 5em;
+    padding: 0.25em;
   }
 
 
@@ -110,7 +115,7 @@
     display: inline-block;
     padding: 0.5em 0.75em;
     color: #F95738;
-    background-color: #fff;
+    background-color: rgba(255,255,255,0.65);
     border-bottom: solid;
     border-color: rgba(249,87,56,0);
     text-decoration: none;
@@ -118,7 +123,7 @@
     transition: all 0.25s ease-out;
   }
 
-
   .btn-std:hover, .btn-std:focus {
     border-color: rgba(249,87,56,1);
+    background-color: rgba(255,255,255,1);
   }
