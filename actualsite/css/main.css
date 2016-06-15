@@ -17,11 +17,25 @@
   }
 
   #fat-footer {
-    background: #EBEBEB;
+    /* Background Gradient Generated with ColorZilla.com/gradient-editor */
+    background: #ededed; /* Old browsers */
+    background: -moz-linear-gradient(top, #ededed 0%, #f6f6f6 53%, #ffffff 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #ededed 0%,#f6f6f6 53%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #ededed 0%,#f6f6f6 53%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+    /* End Generated Code */
+
+    font-size: 0.9em;
+
     border-top: 3px solid #F95738;
     height: 5em;
     margin-top: 2em;
     padding: 1em;
+  }
+
+  #fat-footer h4 {
+    margin: 0;
+
   }
 
   #skinny-footer {
@@ -46,7 +60,7 @@
     margin-left: -0.2em;
     margin-right: -0.2em;
     background-color: #fff;
-    border: 1px solid;
+    border: 2px solid;
     border-color: #F95738;
     text-decoration: none;
     -webkit-transition: all 0.25s ease-out;
@@ -54,14 +68,20 @@
   }
 
   .button-navbar:hover, .button-nav:focus, .nav-current {
-    margin: 0em 0.75em 0em 0.75em;
     background: #F95738;
     color: #fff;
 
-/*    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);*/
   }
+
+@media (min-width: 50em) {
+
+  .button-navbar:hover, .button-nav:focus, .nav-current {
+    margin: 0em 0.75em 0em 0.75em;
+    background: #F95738;
+    color: #fff;
+  }
+
+}
 
 
 /* Hero Banners */
