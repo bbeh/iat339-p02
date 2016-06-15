@@ -1,109 +1,23 @@
-/*
-  STYLE GUIDE STYLING 
-  Default styling for the style guide 
-  */
+  nav {
+    width: 100%;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
 
-nav {
-  width: 100%;
-}
-
-  
   body {
     font-family: sans-serif;
-    padding: 2rem;
   }
 
-  section:not([id]) {
-    margin: 1em 0;
-    padding: 1em 0;
-    border-bottom: 0.15em solid #333;
-  }
-
-  section h2 {
-    margin-top: 0;
-    margin-bottom: 0.5em;
-  }
-
-  section h3 {
-    margin-bottom: 0;
-  }
-
-  section p {
-    margin-top: 0;
-  }
-
-  nav.global {
-    margin-bottom: 1em;
-    padding-bottom: 1em;
-    border-bottom: 0.15em solid #333;
-  }
-
-  nav a:hover, nav a:focus {
-    text-decoration: none;
-  }
-
-  section code {
-    background-color: #EEE;
-    padding: 0.5em 0.75em;
-    display: block;
-  }
-
-  ul.citations {
-    margin-left: 0.25em;
-    padding-left: 0.25em;
-  }
-
-  ul.citations li {
-    list-style-type: none;
-    margin-left: 0;
-    padding-left: 0;
-    padding-bottom: 1em;
-  }
-
-  ul.citations li strong {
-    font-weight: normal;
-    font-style: italic;
-  }
-
-  cite {
-    font-style: normal;
-  }
-
-  img.resize {
-    width: 85%;
-    height: auto;
-  }
-
-/* 
-  INTERACTIVE ELEMENTS -------------------
-  */
-
-  /* Styling for the navigation button */
-  .button-nav {
+  h1 {
     font-family: 'Open Sans';
-    display: inline-block;
-    padding: 0.5em 0.75em;
-    color: #333;
-    background-color: #EEEEEE;
-    border-radius: 0;
-    border-bottom: solid;
-    border-color: #fff;
-    text-decoration: none;
-    -webkit-transition: all 0.25s ease-out;
-    transition: all 0.25s ease-out;
+    text-align: center;
+    margin: 0.25em 0.25em;
   }
 
-  .button-nav:hover, .button-nav:focus {
-    border-bottom: solid;
-    border-color: #F4D35E;
-  }
-
-  /* Styling for the navigation bar */
   .button-navbar {
     font-family: 'Open Sans';
     display: inline-block;
-    margin-top: 2em;
-    margin-bottom: 2em;
     text-align: center;
     width: 10em;
     padding: 0.5em 0.75em;
@@ -111,206 +25,20 @@ nav {
     margin-left: -0.2em;
     margin-right: -0.2em;
     background-color: #fff;
-    border-radius: 0;
-    border: solid;
+    border: 1px solid;
     border-color: #F95738;
     text-decoration: none;
     -webkit-transition: all 0.25s ease-out;
     transition: all 0.25s ease-out;
   }
 
-  .button-navbar:hover, .button-nav:focus {
-    z-index: 10000; 
-
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
-  }
-
-
-  /* Styling for the submit button */
-  .button-submit {
-    font-family: 'Open Sans';
-    display: inline-block;
-    padding: 0.75em 1.5em;
-    color: #FFF;
-    font-size: 0.85em;
-    background-color: #0F60A8;
-    border-radius: 0;
-    border: 0px;
-    text-decoration: none;
-    -webkit-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-  }
-
-  .button-submit:hover, .button-submit:focus {
-    background-color: #092F51;
-    cursor: pointer;
-    cursor: hand;
-  }
-
-  /* Styling for the reset button */
-  .button-reset {
-    font-family: 'Open Sans';
-    display: inline-block;
-    padding: 0.75em 1.5em;
-    color: #FFF;
-    font-size: 0.85em;
-    background-color: #999999;
-    border-radius: 0;
-    border: 0px;
-    text-decoration: none;
-    -webkit-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-  }
-
-  .button-reset:hover, .button-reset:focus {
-    background-color: #092F51;
-    cursor: pointer;
-    cursor: hand;
-  }
-
-  /* Styling for intext-links */
-  .intext-link {
-    color: #0F60A8;
-    font-family: 'Open Sans';
-    text-decoration: none;
-    border-style: dotted;
-    border-width: 0px 0px 0.1rem 0px;
-    -webkit-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-  }
-
-  .intext-link:hover, .intext-link:focus {
-    color: #092F51;
-  }
-
-  .text-field {
-    font-family: 'Open Sans';
-    font-size: 1em;
-    padding: 0.75em 0.75em;
-    border-color: rgba(15,96,168, 0.25);
-    border-style: solid;
-    border-width: 0.1rem;
-
-  }
-
-  .text-field:focus {
-    outline: none;
-    border-color: rgba(15,96,168, 0.5);
-    box-shadow: 0 0 5px rgba(15,96,168, 0.5);
-  }
-
-  .sample-label {
-    display: block;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1em;
-    padding-top: 0.5em;
-    padding-bottom: 0.25em;
-
-  }
-
-
-
-/* 
-  TEXT ELEMENTS -------------------
-  */
-
-  @font-face {
-    font-family: 'Conv_KlinicSlabMedium';
-    src: url('fonts/KlinicSlabMedium.eot');
-    src: local('☺'), url('fonts/KlinicSlabMedium.woff') format('woff'), url('fonts/KlinicSlabMedium.ttf') format('truetype'), url('fonts/KlinicSlabMedium.svg') format('svg');
-    font-weight: normal;
-    font-style: normal;
-  }
-
-
-  .heading-one {
-    font-family: 'Conv_KlinicSlabMedium';
-    font-size: 2.5em;
-    padding: 0.25rem 0 0.5rem 0;
-    color: #F95738;
-  }
-
-  .heading-two {
-    font-family: 'Conv_KlinicSlabMedium';
-    font-size: 2em;
-    margin-bottom: 0em;
-    padding: 0.25rem 0 0.5rem 0;
-    color: #EE964B;
-  }
-
-  .heading-three {
-    font-family: 'Conv_KlinicSlabMedium';
-    font-size: 1.5em;
-    padding: 0.25rem 0 0.5rem 0;
-    color: #EE964B;
-  }
-
-  .body-text {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 0.90em;
-  }
-
-  .bullet-list {
-    font-family: 'Open Sans';
-    list-style-type: square;
-    color: #083D77;
-  }
-
-  .number-list {
-    font-family: 'Open Sans';
-    color: #083D77;
-  }
-
-
-/* 
-  COMBINED ELEMENTS -------------------
-  */
-
-
-  .button-add {
-    font-family: 'Open Sans';
-    font-size: 0.85em;
-    font-weight: 800;
-    text-transform: uppercase;
-    display: inline-block;
-    padding: 0.5em 0.75em;
-    color: #999;
-    background-color: #fff;
-    border-radius: 0;
-    border: solid;
-    border-color: #F4D35E;
-    text-decoration: none;
-    -webkit-transition: all 0.25s ease-out;
-    transition: all 0.25s ease-out;
-  }
-
-  .button-add:hover, .button-add:focus {
-    border-bottom: solid;
+  .button-navbar:hover, .button-nav:focus, .nav-current {
+    margin: 0em 0.75em 0em 0.75em;
+    background: #F95738;
     color: #fff;
-    background-color: #F4D35E;
-    border-color: #F4D35E;
-    -webkit-transform: scale(1.2);
+
+/*    -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
-    transform: scale(1.2);
+    transform: scale(1.2);*/
   }
-
-
-  .price {
-    font-family: 'Conv_KlinicSlabMedium';
-    font-size: 1.55em;
-    color: #EE964B;
-  }
-
-  .action-bar {
-    border-top: dotted;
-    border-color: #f2f2f2;
-    border-top-width: 0.04em;
-    margin-top: 1.5em;
-    margin-right: -1em;
-    margin-left: -1em;
-    padding-top: 1em;
-  }
-
 

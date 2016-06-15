@@ -23,11 +23,19 @@
 */
 [class^='grid-col-'] {
 	float: left;
-	padding: 1em; 
-	border: 1px solid red;
+	padding: 0em; 
 	width: 100%;
+	border: 0;
 }
 
+.grid-show {
+	border: 1px solid red;
+}
+
+.grid-center {
+	float: initial;
+	margin: 0 auto;
+}
 
 /*
 	Here we are defining our default column widths with the intention
@@ -131,13 +139,6 @@
 		width: 100;
 	}
 
-	.grid-col-5of10:first-of-type {
-	
-	}
-
-	.grid-col-5of10:last-of-type {
-		
-	}
 
 }
 
