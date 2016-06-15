@@ -33,7 +33,7 @@
 }
 
 .grid-center {
-	float: initial;
+	float: none;
 	margin: 0 auto;
 }
 

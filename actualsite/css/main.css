@@ -6,13 +6,34 @@
   }
 
   body {
-    font-family: sans-serif;
+    font-family: 'Open Sans';
   }
 
   h1 {
     font-family: 'Open Sans';
     text-align: center;
     margin: 0.25em 0.25em;
+    text-transform: uppercase;
+  }
+
+  #fat-footer {
+    background: #EBEBEB;
+    border-top: 3px solid #F95738;
+    height: 5em;
+    margin-top: 2em;
+    padding: 1em;
+  }
+
+  #skinny-footer {
+    background: #DE4B2F;
+    text-align: center;
+    padding: 0.25em;
+    font-size: 0.75em;
+    color: #fff;
+  }
+
+  .text-center {
+  text-align: center;
   }
 
   .button-navbar {
@@ -42,3 +63,42 @@
     transform: scale(1.2);*/
   }
 
+
+/* Hero Banners */
+
+  .hero-banner-1 {
+    background-color: #DBDBDB;
+    padding: 1em;
+    margin: 1em 0;
+    height: 30em;
+  }
+
+  .hero-banner-1 h2 {
+    margin: 0;
+  }
+
+  .mini-hero {
+    background-color: #D0D0D0;
+    margin: 0 0.5em;
+  }
+
+
+
+  /* Hero Buttons */
+
+  .btn-std {
+    display: inline-block;
+    padding: 0.5em 0.75em;
+    color: #F95738;
+    background-color: #fff;
+    border-bottom: solid;
+    border-color: rgba(249,87,56,0);
+    text-decoration: none;
+    -webkit-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+  }
+
+
+  .btn-std:hover, .btn-std:focus {
+    border-color: rgba(249,87,56,1);
+  }
