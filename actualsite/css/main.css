@@ -131,18 +131,18 @@
     padding: 0 1em 0.5em;
   }
 
-@media (min-width: 50em) {
+  @media (min-width: 50em) {
 
-  .button-navbar:hover, .button-nav:focus, .nav-current {
-    margin: 0em 0.75em 0em 0.75em;
-    background: #F95738;
-    color: #fff;
+    .button-navbar:hover, .button-nav:focus, .nav-current {
+      margin: 0em 0.75em 0em 0.75em;
+      background: #F95738;
+      color: #fff;
+    }
+
   }
 
-}
 
-
-/* Hero Banners */
+  /* Hero Banners */
 
   .hero-banner-1 {
     background-color: #DBDBDB;
@@ -220,8 +220,8 @@
     height: 20em;
     width: 35em;
   }
-*/
-    .hero-banner-4-description {
+  */
+  .hero-banner-4-description {
     float: right;
     padding: 1em;
     margin-top: 2em;
@@ -235,7 +235,7 @@
     margin-right: 6.5em;
     margin-top: 18em;
   }
-/*blog post styling*/
+  /*blog post styling*/
   .blog-post{
     height: 12em;
     margin-top: 4em;
@@ -289,7 +289,7 @@
     padding: 1em;
   }
 
-/*Profile listing styling*/
+  /*Profile listing styling*/
   .profile-listing {
     margin: 0 0.5em;
     height: 50em;
@@ -302,7 +302,7 @@
     width: 22em;
     height: 22em;
     background-color: gray;
-}
+  }
 
   .profile-description {
     height: 50em;
@@ -311,12 +311,12 @@
     text-align: left;
   }
 
-/*product listing styling*/
+  /*product listing styling*/
   .product-filter {
     background-color: #FFFFFF;
     display: block;
     margin-right: 1em;
-/*    need to fix sidebar so it is always extended to length of page*/
+    /*    need to fix sidebar so it is always extended to length of page*/
     min-height: 61em;
     height: 100%
     right:0px;
@@ -468,7 +468,7 @@
   }
   /*end Accordian filter*/
 
-/*Detailed product styling */  
+  /*Detailed product styling */  
   .product-detail-bar{
     margin-top: -1em;
     width: auto;
@@ -604,7 +604,7 @@
     cursor: hand;
   }
 
-    .text-field {
+  .text-field {
     font-family: 'Open Sans';
     font-size: 1em;
     padding: 0.75em 0.75em;
