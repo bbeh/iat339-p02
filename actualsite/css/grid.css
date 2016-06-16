@@ -23,9 +23,7 @@
 */
 [class^='grid-col-'] {
 	float: left;
-	padding: 0em; 
 	width: 100%;
-	border: 0;
 }
 
 .grid-show {
