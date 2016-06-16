@@ -195,9 +195,46 @@
     width: 30%;
     float: right;
     display: inline-block;
-
   }
 
+  .hero-banner-4 {
+    background-color: #DBDBDB;
+    padding: 1em;
+    margin: 1em 0;
+    height: 30em; /*480px*/
+  }
+
+  .hero-banner-4 h2 {
+    float: left;
+    margin-left: 3.2em;
+    margin-top: 0em;
+  }
+
+  /*
+      .hero-banner-4-image {
+    float: left;
+    background-color: #999999;
+    padding: 1em;
+    margin-top: 2em;
+    margin-left: 5%;
+    height: 20em;
+    width: 35em;
+  }
+*/
+    .hero-banner-4-description {
+    float: right;
+    padding: 1em;
+    margin-top: 2em;
+    margin-right: 12em;
+    height: 20em;
+    width: 25em;
+  }
+
+  .hero-banner-4-btns {
+    float: right;
+    margin-right: 6.5em;
+    margin-top: 18em;
+  }
 /*blog post styling*/
   .blog-post{
     height: 12em;
@@ -251,6 +288,7 @@
     height: 12em;
     padding: 1em;
   }
+
 /*Profile listing styling*/
   .profile-listing {
     margin: 0 0.5em;
@@ -429,6 +467,67 @@
     transition: all .2s ease-in-out;
   }
   /*end Accordian filter*/
+
+/*Detailed product styling */  
+  .product-detail-bar{
+    margin-top: -1em;
+    width: auto;
+    background-color: silver;
+    height: 3em;
+    padding-left: 3.7em;
+  }
+
+  .product-detail-bar h2{
+    padding-top: 0.1em;
+    display: inline-block;
+    padding-right: 0.5em;
+  }
+
+  .product-purchase{
+    float: right;
+    margin-right: 5em;
+    margin-top: 0.2em;
+  }
+
+  .product-post{
+    height: 12em;
+    margin-top: 4em;
+    margin-bottom: 4em;
+    /*
+    border-style: solid;
+    border-color: black;
+    border-width: 0.25em;
+    display: block;*/
+  }
+
+
+  .product-post-title{
+    text-align: left;
+    margin-top: 2em;
+    height: 1em;
+    padding: 0.25em;
+  }
+
+  .product-post-title h2{
+    text-align: left;
+    height: 3em;
+    padding: 0.25em;
+  }
+
+  .product-post-image{
+    background-color: #D0D0D0;
+    margin: 0 0.5em;
+    height: 20em;
+    padding: 0.25em;
+    display: block;
+  }
+  
+  .product-post-text{
+    text-align: left;
+    margin-top: 2em;
+    height: 12em;
+    padding: 1em;
+  }
 
   .mini-hero {
     background-color: #D0D0D0;
