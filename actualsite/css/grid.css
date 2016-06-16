@@ -92,7 +92,7 @@
 	Think of this as saying, when display width > 50em, apply this
 */
 
-@media (min-width: 40em) {
+@media (min-width: 50em) {
 
 
 	.grid-col-3of12 {
