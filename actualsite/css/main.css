@@ -100,7 +100,6 @@
     margin: 0;
   }
 
-/*product listing styling*/
   .hero-banner-2 {
     background-color: #DBDBDB;
     padding: 1em;
@@ -118,6 +117,7 @@
     margin-top: 18em;
   }
 
+/*product listing styling*/
   .product-filter {
     background-color: #FFFFFF;
     display: block;
@@ -193,11 +193,86 @@
     background-color: blue;
     border-color: black;
     display: inline-block;
+  }
 
-  /* width and height can be anything, as long as they're equal */
-}
+  /*end of product listing*/  
 
-/*end of product listing*/  
+  /*Accordian for filter*/
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  ul li label {
+    background: #D0D0D0;
+  }
+
+  ul li input[type='checkbox'] {
+    display: none;
+  }
+
+  ul li label {
+    display: block;
+    padding: 12px;
+  }
+
+  ul li label:hover {
+    background: #999999;
+  }
+
+  ul li input[type='checkbox']:checked ~ label {
+    background: gray;
+  }
+
+  ul li input[type='checkbox']:checked ~ .options {
+    height: 8em;
+    /*height: auto;*/
+    display: block;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+  }
+
+  ul ul li a {
+    display: block;
+    padding: 6px 12px;
+    color: #0F60A8;
+    text-decoration: none;
+  }
+
+  ul ul li a:hover {
+    color: #F95738;
+  }
+
+  ul ul li {
+    border-bottom: 1px solid #ccc;
+  }
+
+  ul ul li:first-child {
+    padding-top: 6px;
+  }
+
+  ul ul li:last-child {
+    padding-bottom: 6px;
+    border: 0;
+  }
+
+  .options {
+    height: 0;
+    display: block;
+    overflow: hidden;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+  }
+  /*end Accordian filter*/
 
   .mini-hero {
     background-color: #D0D0D0;
@@ -205,83 +280,6 @@
     height: 5em;
     padding: 0.25em;
   }
-
-/*Accordian for filter*/
-
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  margin: 0 auto;
-}
-
-ul li label {
-  background: #D0D0D0;
-}
-
-ul li input[type='checkbox'] {
-  display: none;
-}
-
-ul li label {
-  display: block;
-  padding: 12px;
-}
-
-ul li label:hover {
-  background: #999999;
-}
-
-ul li input[type='checkbox']:checked ~ label {
-  background: gray;
-}
-
-ul li input[type='checkbox']:checked ~ .options {
-  height: 8em;
-  /*height: auto;*/
-  display: block;
-  -webkit-transition: all .2s ease-in-out;
-  -moz-transition: all .2s ease-in-out;
-  -o-transition: all .2s ease-in-out;
-  -ms-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
-}
-
-ul ul li a {
-  display: block;
-  padding: 6px 12px;
-  color: #0F60A8;
-  text-decoration: none;
-}
-
-ul ul li a:hover {
-  color: #F95738;
-}
-
-ul ul li {
-  border-bottom: 1px solid #ccc;
-}
-
-ul ul li:first-child {
-  padding-top: 6px;
-}
-
-ul ul li:last-child {
-  padding-bottom: 6px;
-  border: 0;
-}
-
-.options {
-  height: 0;
-  display: block;
-  overflow: hidden;
-  -webkit-transition: all .2s ease-in-out;
-  -moz-transition: all .2s ease-in-out;
-  -o-transition: all .2s ease-in-out;
-  -ms-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
-}
-/*end Accordian filter*/
 
   /* Hero Buttons */
 
