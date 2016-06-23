@@ -482,6 +482,14 @@
   }*/
 
   .product-listing {
+    margin: 1em auto;
+    overflow: hidden;
+    width: 15em;
+    height: 30em;
+    position: relative;
+  }
+
+    .cat-listing {
     margin: 2em auto;
     overflow: hidden;
     width: 15em;
@@ -512,7 +520,50 @@
     background: url(../img/space.png);
   }
 
-    .product-image {
+    .product-pack1 {
+    background: url(../img/jetpack1.png);
+  }
+
+    .product-pack2 {
+    background: url(../img/jetpack2.png);
+  }
+
+    .product-pack3 {
+    background: url(../img/jetpack4.png);
+  }
+
+      .product-pack4 {
+    background: url(../img/jetpack5.png);
+  }
+
+    .product-pack5 {
+    background: url(../img/jetpack6.png);
+  }
+
+    .product-pack6 {
+    background: url(../img/jetpack2.png);
+  }
+
+  .strike {
+    text-decoration: line-through;
+  }
+
+  .sale {
+    color: red;
+  }
+
+
+  .product-image {
+    background-color: #fff;
+    border: 1px solid #E3E3E3;
+    height: auto;
+    height: 20em;
+    background-size: 100%;
+    background-position: 0px 40px;
+    background-repeat: no-repeat;
+  }
+
+  .cat-image {
     background-color: #777777;
     height: auto;
     width: 22em;
