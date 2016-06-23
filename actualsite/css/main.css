@@ -464,7 +464,10 @@
     border-radius: 50%;
     width: 22em;
     height: 22em;
-    background-color: gray;
+    background-color: white;
+    border-color: #999999;
+    border-style: solid;
+    border-width: 0.3em;
   }
 
   .profile-description {
