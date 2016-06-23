@@ -260,6 +260,25 @@
     line-height: 1.5;
   }
 
+  .hero-blog-text-wrapper {
+    width: 325px;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    left: 180px;
+  }
+
+  .hero-blog-text {
+    margin: 3em auto;
+    color: #EEFFE8;
+    width: 100%;
+    position: absolute;
+  }
+
+  .hero-blog-text h2 {
+    color: #EEFFE8;
+  }
+
  
 
   .hero-banner-3 {
@@ -304,7 +323,7 @@
   }
 
    .hero-banner-4-text-wrapper {
-    width: 315px;
+    width: 327px;
     position: relative;
     margin: 0 auto;
     left: 120px;
@@ -373,6 +392,10 @@
 
   .hero-color-blue {
     background-color: #51ADDB;
+  }
+
+  .hero-color-green {
+    background-color: #76DB51;
   }
 
   /*blog post styling*/
