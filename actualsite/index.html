@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Jetpacks</title>
+    <title>Jetpacks - Home</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/grid.css">
@@ -16,7 +16,9 @@
   <body>
 
     <header id="top">
-      <h1>Jetpacks</h1>
+      <div class="logo">
+        <h1>Jetpacks</h1>
+      </div>
 
       <div class="grid-row">
         <div class="grid-col-12of12">
@@ -36,11 +38,18 @@
 
       <!-- we want our homepage hero to be outside of our container -->
       <div class="grid-col-12of12">
-        <div class="hero-banner-1 text-center">
-          <h2>Hero Banner 1</h2>
-          <p>Some short descriptrion</p>
-          <a href="#" class="btn-std">Discover This</a>
-          <a href="#" class="btn-std">Discover That</a>
+        <div class="hero-banner-1">
+          <div class="hero-img-wrapper">
+            <div class="img-hero">
+              <img src="img/her2.png" width="600px">
+            </div>
+          </div>
+          <div class="hero-banner-1-text-wrapper">
+            <div class="hero-banner-1-text">
+              <h2>Go Fast!</h2>
+              <p>Be the first in the pack with our all new hyper-space jetpacks.</p>
+              <a href="products-jetpacks.html" class="btn-std">Get me Ahead</a>
+            </div>
         </div>
       </div>
 
@@ -51,14 +60,20 @@
         <div class="grid-row">
 
           <div class="grid-col-6of12 text-center">
-            <div class="mini-hero">
-              <h2>Special Promo 1</h2>
+            <div class="mini-hero mini-hero-green">
+              <a href="products-jetpacks.html"><img src="img/spring_sale.png"></a>
+                <div class="mini-hero-text-wrapper">
+                  <a href="products-jetpacks.html" class="btn-mini"> Let's Shop</a>
+                </div>
             </div>
           </div>
 
           <div class="grid-col-6of12 text-center">
-            <div class="mini-hero">
-              <h2>Special Promo 2</h2>
+            <div class="mini-hero mini-hero-red">
+              <img src="img/lightly_loved.png">
+                <div class="mini-hero-text-wrapper">
+                  <a href="products-jetpacks.html" class="btn-mini"> Check it out</a>
+                </div>
             </div>
           </div>
 
@@ -71,25 +86,21 @@
         <div class="grid-col-12of12">
           <div id="wide-footer">
 
-            <div class="grid-col-1of12">
-               &nbsp;
-            </div>
+            <div class="grid-col-9of12 grid-center">
 
-            <div class="grid-col-3of12">
+
+            <div class="grid-col-4of12 our-story">
               <h4>Our Story</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id nunc purus. Praesent justo turpis, volutpat ac aliquam at, condimentum vestibulum ligula.</p>
             </div>
 
-            <div class="grid-col-4of12 grid-padding">
+            <div class="grid-col-4of12 twitter-feed">
               <h4>Twitter Feed</h4>
               <p>Twitter Widget</p>
             </div>
 
-            <div class="grid-col-1of12">
-               &nbsp;
-            </div>
 
-            <div class="grid-col-3of12">
+            <div class="grid-col-4of12 contact-us">
               <h4>Contact Us</h4>
               <p>
                 222-333-2323 <br />
