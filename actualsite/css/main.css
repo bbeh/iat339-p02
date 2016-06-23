@@ -73,6 +73,10 @@
     margin-bottom: 0.25em;
   }
 
+  .hidden {
+    display: none;
+  }
+
   #wide-footer {
     /* Background Gradient Generated with ColorZilla.com/gradient-editor */
     background: #ededed; /* Old browsers */
@@ -401,8 +405,8 @@
   /*blog post styling*/
   .blog-post{
     height: 12em;
-    margin-top: 4em;
-    margin-bottom: 4em;
+    margin-top: 1em;
+    margin-bottom: 5em;
     /*
     border-style: solid;
     border-color: black;
@@ -443,6 +447,15 @@
     height: 20em;
     padding: 0.25em;
     display: block;
+    margin-bottom: 3em;
+  }
+
+  .hyper-space {
+    background: url(../img/hyper_space.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-color: #C7B299;
+    background-position: center 0px;
   }
   
   .blog-text{
