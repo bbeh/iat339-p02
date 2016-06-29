@@ -52,15 +52,27 @@
 
             <div class="grid-row">
 
-              <div class="grid-col-8of12">
+              <div class="grid-col-8of12 grid-center">
                 <h2>Book a Test Drive Today!</h2>
                 <p>There is no better way to experience the convenience of a Jetpack until you try one on. Come to any of our three locations in the Lower Mainland to experience what the future of travel will be like.</p>
+
+                <div class="grid-row">
+
+                <div class="grid-col-12of12 call-out">
+                <h3 class="call-out-title">Safety Requirements</h3>
+                <div class="call-out-content">
+                  <p>As of June 20th, 2016 new government regulations requires that all Jetpack owners must posess a valid Class 5 drivers license before they may purchase or test-drive any type of regulated Jetpack.</p>
+                </div>
+
+            </div>
+
+          </div>
 
                 <form>
 
                   <div class="grid-row">
 
-                    <h3 class="title">Personal Information</h4>
+                    <h3 class="title">Personal Information</h3>
 
                     <div class="grid-col-5of12">
                       <label for="first">First Name</label><br >
@@ -89,25 +101,51 @@
                   </div>
 
                   <div class="grid-row">
-                    <h3 class="title">Test Drive Location</h4>
+                    <h3 class="title">Test Drive Location</h3>
                     <div class="grid-col-6of12">
                       <label for="surrey">
                       <div class="location">
-                        <input type="radio" name="location" value="surrey" id="surrey" checked> 
-                        Surrey, BC - Kim Ottison Auto Mall <br />
+
+                        <div class="location-input">
+                          <input type="radio" name="location" value="surrey" id="surrey" class="big-radio">
+                        </div>
+
+                        <div class="location-content">
+                          <h4>Kim Ottison Auto Mall</h4>
+                          <p>13450 102nd Ave<br />
+                            Surrey, BC  V3T 0D3</p>
+                        </div>
                         
                       </div></label>
 
                       <label for="coquitlam">
                       <div class="location">
-                      <input type="radio" name="location" value="coquitlam" id="coquitlam" checked> 
-                      Coquitlam, BC - Coquitlam City Mall <br />
+
+                        <div class="location-input">
+                          <input type="radio" name="location" value="coquitlam" id="coquitlam" class="big-radio"> 
+                        </div>
+
+                        <div class="location-content">
+                          <h4>Coquitlam City Centre</h4>
+                          <p>2929 Barnet Hwy<br />
+                            Coquitlam, BC  V3B 5R5</p>
+                        </div>
+
                     </div></label>
 
                       <label for="burnaby">
                       <div class="location">
-                        <input type="radio" name="location" value="burnaby" id="burnaby" checked> 
-                        Burnaby, BC - Petrotopolis at Petrotown
+
+                        <div class="location-input">
+                          <input type="radio" name="location" value="burnaby" id="burnaby" class="big-radio"> 
+                        </div>
+
+                        <div class="location-content">
+                         <h4>Petropolis at Petrotown</h4>
+                         <p>4700 Kingsway #604<br />
+                          Burnaby, BC  V5H 4N2</p>
+                       </div>
+
                       </div></label> 
 
                     </div>
@@ -129,16 +167,7 @@
                 &nbsp;
               </div>
 
-              <div class="grid-col-3of12 call-out">
-                <h3>Safety Requirements</h3>
-                <p>You must have the following lorem ipsum:</p>
-                <ol class="number-list">
-                  <li>Valid Drivers License</li>
-                  <li>Lorem Ipsum Two</li>
-                  <li>Lorem Ipsum Three</li>
-                </ol>
 
-            </div>
            
             </div>
 
