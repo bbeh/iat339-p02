@@ -515,24 +515,6 @@
   }
 
   /*product listing styling*/
-  .product-filter {
-    background-color: #FFFFFF;
-    display: block;
-    margin-right: 1em;
-    /*    need to fix sidebar so it is always extended to length of page*/
-    min-height: 61em;
-    height: 100%
-    right:0px;
-    bottom:0px;
-    top:0px;
-  }
-
-  .product-filter-tab {
-    background-color: white;
-    height: 4em;
-    padding: 0.5em;
-    font-size: 0.8em;
-  }
 
 /*  .product-listing {
     background-color: #D0D0D0;
@@ -549,14 +531,6 @@
     overflow: hidden;
     width: 25em;
     height: 25em;
-    position: relative;
-  }
-
-    .cat-listing {
-    margin: 2em auto;
-    overflow: hidden;
-    width: 15em;
-    height: 32em;
     position: relative;
   }
 
@@ -581,7 +555,6 @@
   .sale {
     color: red;
   }
-
 
 
   .product-image {
@@ -612,21 +585,11 @@
   {
     margin-bottom: 0em;
   }
-  .cat-image {
-    background-color: #777777;
-    height: auto;
-    width: 22em;
-    height: 23em;
-    background-size: cover;
-    background-position: -52px -60px;
-    background-repeat: no-repeat;
-  }
 
   .product-info {
     position: absolute;
     top: 80%;
     left: 38%;
-
   }
 
   .product-info h2 {
@@ -780,9 +743,6 @@
   }
 
 
-
-
-
   /* Hero Buttons */
 
   .btn-std {
@@ -831,8 +791,6 @@
     border-bottom: 3px solid #FFEBD4;
 
   }
-
-
 
   .number-list {
     font-family: 'Open Sans';
