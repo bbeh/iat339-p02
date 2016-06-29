@@ -53,22 +53,22 @@
             <div class="grid-row">
 
               <div class="grid-col-8of12">
-                <h3>Book a Test Drive Today!</h3>
-                <p>Lorem ipsum test drive no easier than lorem ipsum. Do it now.</p>
+                <h2>Book a Test Drive Today!</h2>
+                <p>There is no better way to experience the convenience of a Jetpack until you try one on. Come to any of our three locations in the Lower Mainland to experience what the future of travel will be like.</p>
 
                 <form>
 
                   <div class="grid-row">
 
-                    <h4>Personal Information</h4>
+                    <h3 class="title">Personal Information</h4>
 
-                    <div class="grid-col-4of12">
-                      <label for="first">First Name:</label>
+                    <div class="grid-col-5of12">
+                      <label for="first">First Name</label><br >
                       <input type="text" name="first" id="first" class="text-field"></input>
                     </div>
 
-                    <div class="grid-col-4of12">
-                      <label for="last">Last Name:</label>
+                    <div class="grid-col-5of12">
+                      <label for="last">Last Name</label><br >
                       <input type="text" name="last" id="last" class="text-field"></input>
                     </div>
 
@@ -76,27 +76,39 @@
 
                   <div class="grid-row">
 
-                    <div class="grid-col-4of12">
-                      <label for="email">Email Address:</label>
+                    <div class="grid-col-5of12">
+                      <label for="email">Email Address</label><br >
                       <input type="email" name="email" id="email" class="text-field"></input>
                     </div>
 
-                    <div class="grid-col-4of12">
-                      <label for="phone">Phone Number:</label>
+                    <div class="grid-col-5of12">
+                      <label for="phone">Phone Number</label><br >
                       <input type="tel" name="phone" id="phone" class="text-field"></input>
                     </div>
 
                   </div>
 
                   <div class="grid-row">
+                    <h3 class="title">Test Drive Location</h4>
                     <div class="grid-col-6of12">
-                      <h4>Select a Location</h4>
-                      <input type="radio" name="location" value="surrey" id="surrey" checked> 
-                      <label for="surrey">Surrey, BC - Kim Ottison Auto Mall</label> <br />
+                      <label for="surrey">
+                      <div class="location">
+                        <input type="radio" name="location" value="surrey" id="surrey" checked> 
+                        Surrey, BC - Kim Ottison Auto Mall <br />
+                        
+                      </div></label>
+
+                      <label for="coquitlam">
+                      <div class="location">
                       <input type="radio" name="location" value="coquitlam" id="coquitlam" checked> 
-                      <label for="coquitlam">Coquitlam, BC - Coquitlam City Mall</label> <br />
-                      <input type="radio" name="location" value="burnaby" id="burnaby" checked> 
-                      <label for="burnaby">Burnaby, BC - Petrotopolis at Petrotown</label> 
+                      Coquitlam, BC - Coquitlam City Mall <br />
+                    </div></label>
+
+                      <label for="burnaby">
+                      <div class="location">
+                        <input type="radio" name="location" value="burnaby" id="burnaby" checked> 
+                        Burnaby, BC - Petrotopolis at Petrotown
+                      </div></label> 
 
                     </div>
                   </div>
