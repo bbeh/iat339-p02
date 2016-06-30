@@ -242,6 +242,52 @@
     font-weight: 600;
   }
 
+  .hero-banner-3of4 {
+    background-color: #F7931E;
+    padding: 1em;
+    margin-bottom: 1em;
+    height: 50vh;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .hero3of4-img-wrapper {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    left: -100px;
+  }
+
+   .hero-banner-3of4-text-wrapper {
+    width: 325px;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    left: 120px;
+  }
+
+  .hero-banner-3of4-text {
+    margin: 3em auto;
+    color: #FFEBD4;
+    width: 100%;
+    position: absolute;
+  }
+
+  .hero-banner-3of4 h2 {
+    margin: 0;
+    color: #FFEBD4;
+    font-size: 2.5em;
+    text-transform: uppercase;
+  }
+
+  .hero-banner-3of4 p {
+    text-transform: uppercase;
+    margin-bottom: 1.5em;
+    font-weight: 600;
+    line-height: 1.5;
+  }
+
   .hero-banner-2 {
     background-color: #F7931E;
     padding: 1em;
@@ -532,6 +578,10 @@
   padding-bottom: 3em;
   border-bottom: 1px solid black;
   text-align: left;
+}
+
+.product-showmore {
+  display: none;
 }
 
   .product-listing {
