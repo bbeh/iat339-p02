@@ -43,9 +43,11 @@
 	padding: 0 0.5em
 }
 
-.grid-margin-xs {
-	margin: 0 0.5em
+.grid-padding-xl {
+	padding: 0 0 0 5em;
 }
+
+
 /*
 	Here we are defining our default column widths with the intention
 	of keeping it 'mobile first'
@@ -82,9 +84,6 @@
 		width: 8.33%;
 	}
 
-	.grid-col-2of12 {
-		width: 16.66%;
-	}
 
 
 }
@@ -100,6 +99,9 @@
 
 @media (min-width: 50em) {
 
+	.grid-col-2of12 {
+		width: 16.66%;
+	}
 
 	.grid-col-3of12 {
 		width: 25%;
@@ -116,13 +118,6 @@
 	.grid-col-6of12 {
 		width: 50%;
 	}
-
-}
-
-
-
-
-@media (min-width: 50em) {
 
 	.grid-col-7of12 {
 		width: 58.33%;
@@ -145,13 +140,11 @@
 	}
 
 	.grid-col-12of12 {
-		width: 100;
+		width: 100%;
 	}
 
 
 }
-
-
 
 
 

@@ -52,6 +52,13 @@
     color: #333;
   }
 
+  h5 {
+    font-family: 'Conv_KlinicSlabMedium';
+    font-size: 1.0em;
+    margin: 0.25rem 0 0.55rem 0;
+    color: #333;
+  }
+
   .title {
     /*border-bottom: 1px solid #999;*/
     font-size: 0.9em;
@@ -1024,4 +1031,25 @@
     color: #fff;
     cursor: pointer;
     cursor: hand;
+  }
+
+  .pull-left {
+    float: left;
+  }
+
+  .pull-right {
+    float: right;
+  }
+
+  .clear-both {
+    clear: both;
+  }
+
+  .blue-divider {
+    border: 1px solid #DEDEDE;
+  }
+
+  .btn-checkout {
+    background: green;
+
   }
