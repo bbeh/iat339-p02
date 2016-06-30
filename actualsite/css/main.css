@@ -783,7 +783,7 @@
 
   }
 
-  .mini-hero-text-wrapper h2, a{
+  .mini-hero-text-wrapper h2, .mini-hero-text-wrapper a {
     text-align: center;
     height: 3em;
     color: white;
