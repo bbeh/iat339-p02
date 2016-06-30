@@ -263,6 +263,7 @@
     padding: 1em;
     margin-bottom: 1em;
     height: 50vh;
+    min-height: 18em;
     overflow: hidden;
     width: 100%;
   }
@@ -788,12 +789,21 @@
     position: relative;
   }
 
+  .mini-hero-button {
+    text-align: center;
+    height: 3em;
+    color: white;
+    padding-bottom: 6em;
+    text-decoration: none;
+  }
+
+
   .mini-hero-text-wrapper {
     padding: 4em;
 
   }
 
-  .mini-hero-text-wrapper h2, .mini-hero-text-wrapper a {
+  .mini-hero-text-wrapper h2 {
     text-align: center;
     height: 3em;
     color: white;
