@@ -38,14 +38,6 @@
 .grid-hide {
 	display: none;
 }
-
-.grid-padding-xs {
-	padding: 0 0.5em
-}
-
-.grid-margin-xs {
-	margin: 0 0.5em
-}
 /*
 	Here we are defining our default column widths with the intention
 	of keeping it 'mobile first'
