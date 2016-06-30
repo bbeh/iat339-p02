@@ -686,14 +686,14 @@
 }
 
 #showmore-button {
-  display: block;
+  display: inline-block;
 }
 
   .product-listing {
     margin: 1em auto;
     overflow: hidden;
-    width: 25em;
-    height: 25em;
+    width: 21em;
+    height: 22em;
     position: relative;
   }
 
@@ -1286,8 +1286,7 @@
   }
 
   .green-checkbox {
-    background: green;
-    height: 10em;
+
   }
 
   .no-deco {
@@ -1297,4 +1296,27 @@
   .no-deco:hover {
     background: rgba(255,255,255,0.95);
 
+  }
+
+
+  .button-showmore {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    font-family: 'Open Sans';
+    display: inline-block;
+    padding: 0.75em 1.5em;
+    color: #FFF;
+    font-size: 0.85em;
+    background-color: #F7931E;
+    border-radius: 0;
+    border: 0px;
+    text-decoration: none;
+    -webkit-transition: background 0.25s ease-in-out;
+    transition: background 0.25s ease-in-out;
+  }
+
+  .button-showmore:hover, .button-showmore:focus {
+    background-color: #BA6604;
+    cursor: pointer;
+    cursor: hand;
   }
