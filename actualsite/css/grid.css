@@ -47,6 +47,24 @@
 	padding: 0 0 0 5em;
 }
 
+.grid-hidden {
+	display: none;
+}
+
+.grid-pre-hide {
+	display: none;
+}
+
+
+.grid-col-3xs {
+	float: right;
+	width: 100%;
+}
+
+.grid-col-2xs, .grid-col-1xs {
+	width: 100%;
+}
+
 
 /*
 	Here we are defining our default column widths with the intention
@@ -55,8 +73,6 @@
 .grid-col-* {
 	/*width: 100%;*/
 }
-
-
 
 
 /*
@@ -77,16 +93,31 @@
 
 	Think of this as saying, when display width > 30em, apply this
 */
-@media (min-width: 30em) {
 
+@media (min-width: 22em) {
 
-	.grid-col-1of12 {
+	.grid-col-2xs {
+		width: 16.66%;
+	}
+
+	.grid-col-1xs {
 		width: 8.33%;
 	}
 
-
+	.grid-col-3xs {
+		width: 25%;
+	}
 
 }
+
+@media (min-width: 55em) {
+
+	.grid-pre-hide {
+		display: initial;
+	}
+
+}
+
 
 
 /*
@@ -98,6 +129,18 @@
 */
 
 @media (min-width: 50em) {
+
+	.grid-col-2xs {
+		width: 16.66%;
+	}
+
+	.grid-col-1of12 {
+		width: 8.33%;
+	}
+
+	.grid-col-3xs {
+		float: left;
+}
 
 	.grid-col-2of12 {
 		width: 16.66%;
@@ -142,6 +185,12 @@
 	.grid-col-12of12 {
 		width: 100%;
 	}
+
+	.grid-hidden {
+		display: initial;
+	}
+
+
 
 
 }
