@@ -590,7 +590,7 @@
 }
 
 .product-showmore {
-  display: none;
+  display: block;
 }
 
   .product-listing {
@@ -601,7 +601,7 @@
     position: relative;
   }
 
-  .product-listing h2 {
+  .product-listing h2{
     margin-bottom: 0.5em;
     text-transform: uppercase;
     color: #032B38;
