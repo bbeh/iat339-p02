@@ -558,20 +558,42 @@
   .btn-readmore {
     display: inline-block;
     padding: 0.55em 1em;
-    margin: 0 0 0.35em 0;
+    margin: 0 0.5em 0.35em 0;
     text-decoration: none;
     background: #22A800;
     color: #fff;
     -webkit-transition: background 0.25s ease-in-out;
     transition: background 0.25s ease-in-out;
     text-align: center;
-    float: right;
+    float: left;
   }
 
   .btn-readmore:hover, .btn-readmore:focus {
     background: #177300;
     color: #fff;
   }
+
+    .btn-readmore2 {
+    display: inline-block;
+    padding: 0.55em 1em;
+    margin: 0 0.5em 0.35em 0;
+    text-decoration: none;
+    background: #F7931E;
+    color: #fff;
+    -webkit-transition: background 0.25s ease-in-out;
+    transition: background 0.25s ease-in-out;
+    text-align: center;
+    float: left;
+  }
+
+  .btn-readmore2:hover, .btn-readmore2:focus {
+    background: #BA6604;
+    color: #fff;
+  }
+
+
+
+  
 
   .btn-next {
     display: inline-block;
@@ -656,7 +678,11 @@
   text-align: left;
 }
 
-.product-showmore {
+#product-showmore {
+  display: none;
+}
+
+#showmore-button {
   display: block;
 }
 
@@ -962,7 +988,7 @@
     padding: 0.75em 1.5em;
     color: #FFF;
     font-size: 0.85em;
-    background-color: #0F60A8;
+    background-color: #F7931E;
     border-radius: 0;
     border: 0px;
     text-decoration: none;
@@ -971,7 +997,7 @@
   }
 
   .button-submit:hover, .button-submit:focus {
-    background-color: #092F51;
+    background-color: #BA6604;
     cursor: pointer;
     cursor: hand;
   }
@@ -1126,6 +1152,29 @@
     cursor: hand;
   }
 
+    .button-form3 {
+    display: inline-block;
+    font-family: 'Open Sans';
+    padding: 0.25em 0.5em;
+    margin: 0 0 0.35em 0;
+    color: #000;
+    background-color: #fff;
+    font-size: 0.85em;
+    border: 1px solid #0F60A8;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    -webkit-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+  }
+
+  .button-form3:hover, .button-form3:focus {
+    background-color: #0F60A8;
+    color: #fff;
+    cursor: pointer;
+    cursor: hand;
+  }
+
   .pull-left {
     float: left;
   }
@@ -1195,4 +1244,9 @@
 
   .small-text {
     font-size: 0.85em;
+  }
+
+  .green-checkbox {
+    background: green;
+    height: 10em;
   }
