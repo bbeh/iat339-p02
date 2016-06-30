@@ -86,7 +86,7 @@
     font-family: 'Open Sans';
   }
 
-  input {
+  input, select {
     margin-bottom: 1em;
   }
 
@@ -1011,12 +1011,30 @@
 
   }
 
-  .text-field:focus {
-    outline: none;
+  .text-field-sm {
+    font-family: 'Open Sans';
+    font-size: 0.9em;
+    padding: 0.75em 0.75em;
+/*    border-color: rgba(15,96,168, 0.25);*/
     border-color: #999;
-/*    border-color: rgba(15,96,168, 0.5);*/
-/*    box-shadow: 0 0 5px rgba(15,96,168, 0.5);*/
+    border-style: solid;
+    border-width: 0.1rem;
+    width: 80%;
+    margin-right: 1em;
   }
+
+  .text-field-xs {
+    font-family: 'Open Sans';
+    font-size: 0.9em;
+    padding: 0.75em 0.75em;
+/*    border-color: rgba(15,96,168, 0.25);*/
+    border-color: #999;
+    border-style: solid;
+    border-width: 0.1rem;
+    width: 30%;
+    margin-right: 1em;
+  }
+
 
   .location {
     display: block;
@@ -1041,6 +1059,12 @@
   .location-content {
     margin: 0.5em;
     float: left;
+  }
+
+  .shipping-content {
+    margin: 0.5em;
+    float: left;
+    margin-right: 3em;
   }
 
   .big-radio {
@@ -1141,7 +1165,7 @@
     color: #fff;
   }
 
-    .btn-cancel {
+  .btn-cancel {
     display: inline-block;
     padding: 0.55em 1em;
     margin: 0 0 0.35em 0;
@@ -1156,4 +1180,19 @@
   .btn-cancel:hover, .btn-cancel:focus {
     background: #3B3B3B;
     color: #fff;
+  }
+
+  .inline-block {
+    display: inline-block;
+  }
+
+  .sub-head {
+    margin-left: 0.5em;
+    font-family: 'Conv_KlinicSlabMedium';
+    font-size: 1.5em;
+    color: #B5B5B5;
+  }
+
+  .small-text {
+    font-size: 0.85em;
   }

@@ -44,7 +44,7 @@
 }
 
 .grid-padding-xl {
-	padding: 0 0 0 5em;
+	padding: 0 0 0 0em;
 }
 
 .grid-hidden {
@@ -110,16 +110,6 @@
 
 }
 
-@media (min-width: 55em) {
-
-	.grid-pre-hide {
-		display: initial;
-	}
-
-}
-
-
-
 /*
 	Here using @media queries, we are specifying when the display
 	has a width less than 50em it should collapse the 5/10 columns 
@@ -129,6 +119,10 @@
 */
 
 @media (min-width: 50em) {
+
+	.grid-padding-xl {
+		padding: 0 0 0 5em;
+	}
 
 	.grid-col-2xs {
 		width: 16.66%;

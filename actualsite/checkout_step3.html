@@ -51,36 +51,87 @@
           <div class="grid-col-10of12 grid-center grid-padding">
             
             <h2 class="inline-block">Pre-Flight Checkout</h2>
-            <span class="sub-head">Step 1 of 3</span>
+            <span class="sub-head">Step 3 of 3</span>
 
             <hr class="blue-divider">
 
-            <div class="grid-row">
 
-              <div class="grid-col-2of12">
-                <h4 class="title">&nbsp;</h4>
-                <img src="img/products/water_alliance.png" width="100%" height=auto>
-              </div>
 
-              <div class="grid-col-2of12">
-                <h4 class="title">Product</h4>
-                <p>Alliance</p>
-              </div>
+             <div class="grid-row">
 
-              <div class="grid-col-2of12">
-                <h4 class="title">Price</h4>
-                <p>$299.99</p>
-              </div>
+              <div class="grid-col-7of12">
 
-              <div class="grid-col-1of12 grid-hidden">
-                &nbsp;
-              </div>
+                    <h3 class="title">Payment Information</h3>
 
-              <div class="grid-col-1of12 grid-hidden">
-                &nbsp;
-              </div>
+                    <div class="grid-col-8of12 grid-padding-xs">
+                      <label for="creditcard">Credit Card Number</label>
+                      <input type="text" pattern="[0-9]{13,16}" name="creditcard" id="creditcard" class="text-field"></input>
+                    </div>
 
-              <div class="grid-col-3of12">
+                    <div class="grid-row">
+
+                      <div class="grid-col-12of12 grid-padding-xs">
+                        <label for="month">Expiry</label>
+                        <select name="month" id="month" class="text-field-xs">
+                          <option value="01">01 - Jan</option>
+                          <option value="02">02 - Feb</option>
+                          <option value="03">03 - Mar</option>
+                          <option value="04">04 - Apr</option>
+                          <option value="05">05 - May</option>
+                          <option value="06">06 - Jun</option>
+                          <option value="07">07 - Jul</option>
+                          <option value="08">08 - Aug</option>
+                          <option value="09">09 - Sep</option>
+                          <option value="10">10 - Oct</option>
+                          <option value="11">11 - Nov</option>
+                          <option value="12">12 - Dec</option>
+                        </select>   
+                        / &nbsp;
+                        <select name="year" id="year" class="text-field-xs">
+                          <option value="16">2016</option>
+                          <option value="17">2017</option>
+                          <option value="18">2018</option>
+                          <option value="19">2019</option>
+                          <option value="20">2020</option>
+                          <option value="21">2021</option>
+                          <option value="22">2022</option>
+                          <option value="23">2023</option>
+                          <option value="24">2024</option>
+                          <option value="25">2025</option>
+                        </select>   
+                      </div>
+
+                    </div>
+
+                    <div class="grid-row">
+
+                      <div class="grid-col-8of12 grid-padding-xs">
+                        <label for="security">Security Code</label>
+                        <input type="number" name="security" id="security" class="text-field-xs"></input>
+                      </div>
+
+                      </div>
+
+                        <div class="grid-row">
+                            <div class="grid-col-6of12 grid-padding-xs">
+                            </div>
+
+                            <div class="grid-col-6of12 grid-padding-xs">
+                            </div>
+                        </div>
+
+                        <div class="grid-row">
+                            <div class="grid-col-6of12 grid-padding-xs">
+                            </div>
+
+                            <div class="grid-col-6of12 grid-padding-xs">
+                            </div>
+                        </div>
+
+                    </div>
+
+              <div class="grid-col-4of12 grid-padding-xl">
+
                 <h4 class="title">Order Summary</h4>
                 <p>
                   <h5 class="pull-left">Merchandise Total</h5>
@@ -95,19 +146,34 @@
                   <span class="pull-right">$18.99</span>
                   <div class="clear-both"></div>
 
+                  <h5 class="pull-left">Shipping</h5>
+                  <span class="pull-right">FREE</span>
+                  <div class="clear-both"></div>
+
                   <hr class="blue-divider">
 
-                  <h4 class="pull-left">Est. Total</h4>
+                  <h4 class="pull-left">Total</h4>
                   <h4 class="pull-right">$398.97</h4>
+                  <div class="clear-both"></div>
+
+                  <span class="small-text">Your order is expected to arrive on July 5th, 2016.</span>
+
+
                 </p>
+
+                </div>
+
               </div>
 
-            </div>
+
+           
+
+  
 
             <div class="grid-row">
-              <div class="grid-col-2xs">
+              <div class="grid-col-3xs">
                 <div class="cart-button-wrapper">
-                  <a href="checkout_step2.html" class="btn-cancel">Cancel</a>
+                  <a href="order_confirmation.html" class="btn-checkout">Submit Order</a>
                 </div>
               </div>
               <div class="grid-col-2of12 grid-hidden">
@@ -123,9 +189,9 @@
                 &nbsp;
               </div>
 
-              <div class="grid-col-3xs">
+              <div class="grid-col-2xs">
                 <div class="cart-button-wrapper pull-right">
-                  <a href="checkout_step2.html" class="btn-checkout">Proceed to Checkout</a>
+                  <a href="checkout_step2.html" class="btn-cancel">Cancel</a>
                 </div>
               </div>
 
