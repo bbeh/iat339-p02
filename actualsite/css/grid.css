@@ -35,8 +35,8 @@
 	margin: 0 auto;
 }
 
-.grid-hide {
-	display: none;
+.grid-padding {
+	padding: 0 5em;
 }
 /*
 	Here we are defining our default column widths with the intention
@@ -90,7 +90,7 @@
 	Think of this as saying, when display width > 50em, apply this
 */
 
-@media (min-width: 51em) {
+@media (min-width: 50em) {
 
 
 	.grid-col-3of12 {
@@ -108,6 +108,13 @@
 	.grid-col-6of12 {
 		width: 50%;
 	}
+
+}
+
+
+
+
+@media (min-width: 50em) {
 
 	.grid-col-7of12 {
 		width: 58.33%;
@@ -133,15 +140,10 @@
 		width: 100;
 	}
 
-	.grid-padding {
-	padding: 0 5em;
-	}
-
-	.grid-hide {
-	display: initial;
-	}
-
-
 
 }
+
+
+
+
 

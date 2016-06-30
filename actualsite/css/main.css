@@ -660,6 +660,7 @@
 
   .product-listing-image:hover, .product-listing-image:focus
   {
+<<<<<<< HEAD
     margin-bottom: 0em;
   }
 
@@ -677,6 +678,10 @@
     font-size: 1em;
     margin-top: -0.8em;
     float: right;
+=======
+    margin-top: -2em;
+    z-index: 10000; 
+>>>>>>> parent of a1c6c7d... cv
   }
 
   .product-image:hover + .product-info-colours{
@@ -787,6 +792,7 @@
   .mini-hero-text-wrapper {
     padding: 4em;
 
+<<<<<<< HEAD
   }
 
   .mini-hero-text-wrapper h2, a{
@@ -797,6 +803,18 @@
     text-decoration: none;
   }
 
+=======
+  }
+
+  .mini-hero-text-wrapper h2, a{
+    text-align: center;
+    height: 3em;
+    color: white;
+    padding-bottom: 6em;
+    text-decoration: none;
+  }
+
+>>>>>>> parent of a1c6c7d... cv
   .mini-hero-water {
     background-image: url(../img/headers/mini_header_water.png);
     background-color:#00a99d;
@@ -915,7 +933,6 @@
   /* Styling for the reset button */
   .button-reset {
     margin-top: 1em;
-    margin-left: 0.5em;
     font-family: 'Open Sans';
     display: inline-block;
     padding: 0.75em 1.5em;
