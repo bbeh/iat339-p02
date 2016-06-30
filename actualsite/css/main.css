@@ -493,6 +493,9 @@
   .hero-color-green {
     background-color: #76DB51;
   }
+    .hero-color-black {
+    background-color: #999999;
+  }
 
   /*blog post styling*/
   .blog-post{
