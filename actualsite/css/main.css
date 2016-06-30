@@ -491,7 +491,7 @@
   /*blog post styling*/
   .blog-post{
     height: 12em;
-    margin-top: 1em;
+    margin-top: 4em;
     margin-bottom: 3em;
     /*
     border-style: solid;
@@ -527,12 +527,11 @@
   }
 
   .blog-image{
-    background-color: #FFF;
-    border: solid 1px #9f9f9f;
+    background-color: #F1E0C5;
     margin: 0 0.5em;
     height: 20em;
     padding-top: 4em;
-    padding-left: 4em;
+    padding-left: 3em;
     display: block;
     margin-bottom: 3em;
   }
@@ -542,6 +541,24 @@
     margin-left: 0em;
     height: 12em;
     padding: 1em;
+  }
+
+  .btn-readmore {
+    display: inline-block;
+    padding: 0.55em 1em;
+    margin: 0 0 0.35em 0;
+    text-decoration: none;
+    background: #22A800;
+    color: #fff;
+    -webkit-transition: background 0.25s ease-in-out;
+    transition: background 0.25s ease-in-out;
+    text-align: center;
+    float: right;
+  }
+
+  .btn-readmore:hover, .btn-readmore:focus {
+    background: #177300;
+    color: #fff;
   }
 
   /*Profile listing styling*/
@@ -1004,7 +1021,7 @@
 
   .button-form2 {
     display: inline-block;
-    width: 70px;
+    width: 75px;
     font-family: 'Open Sans';
     padding: 0.25em 0.5em;
     margin: 0 0 0.35em 0;
