@@ -887,21 +887,57 @@
   }
 
   .mini-hero-water {
+    -webkit-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
     background-image: url(../img/headers/mini_header_water.png);
     background-color:#00a99d;
+    background-size: 100% 100%;
+    background-position: center center;
+  }
+
+  .mini-hero-water:hover {
+    -webkit-transition: all 1.25s ease-out;
+    transition: all 1.25s ease-out;
+    background-size: 115% 115%;
+    background-position: center center;
+
   }
 
   .mini-hero-air {
+    -webkit-transition: all 1.25s ease-out;
+    transition: all 1.25s ease-out;
     background-image: url(../img/headers/mini_header_air.png);
     background-color:#29abe2;
+    background-size: 100% 100%;
+    background-position: center center;
+
+  }
+
+  .mini-hero-air:hover {
+    -webkit-transition: all 1.25s ease-out;
+    transition: all 1.25s ease-out;
+    background-size: 115% 115%;
+    background-position: center center;
 
   }
 
   .mini-hero-space {
+    -webkit-transition: all 1.25s ease-out;
+    transition: all 1.25s ease-out;
     background-image: url(../img/headers/mini_header_space.png);
     background-color:#333333;
+    background-size: 100% 100%;
+    background-position: center center;
 
     }
+
+  .mini-hero-space:hover {
+    -webkit-transition: all 1.25s ease-out;
+    transition: all 1.25s ease-out;
+    background-size: 115% 115%;
+    background-position: center center;
+
+  }
 
   .btn-mini {
     display: inline-block;
@@ -1249,4 +1285,13 @@
   .green-checkbox {
     background: green;
     height: 10em;
+  }
+
+  .no-deco {
+    text-decoration: none;
+  }
+
+  .no-deco:hover {
+    background: rgba(255,255,255,0.95);
+
   }
