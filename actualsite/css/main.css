@@ -832,6 +832,7 @@
 
   .product-listing-image
   {
+    min-width: 185px;
     width: 100%;
     max-width: 389px;
     margin: auto;
