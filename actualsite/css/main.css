@@ -443,7 +443,7 @@
   }
 
   .hero-banner-4-text {
-    margin: 3em auto;
+    margin: 1em auto;
     color: #E3F2FA;
     width: 100%;
     position: absolute;
@@ -464,21 +464,32 @@
     text-align: justify;
   }
 
-  a.hook {
-    margin-top: 1.5em;
-    font-weight: normal;
-    text-transform: none;
+  a.series {
+    margin: 0;
+    line-height: 1;
     text-decoration: none;
-    color: #E3F2FA;
-    border-bottom: 1px dotted #E3F2FA;
-    display: inline-block;
+    border-bottom: 1px dotted rgba(0,113,188,0.75);
+    text-transform: uppercase;
+    color: #0071BC;
   }
 
-  p.big-price {
-    font-size: 3em;
+  .big-price {
+    font-size: 2em;
+    margin: 0;
+  }
+
+  .medium-price {
+    font-size: 1.25em;
     margin: 0;
 
   }
+
+  .helper-text {
+    font-size: 0.85em;
+    text-transform: none !important;
+  }
+
+
 
   .hero-banner-5-text {
     margin: 3em auto;
@@ -724,7 +735,6 @@
 
   .sale {
     color: red;
-    float: right;
     display: inline-block;
   }
 
@@ -994,6 +1004,10 @@
   .btn-water {
     color: #E3F2FA;
     border: 1px solid #E3F2FA;
+  }
+
+  .btn-buy {
+    margin-top: 1em;
   }
 
   .btn-water:hover, .btn-water:focus {
