@@ -111,10 +111,10 @@
 
   #wide-footer {
 
-    background: #ededed;
+    background: #032B38;
+    color: #fff;
 
     font-size: 0.8em;
-    border-top: 3px solid #032B38;
     overflow: hidden;
     margin-top: 1em;
     padding: 1em;
@@ -123,7 +123,11 @@
   #wide-footer h4 {
     margin: 0;
     font-size: 1.5em;
+    color: #fff;
+  }
 
+  #wide-footer a {
+    color: #fff;
   }
 
   .our-story {
@@ -139,7 +143,7 @@
   }
 
   #thin-footer {
-    background: #032B38;
+    background: #001117;
     text-align: center;
     padding: 0.25em;
     font-size: 0.75em;
@@ -535,23 +539,21 @@
   /*blog post styling*/
 
   .blog-post{
-    height: 20.75em;
     margin-top: 4em;
     border: solid 1px #999999;
     border-radius: 3px;
     margin-bottom: 3em;
+    overflow: hidden;
     /*
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);*/
   }
 
   .blog-text-card{
-    height: 20.6em;
   }
 
   .blog-date{
     margin-left: 0.5em;
-    height: 1em;
     padding: 0.25em;
     display: inline-block;
   }
@@ -560,37 +562,33 @@
     font-size: 0.8em;
     text-align: left;
     font-style: italic;
+    margin-bottom: 0;
   }
 
   .blog-title{
     text-align: left;
-    margin-bottom: 2em;
-    height: 1em;
-    padding: 0.25em;
+    padding: 0 1em 0 1em;
   }
 
   .blog-title h2{
     text-align: left;
-    height: 3em;
-    padding: 0.25em;
+    padding: 0.25em 0;
   }
 
   .blog-image{
-    background-color: #F1E0C5;
     display: block;
-    height: 20.6em;
-    width: 37.5em;
+    text-align: center;
+  }
 
-    margin-left: auto;
-    margin-right: auto;
+  .blog-image img{
+    width: 80%;
   }
   
 
   .blog-text{
     text-align: left;
     margin-left: 0em;
-    height: 13em;
-    padding: 1em;
+    padding: 0 1em 0 1em;
   }
 
   .blog-figure{
@@ -707,6 +705,14 @@
 
 
   /*Crew  styling*/
+
+  .crew-feature {
+    border: solid 1px #999999;
+    overflow: hidden;
+    padding: 1em 0 1em 0;
+    margin: 3em 0 3em 0;
+  }
+
   .crew-post{
     margin-top: 4em;
     border: solid 1px #999999;
@@ -734,6 +740,7 @@
 
   .crew-image{
     display: block;
+    background-color: rgba(247,147,30,1);
   }
 
   .crew-image img {
@@ -916,8 +923,10 @@
     margin: 3em 0 3em 0;
   }
 
+
+
   .feature-half {
-    /*margin-top: 5em;*/
+    margin-right: 5%;
   }
 
 
@@ -1476,6 +1485,22 @@
   .no-deco:hover {
     background: rgba(255,255,255,0.95);
 
+  }
+
+  .img-50 {
+    width: 50%;
+  }
+
+  .img-60 {
+    width: 60%;
+  }
+
+  .img-90 {
+    width: 90%;
+  }
+
+  .img-100 {
+    width: 100%;
   }
 
 
