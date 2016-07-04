@@ -579,19 +579,48 @@
     display: block;
     height: 20.6em;
     width: 37.5em;
+
+    margin-left: auto;
+    margin-right: auto;
   }
   
-  .caption{
-    font-style: italic;
-    font-size: 0.7em;
-    margin-top: -3em;
-    margin-left: 1em;
-  }
+
   .blog-text{
     text-align: left;
     margin-left: 0em;
     height: 13em;
     padding: 1em;
+  }
+
+  .blog-figure{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .caption{
+    font-style: italic;
+    font-size: 0.7em;
+    text-align: center;
+    margin-top: 1em;
+    display: block;
+  }
+  .coupon-code {
+    background-color: black;
+    min-height: 10em;
+    padding: 2em;
+    text-align: center;
+    margin-bottom: 3em;
+  }
+ 
+  .coupon-code h2{
+    text-align: center;
+    color: white;    
+  }
+
+  .coupon-code h3{
+    text-align: center;
+    color: white;
   }
 
   .btn-readmore {
@@ -645,6 +674,29 @@
   }
 
   .btn-previous:hover, .btn-previous:focus {
+    background-color: #BA6604;
+    color: #fff;
+  }
+
+  .btn-shop {
+    display: inline-block;
+    padding: 0.55em 1em;
+    margin: 0.5em;
+    font-family: 'Open Sans';
+    font-size: 0.5em;
+    text-decoration: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    color: #fff;
+    -webkit-transition: background 0.25s ease-in-out;
+    transition: background 0.25s ease-in-out;
+    text-align: center;
+    position: relative;
+  }
+
+  .btn-shop:hover, .btn-shop:focus {
     background-color: #BA6604;
     color: #fff;
   }
