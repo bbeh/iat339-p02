@@ -26,7 +26,7 @@ $(document).ready(
 			    	 //should already be hidden because of above
 			    } else {
 			    	$("#showmore-button").fadeOut(500);	
-			    	$("#product-showmore").fadeIn(1500);
+			    	$("#product-showmore").fadeIn(500).css("display","inline-block");
 			    }
 
 			}

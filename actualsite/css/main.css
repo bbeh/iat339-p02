@@ -206,17 +206,6 @@
 
 
 
-  @media (min-width: 50em) {
-
-    .button-navbar:hover, .button-nav:focus, .nav-current {
-/*      margin: 0em 1.75em 0em 1.75em;*/
-      border-bottom: 3px solid;
-      background: none;
-      color: #FFEBD4;
-    }
-
-  }
-
 
   /* Hero Banners */
 
@@ -787,9 +776,6 @@
   .product-listing {
     margin: 1em auto;
     overflow: hidden;
-    width: 21em;
-    height: 22em;
-    position: relative;
   }
 
   .product-listing h2{
@@ -808,7 +794,7 @@
     font-size: 1.5em;
     text-align: right;
     float: right;
-    margin-right: 1em;
+    margin-right: 0.75em;
   }
 
   .product-listing a {
@@ -820,9 +806,13 @@
     opacity: 0.45;
   }
 
+  .small-price {
+    font-size: 1.00em !important;
+    margin: 0.5em !important;
+  }
+
   .sale {
     color: red;
-    display: inline-block;
   }
 
 
@@ -843,6 +833,7 @@
   .product-listing-image
   {
     width: 100%;
+    max-width: 389px;
     margin: auto;
     margin-top: 2em;
     -webkit-transition: all 1s ease-out;
@@ -1491,3 +1482,55 @@
     cursor: pointer;
     cursor: hand;
   }
+
+
+
+
+  /* ALL THE RESPONSIVE FIXES */
+
+  @media (max-width: 68em) {
+
+    .small-price {
+      display: none;
+    }
+
+    .product-listing h2 {
+      width: 100%;
+    }
+
+  }
+
+
+
+  @media (max-width: 38em) {
+
+      .hero-banner-1-text {
+      margin: 4em auto;
+      left: -160px;
+      background: rgba(0,0,0,0.55);
+      padding-top: 2em;
+      padding-bottom: 2em;
+      -webkit-transition: all 0.5s ease-in-out;
+      transition: all 0.5s ease-in-out;
+    }
+      .hero-banner-2-text {
+      margin: 2em auto;
+      left: -120px;
+      background: rgba(0,0,0,0.55);
+      padding-top: 2em;
+      -webkit-transition: all 0.5s ease-in-out;
+      transition: all 0.5s ease-in-out;
+    }
+
+      .hero-blog-text {
+      margin: 2em auto;
+      left: -180px;
+      background: rgba(0,0,0,0.55);
+      padding-top: 2em;
+      -webkit-transition: all 0.5s ease-in-out;
+      transition: all 0.5s ease-in-out;
+    }
+
+  }
+
+  /* //END ALL THE RESPONSIVE FIXES */
