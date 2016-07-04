@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <title>P02 - Style Guide</title>
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+
+  <h1>P02 - Style Guide Template</h1>
+
+  <p>A style guide to Jetpacks</p>
+
+
+  <nav class="global">
+
+    <p>
+      On this page:
+    </p>
+    <ul>
+      <li>
+        <a href="#interactive_elements">Interactive Elements</a>
+      </li>
+      <li>
+        <a href="#text_elements">Text Elements</a>
+      </li>
+      <li>
+        <a href="#combined_elements">Combined Elements</a>
+      </li>
+    </ul>
+
+    <p>Other pages:</p>
+    <ul>
+        <li><a href="Style_guide.html">Style Guide</a>
+          <li><a href="Citations.html">Citations</a>
+          </ul>
+
+        </nav>
+
+
+
+        <!-- INTERACTIVE ELEMENTS SECTION // -->
+
+        <section id="interactive_elements">
+          <h2>Interactive Elements</h2>
+
+          <!-- Default Button styling section -->
+          <section>
+
+            <h2>Navigation Button</h2>
+
+            <h3>CSS selector:</h3>
+            <p>.button-nav</p>
+
+            <h3>Sample code:</h3>
+            <code>&lt;a href="#" class="button-nav"&gt;Contact Us&lt;/a&gt;</code>
+
+            <h3>Rendered element:</h3>
+            <a class="button-nav" href="#">Contact Us</a>
+
+          </section>
+
+          <section>
+            <h2>In-text link</h2>
+
+            <h3>CSS Selector:</h3>
+            <p>.intext-link</p>
+
+            <h3>Sample code:</h3>
+            <code>&lt;a href="#" class="intext-link"&gt;Sample Link&lt;/a&gt;</code>
+
+            <h3>Rendered element:</h3>
+            <a class="intext-link" href="#">Sample Link</a>
+          </section>
+
+          <section>
+            <h2>Submit/Reset Buttons</h2>
+
+            <h3>CSS selector:</h3>
+            <p>.button-submit</p>
+            <p>.button-reset</p>
+
+            <h3>Sample code:</h3>
+            <code>&lt;input class="button-submit" type="submit"&gt;</code>
+            <code>&lt;input class="button-reset" type="reset"&gt;</code>
+
+            <h3>Rendered element:</h3>
+            <input type="submit" class="button-submit">
+            <input type="reset" class="button-reset">
+          </section>
+
+          <section>
+            <h2>Text Input Field</h2>
+
+            <h3>CSS selector:</h3>
+            <p>.sample-label</p>
+            <p>.text-field</p>
+
+            <h3>Sample code:</h3>
+            <code>&lt;label class="sample-label" &gt;Sample Label&lt;/label&gt;</code>
+            <code>&lt;input class="text-field" type="text"&gt;</code>
+
+            <h3>Rendered element:</h3>
+            <label for="sampleinput" class="sample-label">Sample Label</label>
+            <input id="sampleinput" type="text" class="text-field" placeholder="This is an input text field">
+          </section>
+
+        </section>
+        <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+        <!-- TEXT ELEMENTS SECTION // -->
+
+        <section id="text_elements">
+          <h2>Text Elements</h2>
+
+          <section>
+            <h2>Headings</h2>
+
+            <h3>CSS selector:</h3>
+            <p>.heading-one</p>
+            <p>.heading-two</p>
+            <p>.heading-three</p>
+
+            <h3>Sample code:</h3>
+            <code>&lt;h1 class="heading-one"&gt;Heading One&lt;/h1&gt;</code>
+            <code>&lt;h2 class="heading-two"&gt;Heading Two&lt;/h2&gt;</code>
+            <code>&lt;h3 class="heading-three"&gt;Heading Three&lt;/h3&gt;</code>
+
+            <h3>Rendered element:</h3>
+            <h1 class="heading-one">Heading One</h1>
+            <h2 class="heading-two">Heading Two</h2>
+            <h3 class="heading-three">Heading Three</h3>
+
+
+          </section>
+
+          <section>
+            <h2>Paragraphs</h2>
+
+            <h3>CSS selector:</h3>
+            <p>.body-text</p>
+
+            <h3>Sample code:</h3>
+            <code>&lt;p class="body-text"&gt;
+              Sample Body Text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae convallis elit. Donec tempus purus ac quam ullamcorper pellentesque. Ut at tincidunt eros. Fusce tristique porta orci, eu sagittis tortor fringilla non. Suspendisse rutrum lobortis neque. Etiam cursus tempus metus, at sollicitudin lorem auctor in. Aliquam ultricies nec elit et blandit. Aliquam aliquet malesuada metus in bibendum. Donec mollis sagittis odio, ac varius mauris laoreet eget. Nunc tincidunt, tellus nec scelerisque fermentum, enim sem fringilla est, bibendum egestas libero enim in elit. Maecenas ut eleifend nunc. Aliquam tristique malesuada pulvinar. Nunc eget ligula condimentum, lobortis mi ac, malesuada nibh.
+              &lt;/p&gt;</code>
+
+              <h3>Rendered element:</h3>
+              <p class="body-text">Sample Body Text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae convallis elit. Donec tempus purus ac quam ullamcorper pellentesque. Ut at tincidunt eros. Fusce tristique porta orci, eu sagittis tortor fringilla non. Suspendisse rutrum lobortis neque. Etiam cursus tempus metus, at sollicitudin lorem auctor in. Aliquam ultricies nec elit et blandit. Aliquam aliquet malesuada metus in bibendum. Donec mollis sagittis odio, ac varius mauris laoreet eget. Nunc tincidunt, tellus nec scelerisque fermentum, enim sem fringilla est, bibendum egestas libero enim in elit. Maecenas ut eleifend nunc. Aliquam tristique malesuada pulvinar. Nunc eget ligula condimentum, lobortis mi ac, malesuada nibh.</p>
+
+
+            </section>
+
+            <section>
+              <h2>Bulleted Lists</h2>
+
+              <h3>CSS selector:</h3>
+              <p>.bullet-list</p>
+
+              <h3>Sample code:</h3>
+              <code>&lt;ul class="bullet-list"&gt;
+                &lt;li&gt;Item One&lt;/li&gt;
+                &lt;li&gt;Item Two&lt;/li&gt;
+                &lt;li&gt;Item Three&lt;/li&gt;
+
+
+                &lt;/ul&gt;</code>
+
+                <h3>Rendered element:</h3>
+                <ul class="bullet-list">
+                  <li>Item One</li>
+                  <li>Item Two</li>
+                  <li>Item Three</li>
+                </ul>
+
+              </section>
+
+              <section>
+                <h2>Numbered Lists</h2>
+
+                <h3>CSS selector:</h3>
+                <p>.number-list</p>
+
+                <h3>Sample code:</h3>
+                <code>&lt;ol class="number-list"&gt;
+                  &lt;li&gt;Item One&lt;/li&gt;
+                  &lt;li&gt;Item Two&lt;/li&gt;
+                  &lt;li&gt;Item Three&lt;/li&gt;
+
+
+                  &lt;/ol&gt;</code>
+
+                  <h3>Rendered element:</h3>
+                  <ol class="number-list">
+                    <li>Item One</li>
+                    <li>Item Two</li>
+                    <li>Item Three</li>
+                  </ol>
+
+                </section>
+
+              </section>
+              <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+              <!-- COMBINED ELEMENTS SECTION // -->
+              <section id="combined_elements">
+                <h2>Combined Elements</h2>
+
+                <section>
+                  <h2>Main Navigation</h2>
+
+                  <h3>CSS selector:</h3>
+                  <p>.button-navbar</p>
+
+                  <h3>Sample code:</h3>
+                  <code>
+                    <br />
+                    &lt;nav class="grid-row global-nav"&gt;<br />
+                    &lt;a href="products-jetpacks.html" class="button-navbar nav-current"&gt;Products&lt;/a&gt;<br />
+                    &lt;a href="#" class="button-navbar"&gt;Safety/Tech&lt;/a&gt;<br />
+                    &lt;a href="crew.html" class="button-navbar"&gt;Crew&lt;/a&gt;<br />
+                    &lt;a href="updates.html" class="button-navbar" &gt;Updates&lt;/a&gt;<br />
+                    &lt;a href="testdrive.html" class="button-navbar"&gt;Test Drive&lt;/a&gt;<br />
+                    &lt;/nav&gt;
+                  </code>
+
+                  <h3>Rendered element:</h3>
+
+                  <nav class="grid-row global-nav">
+                    <a href="products-jetpacks.html" class="button-navbar nav-current">Products</a>
+                    <a href="#" class="button-navbar">Safety/Tech</a>
+                    <a href="crew.html" class="button-navbar">Crew</a>
+                    <a href="updates.html" class="button-navbar" >Updates</a>
+                    <a href="testdrive.html" class="button-navbar">Test Drive</a>
+                  </nav>
+
+                </section>
+
+                <section>
+                  <h2>Product Listing</h2>
+
+                  <h3>Sample code:</h3>
+                  <code>
+                    &lt;div class="grid-col-4of12"&gt;<br />
+                    &lt;div class="product-listing text-center"&gt;<br />
+                    &lt;a href="products-detailed.html"&gt;<br />
+                    &lt;div class="product-image"&gt;<br />
+                    &lt;img class="product-listing-image" src="img/products/water_alliance.png" alt="Water jetpack named Alliance"&gt;<br />
+                    &lt;/div&gt;<br />
+                    &lt;h2&gt;Alliance&lt;/h2&gt;<br />
+                    <br />
+                    &lt;h3 class="sale"&gt;$299.99&lt;/h3&gt;<br />
+                    &lt;h3 class="strike small-price"&gt;$499.99&lt;/h3&gt;<br />
+                    <br />
+                    &lt;/a&gt;<br />
+                    &lt;/div&gt;<br />
+                    &lt;/div&gt;
+                  </code>
+
+
+                  <h3>Rendered element:</h3>
+                  <div class="grid-row">
+                    <div class="grid-col-4of12">
+                      <div class="product-listing text-center">
+                        <a href="products-detailed.html">
+                          <div class="product-image">
+                            <img class="product-listing-image" src="img/products/water_alliance.png" alt="Water jetpack named Alliance">
+                          </div>
+                          <h2>Alliance</h2>
+
+                          <h3 class="sale">$299.99</h3>
+                          <h3 class="strike small-price">$499.99</h3>
+
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="grid-col-4of12">
+                      <div class="product-listing text-center">
+                        <a href="products-detailed.html">
+                          <div class="product-image">
+                            <img class="product-listing-image" src="img/products/water_alliance.png" alt="Water jetpack named Alliance">
+                          </div>
+                          <h2>Alliance</h2>
+
+                          <h3 class="sale">$299.99</h3>
+                          <h3 class="strike small-price">$499.99</h3>
+                          
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="grid-col-4of12">
+                      <div class="product-listing text-center">
+                        <a href="products-detailed.html">
+                          <div class="product-image">
+                            <img class="product-listing-image" src="img/products/water_alliance.png" alt="Water jetpack named Alliance">
+                          </div>
+                          <h2>Alliance</h2>
+
+                          <h3 class="sale">$299.99</h3>
+                          <h3 class="strike small-price">$499.99</h3>
+                          
+                        </a>
+                      </div>
+                    </div>
+
+                  </div>                    
+
+
+                </section>
+
+
+                <section>
+                  <h2>Grid Structure</h2>
+
+                  <h3>Landing Page</h3>
+
+                  <img src="img/grid_structure.png" alt="Grid Structure">
+
+                </section>
+
+
+              </section>
+              <!-- // COMBINED ELEMENTS SECTION -->
+
+
+
+
+            </body>
+            </html>
