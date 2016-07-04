@@ -24,6 +24,11 @@
 [class^='grid-col-'] {
 	float: left;
 	width: 100%;
+	padding: 0 0.25em 0 0.25em;
+}
+
+.grid-col-12of12 {
+	padding: 0;
 }
 
 .grid-show {
@@ -95,6 +100,9 @@
 
 @media (min-width: 22em) {
 
+
+
+
 	.grid-col-2xs {
 		width: 16.66%;
 	}
@@ -118,6 +126,14 @@
 */
 
 @media (min-width: 50em) {
+
+	[class^='grid-col-'] {
+	padding: 0 0em 0 0em;
+	}
+
+	.grid-col-12of12 {
+	padding: 0;
+	}
 
 	.grid-padding-xl {
 		padding: 0 0 0 5em;

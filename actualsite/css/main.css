@@ -114,7 +114,7 @@
     background: #ededed;
 
     font-size: 0.8em;
-    border-top: 3px solid #F95738;
+    border-top: 3px solid #032B38;
     overflow: hidden;
     margin-top: 1em;
     padding: 1em;
@@ -144,6 +144,12 @@
     padding: 0.25em;
     font-size: 0.75em;
     color: #fff;
+  }
+
+  #thin-footer a{
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px dotted #fff;
   }
 
   .text-center {
