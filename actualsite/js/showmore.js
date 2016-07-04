@@ -1,6 +1,20 @@
 $(document).ready( 
 
 	function() {
+		console.log("ready");
+
+		if ( $("#product-showmore").is(":visible")) {
+			 $("#product-showmore").hide();
+			 console.log("products are hidden");
+			 $("#showmore-button").fadeIn(500).css("display","inline-block");
+    } else {
+    	//do nothing
+    }
+	});
+
+$(document).ready( 
+
+	function() {
 
 		$(".showmore-button").click(
 
@@ -8,13 +22,10 @@ $(document).ready(
 
 				console.log ("clicked");
 
-			    var showmore = document.getElementById('product-showmore');
-			    var showmorebtn = document.getElementById('showmore-button');
-
 			    if ( $("#product-showmore").is(":visible")) {
-			    	//is visible do stuff
+			    	 //should already be hidden because of above
 			    } else {
-			    	$("#showmore-button").hide();	
+			    	$("#showmore-button").fadeOut(500);	
 			    	$("#product-showmore").fadeIn(1500);
 			    }
 
@@ -24,4 +35,6 @@ $(document).ready(
 		);
 
 	}
+
+
 	);

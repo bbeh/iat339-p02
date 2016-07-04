@@ -35,13 +35,15 @@
 	margin: 0 auto;
 }
 
+.grid-relative {
+	position: relative;
+}
+
 .grid-padding {
 	padding: 0 5em;
 }
 
-.grid-padding-xs {
-	padding: 0 0.5em
-}
+
 
 .grid-padding-xl {
 	padding: 0 0 0 0em;
@@ -183,6 +185,17 @@
 	.grid-hidden {
 		display: initial;
 	}
+
+	.grid-vc-4of12 {
+		position: absolute;
+		left: 40%;
+		top: 30%;
+		margin-right: 5%;
+	}
+
+	.grid-padding-xs {
+	padding: 0 0.5em
+}
 
 
 
