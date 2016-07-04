@@ -15,933 +15,1115 @@
 
 <body>
 
-    <!-- begins our website container using 10 of 12 columns -->
-    <div class="grid-col-10of12 grid-center">
-      <div class="grid-row">
-  <h1>P02 - Style Guide Template</h1>
+  <!-- begins our website container using 10 of 12 columns -->
+  <div class="grid-col-10of12 grid-center">
+    <div class="grid-row">
+      <h1>P02 - Style Guide Template</h1>
 
-  <p>A style guide to Jetpacks</p>
+      <p>A style guide to Jetpacks</p>
 
 
-  <nav class="global">
+      <nav class="global">
 
-    <p>
-      On this page:
-    </p>
-    <ul>
-      <li>
-        <a href="#interactive_elements">Interactive Elements</a>
-      </li>
-      <li>
-        <a href="#text_elements">Text Elements</a>
-      </li>
-      <li>
-        <a href="#combined_elements">Combined Elements</a>
-      </li>
-    </ul>
-
-    <p>Other pages:</p>
-    <ul>
-      <li><a href="Style_guide.html">Style Guide</a>
-        <li><a href="Citations.html">Citations</a>
+        <p>
+          On this page:
+        </p>
+        <ul>
+          <li>
+            <a href="#interactive_elements">Interactive Elements</a>
+          </li>
+          <li>
+            <a href="#text_elements">Text Elements</a>
+          </li>
+          <li>
+            <a href="#combined_elements">Combined Elements</a>
+          </li>
         </ul>
 
-      </nav>
+        <p>Other pages:</p>
+        <ul>
+          <li><a href="Style_guide.html">Style Guide</a>
+            <li><a href="Citations.html">Citations</a>
+            </ul>
+
+          </nav>
 
 
 
-      <!-- INTERACTIVE ELEMENTS SECTION // -->
-      <section id="interactive_elements">
-        <h2>Interactive Elements</h2>
+          <!-- INTERACTIVE ELEMENTS SECTION // -->
+          <section id="interactive_elements">
+            <h2>Interactive Elements</h2>
 
-        <!-- Default Button styling section -->
-        <section>
-          <!--  divider -->
-          <hr class="blue-divider">
+            <!-- Default Button styling section -->
+            <section>
+              <!--  divider -->
+              <hr class="blue-divider">
 
-          <h2>Navigation Button</h2>
+              <h2>Navigation Button</h2>
 
-          <h3>CSS selector:</h3>
-          <p>.button-nav</p>
+              <h3>CSS selector:</h3>
+              <p>.button-nav</p>
 
-          <h3>Sample code:</h3>
-          <code>&lt;a href="#" class="button-nav"&gt;Contact Us&lt;/a&gt;</code>
-
-          <h3>Rendered element:</h3>
-          <a class="button-nav" href="#">Contact Us</a>
-
-        </section>
-
-        <section>
-          <!--  divider -->
-          <hr class="blue-divider">
-          <h2>In-text link</h2>
-
-          <h3>CSS Selector:</h3>
-          <p>.intext-link</p>
-
-          <h3>Sample code:</h3>
-          <code>&lt;a href="#" class="intext-link"&gt;Sample Link&lt;/a&gt;</code>
-
-          <h3>Rendered element:</h3>
-          <a class="intext-link" href="#">Sample Link</a>
-        </section>
-
-        <section>
-          <!--  divider -->
-          <hr class="blue-divider">
-          <h2>Submit/Reset Buttons</h2>
-
-          <h3>CSS selector:</h3>
-          <p>.button-submit</p>
-          <p>.button-reset</p>
-
-          <h3>Sample code:</h3>
-          <code>&lt;input class="button-submit" type="submit"&gt;</code>
-          <code>&lt;input class="button-reset" type="reset"&gt;</code>
-
-          <h3>Rendered element:</h3>
-          <input type="submit" class="button-submit">
-          <input type="reset" class="button-reset">
-        </section>
-
-        <section>
-          <!--  divider -->
-          <hr class="blue-divider">
-          <h2>Text Input Field</h2>
-
-          <h3>CSS selector:</h3>
-          <p>.sample-label</p>
-          <p>.text-field</p>
-
-          <h3>Sample code:</h3>
-          <code>&lt;label class="sample-label" &gt;Sample Label&lt;/label&gt;</code>
-          <code>&lt;input class="text-field" type="text"&gt;</code>
-
-          <h3>Rendered element:</h3>
-          <label for="sampleinput" class="sample-label">Sample Label</label>
-          <input id="sampleinput" type="text" class="text-field" placeholder="This is an input text field">
-        </section>
-
-      </section>
-      <!-- // INTERACTIVE ELEMENTS SECTION -->
-
-
-
-      <!-- TEXT ELEMENTS SECTION // -->
-
-      <section id="text_elements">
-        <h2>Text Elements</h2>
-
-        <section>
-          <!--  divider -->
-          <hr class="blue-divider">
-          <h2>Headings</h2>
-
-          <h3>CSS selector:</h3>
-          <p>.heading-one</p>
-          <p>.heading-two</p>
-          <p>.heading-three</p>
-
-          <h3>Sample code:</h3>
-          <code>&lt;h1 class="heading-one"&gt;Heading One&lt;/h1&gt;</code>
-          <code>&lt;h2 class="heading-two"&gt;Heading Two&lt;/h2&gt;</code>
-          <code>&lt;h3 class="heading-three"&gt;Heading Three&lt;/h3&gt;</code>
-
-          <h3>Rendered element:</h3>
-          <h1 class="heading-one">Heading One</h1>
-          <h2 class="heading-two">Heading Two</h2>
-          <h3 class="heading-three">Heading Three</h3>
-
-
-        </section>
-
-        <section>
-          <!--  divider -->
-          <hr class="blue-divider">
-          <h2>Paragraphs</h2>
-
-          <h3>CSS selector:</h3>
-          <p>.body-text</p>
-
-          <h3>Sample code:</h3>
-          <code>&lt;p class="body-text"&gt;
-            Sample Body Text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae convallis elit. Donec tempus purus ac quam ullamcorper pellentesque. Ut at tincidunt eros. Fusce tristique porta orci, eu sagittis tortor fringilla non. Suspendisse rutrum lobortis neque. Etiam cursus tempus metus, at sollicitudin lorem auctor in. Aliquam ultricies nec elit et blandit. Aliquam aliquet malesuada metus in bibendum. Donec mollis sagittis odio, ac varius mauris laoreet eget. Nunc tincidunt, tellus nec scelerisque fermentum, enim sem fringilla est, bibendum egestas libero enim in elit. Maecenas ut eleifend nunc. Aliquam tristique malesuada pulvinar. Nunc eget ligula condimentum, lobortis mi ac, malesuada nibh.
-            &lt;/p&gt;</code>
-
-            <h3>Rendered element:</h3>
-            <p class="body-text">Sample Body Text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae convallis elit. Donec tempus purus ac quam ullamcorper pellentesque. Ut at tincidunt eros. Fusce tristique porta orci, eu sagittis tortor fringilla non. Suspendisse rutrum lobortis neque. Etiam cursus tempus metus, at sollicitudin lorem auctor in. Aliquam ultricies nec elit et blandit. Aliquam aliquet malesuada metus in bibendum. Donec mollis sagittis odio, ac varius mauris laoreet eget. Nunc tincidunt, tellus nec scelerisque fermentum, enim sem fringilla est, bibendum egestas libero enim in elit. Maecenas ut eleifend nunc. Aliquam tristique malesuada pulvinar. Nunc eget ligula condimentum, lobortis mi ac, malesuada nibh.</p>
-
-
-          </section>
-
-          <section>
-            <!--  divider -->
-            <hr class="blue-divider">
-            <h2>Bulleted Lists</h2>
-
-            <h3>CSS selector:</h3>
-            <p>.bullet-list</p>
-
-            <h3>Sample code:</h3>
-            <code>&lt;ul class="bullet-list"&gt;
-              &lt;li&gt;Item One&lt;/li&gt;
-              &lt;li&gt;Item Two&lt;/li&gt;
-              &lt;li&gt;Item Three&lt;/li&gt;
-
-
-              &lt;/ul&gt;</code>
+              <h3>Sample code:</h3>
+              <code>&lt;a href="#" class="button-nav"&gt;Contact Us&lt;/a&gt;</code>
 
               <h3>Rendered element:</h3>
-              <ul class="bullet-list">
-                <li>Item One</li>
-                <li>Item Two</li>
-                <li>Item Three</li>
-              </ul>
+              <a class="button-nav" href="#">Contact Us</a>
 
             </section>
 
             <section>
               <!--  divider -->
               <hr class="blue-divider">
-              <h2>Numbered Lists</h2>
+              <h2>In-text link</h2>
 
-              <h3>CSS selector:</h3>
-              <p>.number-list</p>
+              <h3>CSS Selector:</h3>
+              <p>.intext-link</p>
 
               <h3>Sample code:</h3>
-              <code>&lt;ol class="number-list"&gt;
-                &lt;li&gt;Item One&lt;/li&gt;
-                &lt;li&gt;Item Two&lt;/li&gt;
-                &lt;li&gt;Item Three&lt;/li&gt;
+              <code>&lt;a href="#" class="intext-link"&gt;Sample Link&lt;/a&gt;</code>
+
+              <h3>Rendered element:</h3>
+              <a class="intext-link" href="#">Sample Link</a>
+            </section>
+
+            <section>
+              <!--  divider -->
+              <hr class="blue-divider">
+              <h2>Submit/Reset Buttons</h2>
+
+              <h3>CSS selector:</h3>
+              <p>.button-submit</p>
+              <p>.button-reset</p>
+
+              <h3>Sample code:</h3>
+              <code>&lt;input class="button-submit" type="submit"&gt;</code>
+              <code>&lt;input class="button-reset" type="reset"&gt;</code>
+
+              <h3>Rendered element:</h3>
+              <input type="submit" class="button-submit">
+              <input type="reset" class="button-reset">
+            </section>
+
+            <section>
+              <!--  divider -->
+              <hr class="blue-divider">
+              <h2>Text Input Field</h2>
+
+              <h3>CSS selector:</h3>
+              <p>.sample-label</p>
+              <p>.text-field</p>
+
+              <h3>Sample code:</h3>
+              <code>&lt;label class="sample-label" &gt;Sample Label&lt;/label&gt;</code>
+              <code>&lt;input class="text-field" type="text"&gt;</code>
+
+              <h3>Rendered element:</h3>
+              <label for="sampleinput" class="sample-label">Sample Label</label>
+              <input id="sampleinput" type="text" class="text-field" placeholder="This is an input text field">
+            </section>
+
+          </section>
+          <!-- // INTERACTIVE ELEMENTS SECTION -->
 
 
-                &lt;/ol&gt;</code>
 
-                <h3>Rendered element:</h3>
-                <ol class="number-list">
-                  <li>Item One</li>
-                  <li>Item Two</li>
-                  <li>Item Three</li>
-                </ol>
+          <!-- TEXT ELEMENTS SECTION // -->
 
-              </section>
+          <section id="text_elements">
+            <h2>Text Elements</h2>
+
+            <section>
+              <!--  divider -->
+              <hr class="blue-divider">
+              <h2>Headings</h2>
+
+              <h3>CSS selector:</h3>
+              <p>.heading-one</p>
+              <p>.heading-two</p>
+              <p>.heading-three</p>
+
+              <h3>Sample code:</h3>
+              <code>&lt;h1 class="heading-one"&gt;Heading One&lt;/h1&gt;</code>
+              <code>&lt;h2 class="heading-two"&gt;Heading Two&lt;/h2&gt;</code>
+              <code>&lt;h3 class="heading-three"&gt;Heading Three&lt;/h3&gt;</code>
+
+              <h3>Rendered element:</h3>
+              <h1 class="heading-one">Heading One</h1>
+              <h2 class="heading-two">Heading Two</h2>
+              <h3 class="heading-three">Heading Three</h3>
+
 
             </section>
-            <!-- // TEXT ELEMENTS SECTION -->
 
+            <section>
+              <!--  divider -->
+              <hr class="blue-divider">
+              <h2>Paragraphs</h2>
 
+              <h3>CSS selector:</h3>
+              <p>.body-text</p>
 
-            <!-- COMBINED ELEMENTS SECTION // -->
-            <section id="combined_elements">
-              <h2>Combined Elements</h2>
-
-              <section>
-                <!--  divider -->
-                <hr class="blue-divider">
-                <h2>Main Navigation</h2>
-
-                <h3>CSS selector:</h3>
-                <p>.button-navbar</p>
-
-                <h3>Sample code:</h3>
-                <code><br />
-                  &lt;header id="top"&gt;<br />
-                  &lt;h1&gt;&lt;a href="index.html"&gt;Jetpacks&lt;/a&gt;&lt;/h1&gt;<br />
-                  <br />
-                  &lt;div class="grid-row"&gt;<br />
-                  &lt;div class="grid-col-12of12"&gt;<br />
-                  &lt;nav class="grid-row global-nav"&gt;<br />
-                  &lt;a href="products-jetpacks.html" class="button-navbar nav-current"&gt;Products&lt;/a&gt;<br />
-                  &lt;a href="#" class="button-navbar"&gt;Safety/Tech&lt;/a&gt;<br />
-                  &lt;a href="crew.html" class="button-navbar"&gt;Crew&lt;/a&gt;<br />
-                  &lt;a href="updates.html" class="button-navbar" &gt;Updates&lt;/a&gt;<br />
-                  &lt;a href="testdrive.html" class="button-navbar"&gt;Test Drive&lt;/a&gt;<br />
-                  &lt;/nav&gt;<br />
-                  &lt;/div&gt;<br />
-                  &lt;/div&gt;<br />
-                  &lt;/header&gt;
-                </code>
+              <h3>Sample code:</h3>
+              <code>&lt;p class="body-text"&gt;
+                Sample Body Text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae convallis elit. Donec tempus purus ac quam ullamcorper pellentesque. Ut at tincidunt eros. Fusce tristique porta orci, eu sagittis tortor fringilla non. Suspendisse rutrum lobortis neque. Etiam cursus tempus metus, at sollicitudin lorem auctor in. Aliquam ultricies nec elit et blandit. Aliquam aliquet malesuada metus in bibendum. Donec mollis sagittis odio, ac varius mauris laoreet eget. Nunc tincidunt, tellus nec scelerisque fermentum, enim sem fringilla est, bibendum egestas libero enim in elit. Maecenas ut eleifend nunc. Aliquam tristique malesuada pulvinar. Nunc eget ligula condimentum, lobortis mi ac, malesuada nibh.
+                &lt;/p&gt;</code>
 
                 <h3>Rendered element:</h3>
+                <p class="body-text">Sample Body Text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae convallis elit. Donec tempus purus ac quam ullamcorper pellentesque. Ut at tincidunt eros. Fusce tristique porta orci, eu sagittis tortor fringilla non. Suspendisse rutrum lobortis neque. Etiam cursus tempus metus, at sollicitudin lorem auctor in. Aliquam ultricies nec elit et blandit. Aliquam aliquet malesuada metus in bibendum. Donec mollis sagittis odio, ac varius mauris laoreet eget. Nunc tincidunt, tellus nec scelerisque fermentum, enim sem fringilla est, bibendum egestas libero enim in elit. Maecenas ut eleifend nunc. Aliquam tristique malesuada pulvinar. Nunc eget ligula condimentum, lobortis mi ac, malesuada nibh.</p>
 
-                <header id="top">
-                  <h1><a href="index.html">Jetpacks</a></h1>
-
-                  <div class="grid-row">
-                    <div class="grid-col-12of12">
-                      <nav class="grid-row global-nav">
-                        <a href="products-jetpacks.html" class="button-navbar nav-current">Products</a>
-                        <a href="#" class="button-navbar">Safety/Tech</a>
-                        <a href="crew.html" class="button-navbar">Crew</a>
-                        <a href="updates.html" class="button-navbar" >Updates</a>
-                        <a href="testdrive.html" class="button-navbar">Test Drive</a>
-                      </nav>
-                    </div>
-                  </div>
-                </header>
 
               </section>
 
               <section>
                 <!--  divider -->
                 <hr class="blue-divider">
-                <h2>Footer</h2>
+                <h2>Bulleted Lists</h2>
+
+                <h3>CSS selector:</h3>
+                <p>.bullet-list</p>
 
                 <h3>Sample code:</h3>
-                <code>
-                  &lt;div class="grid-row"&gt;<br />
-                  &lt;div class="grid-col-12of12"&gt;<br />
-                  &lt;div id="wide-footer"&gt;<br />
-                  <br />
-                  &lt;div class="grid-col-1of12"&gt;<br />
-                  &amp;nbsp;<br />
-                  &lt;/div&gt;<br />
-                  <br />
-                  &lt;div class="grid-col-3of12"&gt;<br />
-                  &lt;h4&gt;Our Story&lt;/h4&gt;<br />
-                  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id nunc purus. Praesent justo turpis, volutpat ac aliquam at, condimentum vestibulum ligula.&lt;/p&gt;<br />
-                  &lt;/div&gt;<br />
-                  <br />
-                  &lt;div class="grid-col-4of12 grid-padding"&gt;<br />
-                  &lt;h4&gt;Twitter Feed&lt;/h4&gt;<br />
-                  &lt;p&gt;Twitter Widget&lt;/p&gt;<br />
-                  &lt;/div&gt;<br />
-                  <br />
-                  &lt;div class="grid-col-1of12"&gt;<br />
-                  &amp;nbsp;<br />
-                  &lt;/div&gt;<br />
-                  <br />
-                  &lt;div class="grid-col-3of12"&gt;<br />
-                  &lt;h4&gt;Contact Us&lt;/h4&gt;<br />
-                  &lt;p&gt;<br />
-                  222-333-2323 &lt;br /&gt;<br />
-                  &lt;a href="#"&gt;hello@jetpacks.com&lt;/a&gt;<br />
-                  &lt;/div&gt;<br />
-                  <br />
-                  &lt;/div&gt;<br />
-                  &lt;/div&gt;<br />
-                  &lt;/div&gt;<br />
-                  <br />
-                  &lt;div class="grid-row"&gt;<br />
-                  &lt;div class="grid-col-12of12"&gt;<br />
-                  &lt;div id="thin-footer"&gt;<br />
-                  Copyright &amp;copy; 2016. JETPACKS Ltd.<br />
-                  &lt;/div&gt;<br />
-                  &lt;/div&gt;<br />
-                  &lt;/div&gt;
-                </code>
+                <code>&lt;ul class="bullet-list"&gt;
+                  &lt;li&gt;Item One&lt;/li&gt;
+                  &lt;li&gt;Item Two&lt;/li&gt;
+                  &lt;li&gt;Item Three&lt;/li&gt;
 
 
-                <h3>Rendered element:</h3>
+                  &lt;/ul&gt;</code>
 
-                <div class="grid-row">
-                  <div class="grid-col-12of12">
-                    <div id="wide-footer">
+                  <h3>Rendered element:</h3>
+                  <ul class="bullet-list">
+                    <li>Item One</li>
+                    <li>Item Two</li>
+                    <li>Item Three</li>
+                  </ul>
 
-                      <div class="grid-col-1of12">
-                        &nbsp;
-                      </div>
-
-                      <div class="grid-col-3of12">
-                        <h4>Our Story</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id nunc purus. Praesent justo turpis, volutpat ac aliquam at, condimentum vestibulum ligula.</p>
-                      </div>
-
-                      <div class="grid-col-4of12 grid-padding">
-                        <h4>Twitter Feed</h4>
-                        <p>Twitter Widget</p>
-                      </div>
-
-                      <div class="grid-col-1of12">
-                        &nbsp;
-                      </div>
-
-                      <div class="grid-col-3of12">
-                        <h4>Contact Us</h4>
-                        <p>
-                          222-333-2323 <br />
-                          <a href="#">hello@jetpacks.com</a>
-                        </div>
-
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="grid-row">
-                    <div class="grid-col-12of12">
-                      <div id="thin-footer">
-                        Copyright &copy; 2016. JETPACKS Ltd.
-                      </div>
-                    </div>
-                  </div>
                 </section>
-
-
 
                 <section>
                   <!--  divider -->
                   <hr class="blue-divider">
-                  <h2>Product Category</h2>
+                  <h2>Numbered Lists</h2>
 
-                  <h3>Sample Code</h3>
-                    <code>
-                         &lt;div class="grid-row"&gt;<br />
-                      &lt;div class="grid-col-4of12 text-center"&gt;<br />
-                        &lt;a href="#water" class="no-deco"&gt;<br />
-                          &lt;div class="mini-hero mini-hero-water"&gt;<br />
-                            &lt;div class="mini-hero-text-wrapper"&gt;<br />
-                              &lt;h2&gt;WATER&lt;/h2&gt;<br />
-                            &lt;/div&gt;<br />
-                          &lt;/div&gt;<br />
-                        &lt;/a&gt;<br />
-                      &lt;/div&gt;<br />
-                    &lt;/div&gt;
-                    </code>
+                  <h3>CSS selector:</h3>
+                  <p>.number-list</p>
+
+                  <h3>Sample code:</h3>
+                  <code>&lt;ol class="number-list"&gt;
+                    &lt;li&gt;Item One&lt;/li&gt;
+                    &lt;li&gt;Item Two&lt;/li&gt;
+                    &lt;li&gt;Item Three&lt;/li&gt;
+
+
+                    &lt;/ol&gt;</code>
+
                     <h3>Rendered element:</h3>
-                    <div class="grid-row">
-                      <div class="grid-col-4of12 text-center">
-                        <a href="#water" class="no-deco">
-                          <div class="mini-hero mini-hero-water">
-                            <div class="mini-hero-text-wrapper">
-                              <h2>WATER</h2>
-                            </div>
-                          </div>
-                        </a>
+                    <ol class="number-list">
+                      <li>Item One</li>
+                      <li>Item Two</li>
+                      <li>Item Three</li>
+                    </ol>
+
+                  </section>
+
+                </section>
+                <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+                <!-- COMBINED ELEMENTS SECTION // -->
+                <section id="combined_elements">
+                  <h2>Combined Elements</h2>
+
+                  <section>
+                    <!--  divider -->
+                    <hr class="blue-divider">
+                    <h2>Main Navigation</h2>
+
+                    <h3>CSS selector:</h3>
+                    <p>.button-navbar</p>
+
+                    <h3>Sample code:</h3>
+                    <code><br />
+                      &lt;header id="top"&gt;<br />
+                      &lt;h1&gt;&lt;a href="index.html"&gt;Jetpacks&lt;/a&gt;&lt;/h1&gt;<br />
+                      <br />
+                      &lt;div class="grid-row"&gt;<br />
+                      &lt;div class="grid-col-12of12"&gt;<br />
+                      &lt;nav class="grid-row global-nav"&gt;<br />
+                      &lt;a href="products-jetpacks.html" class="button-navbar nav-current"&gt;Products&lt;/a&gt;<br />
+                      &lt;a href="#" class="button-navbar"&gt;Safety/Tech&lt;/a&gt;<br />
+                      &lt;a href="crew.html" class="button-navbar"&gt;Crew&lt;/a&gt;<br />
+                      &lt;a href="updates.html" class="button-navbar" &gt;Updates&lt;/a&gt;<br />
+                      &lt;a href="testdrive.html" class="button-navbar"&gt;Test Drive&lt;/a&gt;<br />
+                      &lt;/nav&gt;<br />
+                      &lt;/div&gt;<br />
+                      &lt;/div&gt;<br />
+                      &lt;/header&gt;
+                    </code>
+
+                    <h3>Rendered element:</h3>
+
+                    <header id="top">
+                      <h1><a href="index.html">Jetpacks</a></h1>
+
+                      <div class="grid-row">
+                        <div class="grid-col-12of12">
+                          <nav class="grid-row global-nav">
+                            <a href="products-jetpacks.html" class="button-navbar nav-current">Products</a>
+                            <a href="#" class="button-navbar">Safety/Tech</a>
+                            <a href="crew.html" class="button-navbar">Crew</a>
+                            <a href="updates.html" class="button-navbar" >Updates</a>
+                            <a href="testdrive.html" class="button-navbar">Test Drive</a>
+                          </nav>
+                        </div>
                       </div>
-                    </div>
+                    </header>
+
                   </section>
 
                   <section>
                     <!--  divider -->
                     <hr class="blue-divider">
-                    <h2>Product Listing</h2>
+                    <h2>Footer</h2>
 
                     <h3>Sample code:</h3>
-                    <code>
-                      &lt;div class="grid-col-4of12"&gt;<br />
-                      &lt;div class="product-listing text-center"&gt;<br />
-                      &lt;a href="products-detailed.html"&gt;<br />
-                      &lt;div class="product-image"&gt;<br />
-                      &lt;img class="product-listing-image" src="img/products/water_alliance.png" alt="Water jetpack named Alliance"&gt;<br />
-                      &lt;/div&gt;<br />
-                      &lt;h2&gt;Alliance&lt;/h2&gt;<br />
-                      <br />
-                      &lt;h3 class="sale"&gt;$299.99&lt;/h3&gt;<br />
-                      &lt;h3 class="strike small-price"&gt;$499.99&lt;/h3&gt;<br />
-                      <br />
-                      &lt;/a&gt;<br />
-                      &lt;/div&gt;<br />
-                      &lt;/div&gt;
-                    </code>
-
-
-                    <h3>Rendered element:</h3>
-                    <div class="grid-row">
-                      <div class="grid-col-4of12">
-                        <div class="product-listing text-center">
-                          <a href="products-detailed.html">
-                            <div class="product-image">
-                              <img class="product-listing-image" src="img/products/water_alliance.png" alt="Water jetpack named Alliance">
-                            </div>
-                            <h2>Alliance</h2>
-
-                            <h3 class="sale">$299.99</h3>
-                            <h3 class="strike small-price">$499.99</h3>
-
-                          </a>
-                        </div>
-                      </div>
-
-                      <div class="grid-col-4of12">
-                        <div class="product-listing text-center">
-                          <a href="products-detailed.html">
-                            <div class="product-image">
-                              <img class="product-listing-image" src="img/products/water_alliance.png" alt="Water jetpack named Alliance">
-                            </div>
-                            <h2>Alliance</h2>
-
-                            <h3 class="sale">$299.99</h3>
-                            <h3 class="strike small-price">$499.99</h3>
-
-                          </a>
-                        </div>
-                      </div>
-
-                      <div class="grid-col-4of12">
-                        <div class="product-listing text-center">
-                          <a href="products-detailed.html">
-                            <div class="product-image">
-                              <img class="product-listing-image" src="img/products/water_alliance.png" alt="Water jetpack named Alliance">
-                            </div>
-                            <h2>Alliance</h2>
-
-                            <h3 class="sale">$299.99</h3>
-                            <h3 class="strike small-price">$499.99</h3>
-
-                          </a>
-                        </div>
-                      </div>
-                    </div>                    
-                  </section>
-
-
-                  <section>
-                    <!--  divider -->
-                    <hr class="blue-divider">
-                    <h2>Hero Banner 1</h2>
-
-                    <h3>Sample code:</h3>
-                    <code>
+                    <code><br />
+                     &lt;div class="grid-row"&gt;<br />
                      &lt;div class="grid-col-12of12"&gt;<br />
-                     &lt;div class="hero-banner-1"&gt;<br />
-                     &lt;div class="hero-img-wrapper"&gt;<br />
-                     &lt;div class="img-hero"&gt;<br />
-                     &lt;img src="img/her2.png" width="600" alt="3 People flying on Jetpacks"&gt;<br />
+                     &lt;div id="wide-footer"&gt;<br />
+                     &lt;div class="grid-col-1of12"&gt;<br />
+                     &amp;nbsp;<br />
+                     &lt;/div&gt;<br />
+                     &lt;div class="grid-col-3of12"&gt;<br />
+                     &lt;h4&gt;Our Promise&lt;/h4&gt;<br />
+                     &lt;p&gt;We promise to be the best at what we do. We also promise you that we will innovate where possible to provide our customers with the best Jetpacks money can buy without breaking the bank.&lt;/p&gt;<br />
+                     &lt;/div&gt;<br />
+                     &lt;div class="grid-col-1of12"&gt;<br />
+                     &amp;nbsp;<br />
+                     &lt;/div&gt;<br />
+                     &lt;div class="grid-col-3of12"&gt;<br />
+                     &lt;h4&gt;Satisfaction Guarantee&lt;/h4&gt;<br />
+                     &lt;p&gt;All our Jetpacks come with a 100% satisfaction guarantee. If you are not fully satisfied with the purchase of your Jetpack we will refund your purchase price excluding shipping &amp; handling.&lt;/p&gt;<br />
+                     &lt;/div&gt;<br />
+                     &lt;div class="grid-col-1of12"&gt;<br />
+                     &amp;nbsp;<br />
+                     &lt;/div&gt;<br />
+                     &lt;div class="grid-col-3of12"&gt;<br />
+                     &lt;h4&gt;Contact Information&lt;/h4&gt;<br />
+                     &lt;p&gt;<br />
+                     Jetpacks Ltd.&lt;br/&gt;<br />
+                     8390 Landing Way&lt;br/&gt;<br />
+                     Richmond, BC  V9F 0S3&lt;br/&gt;<br />
+                     &lt;/p&gt;<br />
+                     <br />
+                     <br />
+                     &lt;p&gt;<br />
+                     Tel. 604-899-9888 &lt;br /&gt;<br />
+                     &lt;a href="#"&gt;hello@jetpacks.com&lt;/a&gt;<br />
+                     &lt;/p&gt;<br />
                      &lt;/div&gt;<br />
                      &lt;/div&gt;<br />
-                     &lt;div class="hero-banner-1-text-wrapper"&gt;<br />
-                     &lt;div class="hero-banner-1-text"&gt;<br />
-                     &lt;h2&gt;Go Fast!&lt;/h2&gt;<br />
-                     &lt;p&gt;Be the first in the pack with our all new hyper-space jetpacks.&lt;/p&gt;<br />
-                     &lt;a href="products-jetpacks.html" class="btn-std"&gt;Get me Ahead&lt;/a&gt;<br />
+                     &lt;/div&gt;<br />
+                     &lt;/div&gt;<br />
+                     <br />
+                     <br />
+                     &lt;div class="grid-row"&gt;<br />
+                     &lt;div class="grid-col-12of12"&gt;<br />
+                     &lt;div id="thin-footer"&gt;<br />
+                     Copyright &amp;copy; 2016. JETPACKS Ltd. |<br />
+                     &lt;a href="https://github.com/bbeh/iat339-p02"&gt;Github&lt;/a&gt; | &lt;a href="style_guide.html"&gt;Style Guide&lt;/a&gt; | &lt;a href="citations.html"&gt;Citations&lt;/a&gt;<br />
                      &lt;/div&gt;<br />
                      &lt;/div&gt;<br />
                      &lt;/div&gt;
                    </code>
+
+
                    <h3>Rendered element:</h3>
-                   <div class="grid-col-12of12">
-                    <div class="hero-banner-1">
-                     <div class="hero-img-wrapper">
-                      <div class="img-hero">
-                       <img src="img/her2.png" width="600" alt="3 People flying on Jetpacks">
+
+                   <div class="grid-row">
+                    <div class="grid-col-12of12">
+                     <div id="wide-footer">
+                      <div class="grid-col-1of12">
+                       &nbsp;
                      </div>
-                   </div>
-                   <div class="hero-banner-1-text-wrapper">
-                    <div class="hero-banner-1-text">
-                     <h2>Go Fast!</h2>
-                     <p>Be the first in the pack with our all new hyper-space jetpacks.</p>
-                     <a href="products-jetpacks.html" class="btn-std">Get me Ahead</a>
-                   </div>
-                 </div>
-               </div>
+                     <div class="grid-col-3of12">
+                       <h4>Our Promise</h4>
+                       <p>We promise to be the best at what we do. We also promise you that we will innovate where possible to provide our customers with the best Jetpacks money can buy without breaking the bank.</p>
+                     </div>
+                     <div class="grid-col-1of12">
+                       &nbsp;
+                     </div>
+                     <div class="grid-col-3of12">
+                       <h4>Satisfaction Guarantee</h4>
+                       <p>All our Jetpacks come with a 100% satisfaction guarantee. If you are not fully satisfied with the purchase of your Jetpack we will refund your purchase price excluding shipping & handling.</p>
+                     </div>
+                     <div class="grid-col-1of12">
+                       &nbsp;
+                     </div>
+                     <div class="grid-col-3of12">
+                       <h4>Contact Information</h4>
+                       <p>
+                        Jetpacks Ltd.<br/>
+                        8390 Landing Way<br/>
+                        Richmond, BC  V9F 0S3<br/>
+                      </p>
 
-             </section>
 
-             <section>
-              <!--  divider -->
-              <hr class="blue-divider">
-              <h2>Hero banner 2</h2>
-
-              <h3>Sample code:</h3>
-              <code>
-                &lt;div class="grid-col-12of12"&gt;<br />
-                &lt;div class="hero-banner-2 hero-color-green"&gt;<br />
-                &lt;div class="hero2-img-wrapper"&gt;<br />
-                &lt;div class="img-hero"&gt;<br />
-                &lt;img src="img/headers/header_updates.png" width="400" alt="Classic Jetson Jetpack with a notification"&gt;<br />
-                <br />
-                &lt;/div&gt;<br />
-                &lt;/div&gt;<br />
-                &lt;div class="hero-blog-text-wrapper"&gt;<br />
-                &lt;div class="hero-blog-text"&gt;<br />
-                &lt;h2&gt;Substantially Newsworthy&lt;/h2&gt;<br />
-                &lt;p&gt;We love trying new things. Keep up to date with what's happening and get in the know.&lt;/p&gt;<br />
-                &lt;/div&gt;<br />
-                &lt;/div&gt;<br />
-                &lt;/div&gt;
-              </code>
-              <h3>Rendered element:</h3>
-              <div class="grid-col-12of12">
-                <div class="hero-banner-2 hero-color-green">
-                  <div class="hero2-img-wrapper">
-                    <div class="img-hero">
-                      <img src="img/headers/header_updates.png" width="400" alt="Classic Jetson Jetpack with a notification">
-
-                    </div>
-                  </div>
-                  <div class="hero-blog-text-wrapper">
-                    <div class="hero-blog-text">
-                      <h2>Substantially Newsworthy</h2>
-                      <p>We love trying new things. Keep up to date with what's happening and get in the know.</p>
+                      <p>
+                        Tel. 604-899-9888 <br />
+                        <a href="#">hello@jetpacks.com</a>
+                      </p>
                     </div>
                   </div>
                 </div>
-              </section>
+              </div>
 
-
-
-
-              <section>
-                <!--  divider -->
-                <hr class="blue-divider">
-                <h2>Blog Banner</h2>
-
-                <h3>Sample code:</h3>
-                <code>
-                  &lt;div class="grid-col-12of12"&gt;<br />
-                  &lt;div class="blog-banner hero-color-black"&gt;<br />
-                  &lt;div class="blog-img-wrapper"&gt;<br />
-                  &lt;div class="img-hero"&gt;<br />
-                  &lt;img src="img/headers/header_updates_space_jetpacks.png" alt="Three of the new Space Jetpacks"&gt;<br />
-                  &lt;/div&gt;<br />
-                  &lt;/div&gt;<br />
-                  &lt;/div&gt;
-                </code>
-                <h3>Rendered element:</h3>
-
+              
+              <div class="grid-row">
                 <div class="grid-col-12of12">
-                  <div class="blog-banner hero-color-black">
-                    <div class="blog-img-wrapper">
-                      <div class="img-hero">
-                        <img src="img/headers/header_updates_space_jetpacks.png" alt="Three of the new Space Jetpacks">
-                      </div>
-                    </div>
-                  </div>
-                </section>
-
-                <section>
-                  <!--  divider -->
-                  <hr class="blue-divider">
-                  <h2>Hero Banner 3 of 4</h2>
-
-                  <h3>Sample code:</h3>
-                  <code>
-                    &lt;div class="grid-col-12of12"&gt;<br />
-                    &lt;div class="hero-banner-3of4"&gt;<br />
-                    &lt;div class="hero2-img-wrapper"&gt;<br />
-                    &lt;div class="img-hero"&gt;<br />
-                    &lt;img src="img/her3.png" width="600" alt="View of Earth from space"&gt;<br />
-                    &lt;/div&gt;<br />
-                    &lt;/div&gt;<br />
-                    &lt;div class="hero-banner-2-text-wrapper"&gt;<br />
-                    &lt;div class="hero-banner-2-text"&gt;<br />
-                    &lt;h2&gt;Select your Terrain&lt;/h2&gt;<br />
-                    &lt;p&gt;Flying in zero-gravity is a lot different than flying on land. &lt;br/&gt;Don't hurt yourself.&lt;/p&gt;<br />
-                    &lt;/div&gt;<br />
-                    &lt;/div&gt;<br />
-                    &lt;/div&gt;
-                  </code>
-                  <h3>Rendered element:</h3>
-                  <div class="grid-col-12of12">
-                    <div class="hero-banner-3of4">
-                      <div class="hero2-img-wrapper">
-                        <div class="img-hero">
-                          <img src="img/her3.png" width="600" alt="View of Earth from space">
-                        </div>
-                      </div>
-                      <div class="hero-banner-2-text-wrapper">
-                        <div class="hero-banner-2-text">
-                          <h2>Select your Terrain</h2>
-                          <p>Flying in zero-gravity is a lot different than flying on land. <br/>Don't hurt yourself.</p>
-                        </div>
-                      </div>
-                    </div>
-
-                  </section>
-
-                  <section>
-                    <!--  divider -->
-                    <hr class="blue-divider">
-                    <h2>Hero Banner 4</h2>
-
-                    <h3>Sample code:</h3>
-                    <code>
-                      &lt;div class="grid-col-12of12 grid-center"&gt;<br />
-                      &lt;div class="hero-banner-4"&gt;<br />
-                      &lt;div class="hero4-img-wrapper"&gt;<br />
-                      &lt;div class="img-hero"&gt;<br />
-                      &lt;img src="img/water_hero.png" width="600px"&gt;<br />
-                      &lt;/div&gt;<br />
-                      &lt;/div&gt;<br />
-                      &lt;div class="hero-banner-4-text-wrapper"&gt;<br />
-                      &lt;div class="hero-banner-4-text"&gt;<br />
-                      &lt;h2&gt;ALLIANCE&lt;/h2&gt;<br />
-                      &lt;a class="series" href="products-jetpacks.html#water"&gt;Water Series&lt;/a&gt;<br />
-                      &lt;p&gt;&lt;span class="big-price"&gt;$299.99&lt;/span&gt; &lt;span class="strike medium-price"&gt;$499.99&lt;/span&gt;&lt;/p&gt;<br />
-                      &lt;p&gt;Travel in style over the ocean. The Alliance offers you versitality in both water and land travel. But don't get too excited because you could make someone really wet when you use this on land. Fly with caution!&lt;/p&gt;<br />
-                      &lt;p&gt;&lt;/p&gt;<br />
-                      &lt;a href="checkout.html" class="btn-std btn-water btn-buy"&gt;Buy This Now&lt;/a&gt;<br />
-                      &lt;p class="helper-text"&gt;Typically ships in 1 to 3 business days.&lt;/p&gt;<br />
-                      &lt;/div&gt;<br />
-                      &lt;/div&gt;<br />
-                      &lt;/div&gt;
-                    </code>
-                    <h3>Rendered element:</h3>
-
-                    <div class="grid-col-12of12 grid-center">
-                      <div class="hero-banner-4">
-                        <div class="hero4-img-wrapper">
-                          <div class="img-hero">
-                            <img src="img/water_hero.png" width="600px">
-                          </div>
-                        </div>
-                        <div class="hero-banner-4-text-wrapper">
-                          <div class="hero-banner-4-text">
-                            <h2>ALLIANCE</h2>
-                            <a class="series" href="products-jetpacks.html#water">Water Series</a>
-                            <p><span class="big-price">$299.99</span> <span class="strike medium-price">$499.99</span></p>
-                            <p>Travel in style over the ocean. The Alliance offers you versitality in both water and land travel. But don't get too excited because you could make someone really wet when you use this on land. Fly with caution!</p>
-                            <p></p>
-                            <a href="checkout.html" class="btn-std btn-water btn-buy">Buy This Now</a>
-                            <p class="helper-text">Typically ships in 1 to 3 business days.</p>
-                          </div>
-                        </div>
-                      </div>
-                    </section>
-
-
-                    <section>
-                      <!--  divider -->
-                      <hr class="blue-divider">
-                      <h2>Product Rating</h2>
-
-                      <h3>Sample code:</h3>
-                      <code>
-
-                        &lt;div class="grid-col-12of12"&gt;<br />
-                        &lt;div class="reviews-full grid-relative"&gt;<br />
-                        &lt;div class="grid-col-8of12 grid-center"&gt;<br />
-                        &lt;h2 class="text-center"&gt;Reviews&lt;/h2&gt;<br />
-                        <br />
-                        &lt;p class="text-center"&gt;<br />
-                        &lt;img src="img/fourhalf_of_5_stars.png"&gt;&lt;br&gt;<br />
-                        Average 4.5 out of 5 stars<br />
-                        &lt;/p&gt;<br />
-                        &lt;/div&gt;<br />
-                        &lt;/div&gt;<br />
-                        &lt;/div&gt;
-                      </code>
-                      <h3>Rendered element:</h3>
-                      <div class="grid-row"></div>
-
-                      <div class="grid-col-12of12">
-                        <div class="reviews-full grid-relative">
-                          <div class="grid-col-8of12 grid-center">
-                            <h2 class="text-center">Reviews</h2>
-
-                            <p class="text-center">
-                              <img src="img/fourhalf_of_5_stars.png"><br>
-                              Average 4.5 out of 5 stars
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-
-                    </section>
-                    <section>
-                      <!--  divider -->
-                      <hr class="blue-divider">
-                      <h2>Product Reviews</h2>
-
-                      <h3>Sample code:</h3>
-                      <code>
-                        &lt;div class="review-content"&gt;<br />
-                        &lt;h3 class="review-title"&gt;You can feel the power&lt;/h3&gt;<br />
-                        &lt;h4 class="review-author"&gt;By: Amanda Poh (Coquitlam, BC)&lt;/h4&gt;<br />
-                        &lt;div class="star-rating"&gt;<br />
-                        &lt;img src="img/fourhalf_of_5_stars.png" width=10% height=auto&gt;<br />
-                        &lt;/div&gt;<br />
-                        &lt;p&gt;This is one of the best Jetpacks I've ever flown on. Nevermind the fact that it can fly on both water and land, the power at which the thursters operate scare all the people flying around me. No one dares come close to my air-space now thanks to the Alliance Jetpack. Did I mention how powerful it is? I can fly across the atlantic in just under 45 minutes. It was so fast I could barely see where I was going half the time. So glad it has the new auto guidance wings on it. If you want thrill, this is the Jetpack for you!&lt;/p&gt;<br />
-                        &lt;/div&gt;
-                      </code>
-                      <h3>Rendered element:</h3>
-                      <div class="grid-row">
-                        <div class="review-content">
-                          <h3 class="review-title">You can feel the power</h3>
-                          <h4 class="review-author">By: Amanda Poh (Coquitlam, BC)</h4>
-                          <div class="star-rating">
-                            <img src="img/fourhalf_of_5_stars.png" width=10% height=auto>
-                          </div>
-                          <p>This is one of the best Jetpacks I've ever flown on. Nevermind the fact that it can fly on both water and land, the power at which the thursters operate scare all the people flying around me. No one dares come close to my air-space now thanks to the Alliance Jetpack. Did I mention how powerful it is? I can fly across the atlantic in just under 45 minutes. It was so fast I could barely see where I was going half the time. So glad it has the new auto guidance wings on it. If you want thrill, this is the Jetpack for you!</p>
-                        </div>
-                      </div>
-                    </section>
-
-
-                    <section>
-                      <!--  divider -->
-                      <hr class="blue-divider">
-                      <h2>Add Review</h2>
-
-                      <h3>Sample code:</h3>
-                      <code>
-                        &lt;div id="add-review"&gt;<br />
-                        &lt;div class="review-content"&gt;<br />
-                        &lt;form&gt;<br />
-                        <br />
-                        &lt;h3 class="title"&gt;Review the Product&lt;/h3&gt;<br />
-                        <br />
-                        &lt;p&gt;<br />
-                        &lt;label&gt;Give it a star rating&lt;/label&gt;<br />
-                        <br />
-                        &lt;input type="radio" name="star" id="1" value="1" class="star-radio"&gt;<br />
-                        &lt;label class="inline" for="1"&gt; 1 &lt;img class="img-stars" src="img/one_star.png"&gt;&lt;/label&gt;<br />
-                        &lt;/input&gt;<br />
-                        <br />
-                        &lt;input type="radio" name="star" id="2" value="2" class="star-radio"&gt;<br />
-                        &lt;label class="inline" for="2"&gt; 2 &lt;img class="img-stars" src="img/two_stars.png"&gt;&lt;/label&gt;<br />
-                        &lt;/input&gt;<br />
-                        <br />
-                        &lt;input type="radio" name="star" id="3" value="3" class="star-radio"&gt;<br />
-                        &lt;label class="inline" for="3"&gt; 3 &lt;img class="img-stars" src="img/three_stars.png"&gt;&lt;/label&gt;<br />
-                        &lt;/input&gt;<br />
-                        <br />
-                        &lt;input type="radio" name="star" id="4" value="4" class="star-radio"&gt;<br />
-                        &lt;label class="inline" for="4"&gt; 4 &lt;img class="img-stars" src="img/four_stars.png"&gt;&lt;/label&gt;<br />
-                        &lt;/input&gt;<br />
-                        <br />
-                        &lt;input type="radio" name="star" id="5" value="5" class="star-radio"&gt;<br />
-                        &lt;label class="inline" for="5"&gt; 5 &lt;img class="img-stars" src="img/five_stars.png"&gt;&lt;/label&gt;<br />
-                        &lt;/input&gt;<br />
-                        <br />
-                        &lt;/p&gt;<br />
-                        <br />
-                        &lt;label for="title"&gt;Title (One liner on what makes this product so great?)&lt;/label&gt;<br />
-                        &lt;input type="text" id="title" class="text-field"&gt;&lt;/input&gt;<br />
-                        <br />
-                        &lt;label for="review-desc"&gt;Description (Talk about what you llike or dislike in detail)&lt;/label&gt;<br />
-                        &lt;textarea id="review-desc" class="text-field"&gt;&lt;/textarea&gt;<br />
-                        <br />
-                        &lt;h3 class="title"&gt;Your Information&lt;/h3&gt;<br />
-                        <br />
-                        &lt;div class="grid-col-3of12"&gt;<br />
-                        &lt;label for="fname"&gt;First Name&lt;/label&gt;<br />
-                        &lt;input type="text" id="fname" class="text-field"&gt;&lt;/input&gt;<br />
-                        &lt;/div&gt;<br />
-                        <br />
-                        &lt;div class="grid-col-3of12 grid-padding-xs"&gt;<br />
-                        &lt;label for="lname"&gt;Last Name&lt;/label&gt;<br />
-                        &lt;input type="text" id="lname" class="text-field"&gt;&lt;/input&gt;<br />
-                        &lt;/div&gt;<br />
-                        <br />
-                        &lt;div class="grid-col-1of12 grid-hidden"&gt;&amp;nbsp;&lt;/div&gt;<br />
-                        <br />
-                        &lt;div class="grid-col-5of12"&gt;<br />
-                        &lt;label for="location"&gt;Location&lt;/label&gt;<br />
-                        &lt;input type="text" id="location" class="text-field"&gt;&lt;/input&gt;<br />
-                        &lt;/div&gt;<br />
-                        <br />
-                        &lt;div class="grid-row"&gt;&lt;/div&gt;<br />
-                        <br />
-                        &lt;div class="grid-col-6of12"&gt;<br />
-                        &lt;input class="button-submit" type="submit"&gt;<br />
-                        &lt;input class="button-reset" type="reset"&gt;<br />
-                        &lt;/div&gt;<br />
-                        <br />
-                        &lt;/form&gt;<br />
-                        &lt;/div&gt;<br />
-                        &lt;/div&gt;
-                      </code>
-                      <h3>Rendered element:</h3>
-
-                      <div id="add-review">
-                        <div class="review-content">
-                          <form>
-
-                            <h3 class="title">Review the Product</h3>
-
-                            <p>
-                              <label>Give it a star rating</label>
-
-                              <input type="radio" name="star" id="1" value="1" class="star-radio">
-                              <label class="inline" for="1"> 1 <img class="img-stars" src="img/one_star.png"></label>
-                            </input>
-
-                            <input type="radio" name="star" id="2" value="2" class="star-radio">
-                            <label class="inline" for="2"> 2 <img class="img-stars" src="img/two_stars.png"></label>
-                          </input>
-
-                          <input type="radio" name="star" id="3" value="3" class="star-radio">
-                          <label class="inline" for="3"> 3 <img class="img-stars" src="img/three_stars.png"></label>
-                        </input>
-
-                        <input type="radio" name="star" id="4" value="4" class="star-radio">
-                        <label class="inline" for="4"> 4 <img class="img-stars" src="img/four_stars.png"></label>
-                      </input>
-
-                      <input type="radio" name="star" id="5" value="5" class="star-radio">
-                      <label class="inline" for="5"> 5 <img class="img-stars" src="img/five_stars.png"></label>
-                    </input>
-
-                  </p>
-
-                  <label for="title">Title (One liner on what makes this product so great?)</label>
-                  <input type="text" id="title" class="text-field"></input>
-
-                  <label for="review-desc">Description (Talk about what you llike or dislike in detail)</label>
-                  <textarea id="review-desc" class="text-field"></textarea>
-
-                  <h3 class="title">Your Information</h3>
-
-                  <div class="grid-col-3of12">
-                    <label for="fname">First Name</label>
-                    <input type="text" id="fname" class="text-field"></input>
-                  </div>
-
-                  <div class="grid-col-3of12 grid-padding-xs">
-                    <label for="lname">Last Name</label>
-                    <input type="text" id="lname" class="text-field"></input>
-                  </div>
-
-                  <div class="grid-col-1of12 grid-hidden">&nbsp;</div>
-
-                  <div class="grid-col-5of12">
-                    <label for="location">Location</label>
-                    <input type="text" id="location" class="text-field"></input>
-                  </div>
-
-                  <div class="grid-row"></div>
-
-                  <div class="grid-col-6of12">
-                    <input class="button-submit" type="submit">
-                    <input class="button-reset" type="reset">
-                  </div>
-
-                </form>
+                 <div id="thin-footer">
+                  Copyright &copy; 2016. JETPACKS Ltd. |
+                  <a href="https://github.com/bbeh/iat339-p02">Github</a> | <a href="style_guide.html">Style Guide</a> | <a href="citations.html">Citations</a>
+                </div>
               </div>
             </div>
-
           </section>
-
-
-
 
 
 
           <section>
             <!--  divider -->
             <hr class="blue-divider">
-            <h2>NAME</h2>
+            <h2>Product Category</h2>
+
+            <h3>Sample Code</h3>
+            <code>
+             &lt;div class="grid-row"&gt;<br />
+             &lt;div class="grid-col-4of12 text-center"&gt;<br />
+             &lt;a href="#water" class="no-deco"&gt;<br />
+             &lt;div class="mini-hero mini-hero-water"&gt;<br />
+             &lt;div class="mini-hero-text-wrapper"&gt;<br />
+             &lt;h2&gt;WATER&lt;/h2&gt;<br />
+             &lt;/div&gt;<br />
+             &lt;/div&gt;<br />
+             &lt;/a&gt;<br />
+             &lt;/div&gt;<br />
+             &lt;/div&gt;
+           </code>
+           <h3>Rendered element:</h3>
+           <div class="grid-row">
+            <div class="grid-col-4of12 text-center">
+              <a href="#water" class="no-deco">
+                <div class="mini-hero mini-hero-water">
+                  <div class="mini-hero-text-wrapper">
+                    <h2>WATER</h2>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <!--  divider -->
+          <hr class="blue-divider">
+          <h2>Product Listing (sale)</h2>
+
+          <h3>Sample code:</h3>
+          <code>
+            &lt;div class="grid-col-4of12"&gt;<br />
+            &lt;div class="product-listing text-center"&gt;<br />
+            &lt;a href="products-detailed.html"&gt;<br />
+            &lt;div class="product-image"&gt;<br />
+            &lt;img class="product-listing-image" src="img/products/water_alliance.png" alt="Water jetpack named Alliance"&gt;<br />
+            &lt;/div&gt;<br />
+            &lt;h2&gt;Alliance&lt;/h2&gt;<br />
+            <br />
+            &lt;h3 class="sale"&gt;$299.99&lt;/h3&gt;<br />
+            &lt;h3 class="strike small-price"&gt;$499.99&lt;/h3&gt;<br />
+            <br />
+            &lt;/a&gt;<br />
+            &lt;/div&gt;<br />
+            &lt;/div&gt;
+          </code>
+
+
+          <h3>Rendered element:</h3>
+          <div class="grid-row">
+            <div class="grid-col-4of12">
+              <div class="product-listing text-center">
+                <a href="products-detailed.html">
+                  <div class="product-image">
+                    <img class="product-listing-image" src="img/products/water_alliance.png" alt="Water jetpack named Alliance">
+                  </div>
+                  <h2>Alliance</h2>
+
+                  <h3 class="sale">$299.99</h3>
+                  <h3 class="strike small-price">$499.99</h3>
+
+                </a>
+              </div>
+            </div>
+          </div>                    
+        </section>
+        <section>
+          <!--  divider -->
+          <hr class="blue-divider">
+          <h2>Product Listing</h2>
+
+          <h3>Sample code:</h3>
+          <code>
+            &lt;div class="grid-col-4of12"&gt;<br />
+            &lt;div class="product-listing text-center"&gt;<br />
+            &lt;a href="products-detailed.html"&gt;<br />
+            &lt;div class="product-image"&gt;<br />
+            &lt;img class="product-listing-image" src="img/products/water_alliance.png" alt="Water jetpack named Alliance"&gt;<br />
+            &lt;/div&gt;<br />
+            &lt;h2&gt;Alliance&lt;/h2&gt;<br />
+            <br />
+            &lt;h3 class="sale"&gt;$299.99&lt;/h3&gt;<br />
+            &lt;h3 class="strike small-price"&gt;$499.99&lt;/h3&gt;<br />
+            <br />
+            &lt;/a&gt;<br />
+            &lt;/div&gt;<br />
+            &lt;/div&gt;
+          </code>
+
+
+          <h3>Rendered element:</h3>
+          <div class="grid-row">
+
+            <div class="grid-col-4of12">
+              <div class="product-listing text-center">
+                <a href="products-detailed.html">
+                  <div class="product-image">
+                    <img class="product-listing-image" src="img/products/space_royal_thrust.png" alt="Space jetpack named Royal Thrust">
+                  </div>
+                  <h2>Royal Thrust</h2>
+                  <h3>$449.99</h3>
+                </a>
+              </div>
+            </div>
+            
+
+            <div class="grid-col-4of12">
+              <div class="product-listing text-center">
+                <a href="products-detailed.html">
+                  <div class="product-image">
+                    <img class="product-listing-image" src="img/products/space_royal_thrust.png" alt="Space jetpack named Royal Thrust">
+                  </div>
+                  <h2>Royal Thrust</h2>
+                  <h3>$449.99</h3>
+                </a>
+              </div>
+            </div>
+
+            <div class="grid-col-4of12">
+              <div class="product-listing text-center">
+                <a href="products-detailed.html">
+                  <div class="product-image">
+                    <img class="product-listing-image" src="img/products/space_royal_thrust.png" alt="Space jetpack named Royal Thrust">
+                  </div>
+                  <h2>Royal Thrust</h2>
+                  <h3>$449.99</h3>
+                </a>
+              </div>
+            </div>
+          </div>                    
+        </section>
+
+
+        <section>
+          <!--  divider -->
+          <hr class="blue-divider">
+          <h2>Hero Banner 1</h2>
+
+          <h3>Sample code:</h3>
+          <code>
+           &lt;div class="grid-col-12of12"&gt;<br />
+           &lt;div class="hero-banner-1"&gt;<br />
+           &lt;div class="hero-img-wrapper"&gt;<br />
+           &lt;div class="img-hero"&gt;<br />
+           &lt;img src="img/her2.png" width="600" alt="3 People flying on Jetpacks"&gt;<br />
+           &lt;/div&gt;<br />
+           &lt;/div&gt;<br />
+           &lt;div class="hero-banner-1-text-wrapper"&gt;<br />
+           &lt;div class="hero-banner-1-text"&gt;<br />
+           &lt;h2&gt;Go Fast!&lt;/h2&gt;<br />
+           &lt;p&gt;Be the first in the pack with our all new hyper-space jetpacks.&lt;/p&gt;<br />
+           &lt;a href="products-jetpacks.html" class="btn-std"&gt;Get me Ahead&lt;/a&gt;<br />
+           &lt;/div&gt;<br />
+           &lt;/div&gt;<br />
+           &lt;/div&gt;
+         </code>
+         <h3>Rendered element:</h3>
+         <div class="grid-col-12of12">
+          <div class="hero-banner-1">
+           <div class="hero-img-wrapper">
+            <div class="img-hero">
+             <img src="img/her2.png" width="600" alt="3 People flying on Jetpacks">
+           </div>
+         </div>
+         <div class="hero-banner-1-text-wrapper">
+          <div class="hero-banner-1-text">
+           <h2>Go Fast!</h2>
+           <p>Be the first in the pack with our all new hyper-space jetpacks.</p>
+           <a href="products-jetpacks.html" class="btn-std">Get me Ahead</a>
+         </div>
+       </div>
+     </div>
+
+   </section>
+
+   <section>
+    <!--  divider -->
+    <hr class="blue-divider">
+    <h2>Hero banner 2</h2>
+
+    <h3>Sample code:</h3>
+    <code>
+      &lt;div class="grid-col-12of12"&gt;<br />
+      &lt;div class="hero-banner-2 hero-color-green"&gt;<br />
+      &lt;div class="hero2-img-wrapper"&gt;<br />
+      &lt;div class="img-hero"&gt;<br />
+      &lt;img src="img/headers/header_updates.png" width="400" alt="Classic Jetson Jetpack with a notification"&gt;<br />
+      <br />
+      &lt;/div&gt;<br />
+      &lt;/div&gt;<br />
+      &lt;div class="hero-blog-text-wrapper"&gt;<br />
+      &lt;div class="hero-blog-text"&gt;<br />
+      &lt;h2&gt;Substantially Newsworthy&lt;/h2&gt;<br />
+      &lt;p&gt;We love trying new things. Keep up to date with what's happening and get in the know.&lt;/p&gt;<br />
+      &lt;/div&gt;<br />
+      &lt;/div&gt;<br />
+      &lt;/div&gt;
+    </code>
+    <h3>Rendered element:</h3>
+    <div class="grid-col-12of12">
+      <div class="hero-banner-2 hero-color-green">
+        <div class="hero2-img-wrapper">
+          <div class="img-hero">
+            <img src="img/headers/header_updates.png" width="400" alt="Classic Jetson Jetpack with a notification">
+
+          </div>
+        </div>
+        <div class="hero-blog-text-wrapper">
+          <div class="hero-blog-text">
+            <h2>Substantially Newsworthy</h2>
+            <p>We love trying new things. Keep up to date with what's happening and get in the know.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <section>
+      <!--  divider -->
+      <hr class="blue-divider">
+      <h2>Blog Banner</h2>
+
+      <h3>Sample code:</h3>
+      <code>
+        &lt;div class="grid-col-12of12"&gt;<br />
+        &lt;div class="blog-banner hero-color-black"&gt;<br />
+        &lt;div class="blog-img-wrapper"&gt;<br />
+        &lt;div class="img-hero"&gt;<br />
+        &lt;img src="img/headers/header_updates_space_jetpacks.png" alt="Three of the new Space Jetpacks"&gt;<br />
+        &lt;/div&gt;<br />
+        &lt;/div&gt;<br />
+        &lt;/div&gt;
+      </code>
+      <h3>Rendered element:</h3>
+
+      <div class="grid-col-12of12">
+        <div class="blog-banner hero-color-black">
+          <div class="blog-img-wrapper">
+            <div class="img-hero">
+              <img src="img/headers/header_updates_space_jetpacks.png" alt="Three of the new Space Jetpacks">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <!--  divider -->
+        <hr class="blue-divider">
+        <h2>Hero Banner 3 of 4</h2>
+
+        <h3>Sample code:</h3>
+        <code>
+          &lt;div class="grid-col-12of12"&gt;<br />
+          &lt;div class="hero-banner-3of4"&gt;<br />
+          &lt;div class="hero2-img-wrapper"&gt;<br />
+          &lt;div class="img-hero"&gt;<br />
+          &lt;img src="img/her3.png" width="600" alt="View of Earth from space"&gt;<br />
+          &lt;/div&gt;<br />
+          &lt;/div&gt;<br />
+          &lt;div class="hero-banner-2-text-wrapper"&gt;<br />
+          &lt;div class="hero-banner-2-text"&gt;<br />
+          &lt;h2&gt;Select your Terrain&lt;/h2&gt;<br />
+          &lt;p&gt;Flying in zero-gravity is a lot different than flying on land. &lt;br/&gt;Don't hurt yourself.&lt;/p&gt;<br />
+          &lt;/div&gt;<br />
+          &lt;/div&gt;<br />
+          &lt;/div&gt;
+        </code>
+        <h3>Rendered element:</h3>
+        <div class="grid-col-12of12">
+          <div class="hero-banner-3of4">
+            <div class="hero2-img-wrapper">
+              <div class="img-hero">
+                <img src="img/her3.png" width="600" alt="View of Earth from space">
+              </div>
+            </div>
+            <div class="hero-banner-2-text-wrapper">
+              <div class="hero-banner-2-text">
+                <h2>Select your Terrain</h2>
+                <p>Flying in zero-gravity is a lot different than flying on land. <br/>Don't hurt yourself.</p>
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+        <section>
+          <!--  divider -->
+          <hr class="blue-divider">
+          <h2>Hero Banner 4</h2>
+
+          <h3>Sample code:</h3>
+          <code>
+            &lt;div class="grid-col-12of12 grid-center"&gt;<br />
+            &lt;div class="hero-banner-4"&gt;<br />
+            &lt;div class="hero4-img-wrapper"&gt;<br />
+            &lt;div class="img-hero"&gt;<br />
+            &lt;img src="img/water_hero.png" width="600px"&gt;<br />
+            &lt;/div&gt;<br />
+            &lt;/div&gt;<br />
+            &lt;div class="hero-banner-4-text-wrapper"&gt;<br />
+            &lt;div class="hero-banner-4-text"&gt;<br />
+            &lt;h2&gt;ALLIANCE&lt;/h2&gt;<br />
+            &lt;a class="series" href="products-jetpacks.html#water"&gt;Water Series&lt;/a&gt;<br />
+            &lt;p&gt;&lt;span class="big-price"&gt;$299.99&lt;/span&gt; &lt;span class="strike medium-price"&gt;$499.99&lt;/span&gt;&lt;/p&gt;<br />
+            &lt;p&gt;Travel in style over the ocean. The Alliance offers you versitality in both water and land travel. But don't get too excited because you could make someone really wet when you use this on land. Fly with caution!&lt;/p&gt;<br />
+            &lt;p&gt;&lt;/p&gt;<br />
+            &lt;a href="checkout.html" class="btn-std btn-water btn-buy"&gt;Buy This Now&lt;/a&gt;<br />
+            &lt;p class="helper-text"&gt;Typically ships in 1 to 3 business days.&lt;/p&gt;<br />
+            &lt;/div&gt;<br />
+            &lt;/div&gt;<br />
+            &lt;/div&gt;
+          </code>
+          <h3>Rendered element:</h3>
+
+          <div class="grid-col-12of12 grid-center">
+            <div class="hero-banner-4">
+              <div class="hero4-img-wrapper">
+                <div class="img-hero">
+                  <img src="img/water_hero.png" width="600px">
+                </div>
+              </div>
+              <div class="hero-banner-4-text-wrapper">
+                <div class="hero-banner-4-text">
+                  <h2>ALLIANCE</h2>
+                  <a class="series" href="products-jetpacks.html#water">Water Series</a>
+                  <p><span class="big-price">$299.99</span> <span class="strike medium-price">$499.99</span></p>
+                  <p>Travel in style over the ocean. The Alliance offers you versitality in both water and land travel. But don't get too excited because you could make someone really wet when you use this on land. Fly with caution!</p>
+                  <p></p>
+                  <a href="checkout.html" class="btn-std btn-water btn-buy">Buy This Now</a>
+                  <p class="helper-text">Typically ships in 1 to 3 business days.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <!--  divider -->
+            <hr class="blue-divider">
+            <h2>Jetpack Features</h2>
 
             <h3>Sample code:</h3>
             <code>
-              CODE
+              <br />
+              <br />
+              &lt;div class="grid-col-12of12"&gt;<br />
+              <br />
+              &lt;div class="grid-col-8of12 grid-center"&gt;<br />
+              <br />
+              &lt;h2 class="text-center"&gt;Standard Jetpack Features&lt;/h2&gt;<br />
+              &lt;p&gt;We don't compromise on safety. This is why all jetpacks no matter the price all come loaded with the newest and most innovative safety features.&lt;/p&gt;<br />
+              <br />
+              &lt;div class="grid-row"&gt;&lt;/div&gt;<br />
+              <br />
+              &lt;/div&gt;<br />
+              <br />
+              &lt;div class="grid-col-8of12 grid-center text-center"&gt;<br />
+              <br />
+              &lt;img src="img/products/breakdown_alliance_support.png" width=50% height=auto&gt;<br />
+              <br />
+              &lt;/div&gt;<br />
+              <br />
+              &lt;div class="grid-row"&gt;&lt;/div&gt;<br />
+              <br />
+              &lt;div class="grid-col-8of12 grid-center"&gt;<br />
+              <br />
+              &lt;div class="grid-col-5of12"&gt;<br />
+              &lt;h4&gt;False-Start Technology&lt;/h4&gt;<br />
+              &lt;p&gt;False-start prevents your Jetpack from accelerating until the back brace is securely fastened onto the pilot. Using innovative sensors and technology even a loose clip will prevent the Jetpack from thrusting into the air leaving you behind on the ground.&lt;/p&gt;<br />
+              &lt;/div&gt;<br />
+              <br />
+              &lt;div class="grid-col-2of12"&gt;<br />
+              &amp;nbsp;<br />
+              &lt;/div&gt;<br />
+              <br />
+              &lt;div class="grid-col-5of12"&gt;<br />
+              &lt;h4&gt;Safe and Secure Back Brace&lt;/h4&gt;<br />
+              &lt;p&gt;Patent Pending technology our Jetpacks features the most comfortable back brace available. Allowing you to accelerate with comfort and trust that the Jetpack won't take off without you. It also features &lt;em&gt;False-Start&lt;/em&gt; to keep you safe.&lt;/p&gt;<br />
+              &lt;/div&gt;<br />
+              <br />
+              &lt;/div&gt;
             </code>
             <h3>Rendered element:</h3>
+            
+            <div class="grid-col-12of12">
 
-          </section>
+              <div class="grid-col-8of12 grid-center">
+
+                <h2 class="text-center">Standard Jetpack Features</h2>
+                <p>We don't compromise on safety. This is why all jetpacks no matter the price all come loaded with the newest and most innovative safety features.</p>
+
+                <div class="grid-row"></div>
+
+              </div>
+
+              <div class="grid-col-8of12 grid-center text-center">
+
+                <img src="img/products/breakdown_alliance_support.png" width=50% height=auto>
+
+              </div>
+
+              <div class="grid-row"></div>
+
+              <div class="grid-col-8of12 grid-center">
+
+                <div class="grid-col-5of12">
+                  <h4>False-Start Technology</h4>
+                  <p>False-start prevents your Jetpack from accelerating until the back brace is securely fastened onto the pilot. Using innovative sensors and technology even a loose clip will prevent the Jetpack from thrusting into the air leaving you behind on the ground.</p>
+                </div>
+
+                <div class="grid-col-2of12">
+                  &nbsp;
+                </div>
+
+                <div class="grid-col-5of12">
+                  <h4>Safe and Secure Back Brace</h4>
+                  <p>Patent Pending technology our Jetpacks features the most comfortable back brace available. Allowing you to accelerate with comfort and trust that the Jetpack won't take off without you. It also features <em>False-Start</em> to keep you safe.</p>
+                </div>
+                
+              </div>
+            </section>
+
+            <section>
+              <!--  divider -->
+              <hr class="blue-divider">
+              <h2>Thruster Features</h2>
+
+              <h3>Sample code:</h3>
+              <code>
+                &lt;div class="grid-col-12of12"&gt;<br />
+                &lt;div class="feature-full grid-relative"&gt;<br />
+                &lt;div class="grid-col-5of12 text-center"&gt;<br />
+                &lt;img src="img/products/breakdown_alliance_thrusters.png" width=90% height=auto&gt;<br />
+                &lt;/div&gt;<br />
+                <br />
+                &lt;div class="grid-col-6of12"&gt;<br />
+                &lt;div class="grid-vc-4of12"&gt;<br />
+                &lt;h2&gt;Turbo-charged Thrusters&lt;/h2&gt;<br />
+                &lt;p&gt;Packing over 700 HP these thrusters will ensure you have full control even in the toughest windstorms*. Our turbo-charged thrusters also utilize clean burning diesel fuel to keep the atmosphere happy while you're zooming around.&lt;/p&gt;<br />
+                <br />
+                &lt;p class="helper-text"&gt;*For your safety we do not recommend operating a Jetpack in winds exceeding 100 km/H.&lt;/p&gt;<br />
+                &lt;/div&gt;<br />
+                &lt;/div&gt;<br />
+                <br />
+                &lt;/div&gt;<br />
+                &lt;/div&gt;
+              </code>
+              <h3>Rendered element:</h3>
+              
+              <div class="grid-row"></div>
+
+              <div class="grid-col-12of12">
+                <div class="feature-full grid-relative">
+                  <div class="grid-col-5of12 text-center">
+                    <img src="img/products/breakdown_alliance_thrusters.png" width=90% height=auto>
+                  </div>
+
+                  <div class="grid-col-6of12">
+                    <div class="grid-vc-4of12">
+                      <h2>Turbo-charged Thrusters</h2>
+                      <p>Packing over 700 HP these thrusters will ensure you have full control even in the toughest windstorms*. Our turbo-charged thrusters also utilize clean burning diesel fuel to keep the atmosphere happy while you're zooming around.</p>
+
+                      <p class="helper-text">*For your safety we do not recommend operating a Jetpack in winds exceeding 100 km/H.</p>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </section>
+
+            <section>
+              <!--  divider -->
+              <hr class="blue-divider">
+              <h2>Product Rating</h2>
+
+              <h3>Sample code:</h3>
+              <code>
+
+                &lt;div class="grid-col-12of12"&gt;<br />
+                &lt;div class="reviews-full grid-relative"&gt;<br />
+                &lt;div class="grid-col-8of12 grid-center"&gt;<br />
+                &lt;h2 class="text-center"&gt;Reviews&lt;/h2&gt;<br />
+                <br />
+                &lt;p class="text-center"&gt;<br />
+                &lt;img src="img/fourhalf_of_5_stars.png"&gt;&lt;br&gt;<br />
+                Average 4.5 out of 5 stars<br />
+                &lt;/p&gt;<br />
+                &lt;/div&gt;<br />
+                &lt;/div&gt;<br />
+                &lt;/div&gt;
+              </code>
+              <h3>Rendered element:</h3>
+              <div class="grid-row"></div>
+
+              <div class="grid-col-12of12">
+                <div class="reviews-full grid-relative">
+                  <div class="grid-col-8of12 grid-center">
+                    <h2 class="text-center">Reviews</h2>
+
+                    <p class="text-center">
+                      <img src="img/fourhalf_of_5_stars.png"><br>
+                      Average 4.5 out of 5 stars
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+            </section>
+            <section>
+              <!--  divider -->
+              <hr class="blue-divider">
+              <h2>Product Reviews</h2>
+
+              <h3>Sample code:</h3>
+              <code>
+                &lt;div class="review-content"&gt;<br />
+                &lt;h3 class="review-title"&gt;You can feel the power&lt;/h3&gt;<br />
+                &lt;h4 class="review-author"&gt;By: Amanda Poh (Coquitlam, BC)&lt;/h4&gt;<br />
+                &lt;div class="star-rating"&gt;<br />
+                &lt;img src="img/fourhalf_of_5_stars.png" width=10% height=auto&gt;<br />
+                &lt;/div&gt;<br />
+                &lt;p&gt;This is one of the best Jetpacks I've ever flown on. Nevermind the fact that it can fly on both water and land, the power at which the thursters operate scare all the people flying around me. No one dares come close to my air-space now thanks to the Alliance Jetpack. Did I mention how powerful it is? I can fly across the atlantic in just under 45 minutes. It was so fast I could barely see where I was going half the time. So glad it has the new auto guidance wings on it. If you want thrill, this is the Jetpack for you!&lt;/p&gt;<br />
+                &lt;/div&gt;
+              </code>
+              <h3>Rendered element:</h3>
+              <div class="grid-row">
+                <div class="review-content">
+                  <h3 class="review-title">You can feel the power</h3>
+                  <h4 class="review-author">By: Amanda Poh (Coquitlam, BC)</h4>
+                  <div class="star-rating">
+                    <img src="img/fourhalf_of_5_stars.png" width=10% height=auto>
+                  </div>
+                  <p>This is one of the best Jetpacks I've ever flown on. Nevermind the fact that it can fly on both water and land, the power at which the thursters operate scare all the people flying around me. No one dares come close to my air-space now thanks to the Alliance Jetpack. Did I mention how powerful it is? I can fly across the atlantic in just under 45 minutes. It was so fast I could barely see where I was going half the time. So glad it has the new auto guidance wings on it. If you want thrill, this is the Jetpack for you!</p>
+                </div>
+              </div>
+            </section>
+
+
+            <section>
+              <!--  divider -->
+              <hr class="blue-divider">
+              <h2>Add Review</h2>
+
+              <h3>Sample code:</h3>
+              <code>
+                &lt;div id="add-review"&gt;<br />
+                &lt;div class="review-content"&gt;<br />
+                &lt;form&gt;<br />
+                <br />
+                &lt;h3 class="title"&gt;Review the Product&lt;/h3&gt;<br />
+                <br />
+                &lt;p&gt;<br />
+                &lt;label&gt;Give it a star rating&lt;/label&gt;<br />
+                <br />
+                &lt;input type="radio" name="star" id="1" value="1" class="star-radio"&gt;<br />
+                &lt;label class="inline" for="1"&gt; 1 &lt;img class="img-stars" src="img/one_star.png"&gt;&lt;/label&gt;<br />
+                &lt;/input&gt;<br />
+                <br />
+                &lt;input type="radio" name="star" id="2" value="2" class="star-radio"&gt;<br />
+                &lt;label class="inline" for="2"&gt; 2 &lt;img class="img-stars" src="img/two_stars.png"&gt;&lt;/label&gt;<br />
+                &lt;/input&gt;<br />
+                <br />
+                &lt;input type="radio" name="star" id="3" value="3" class="star-radio"&gt;<br />
+                &lt;label class="inline" for="3"&gt; 3 &lt;img class="img-stars" src="img/three_stars.png"&gt;&lt;/label&gt;<br />
+                &lt;/input&gt;<br />
+                <br />
+                &lt;input type="radio" name="star" id="4" value="4" class="star-radio"&gt;<br />
+                &lt;label class="inline" for="4"&gt; 4 &lt;img class="img-stars" src="img/four_stars.png"&gt;&lt;/label&gt;<br />
+                &lt;/input&gt;<br />
+                <br />
+                &lt;input type="radio" name="star" id="5" value="5" class="star-radio"&gt;<br />
+                &lt;label class="inline" for="5"&gt; 5 &lt;img class="img-stars" src="img/five_stars.png"&gt;&lt;/label&gt;<br />
+                &lt;/input&gt;<br />
+                <br />
+                &lt;/p&gt;<br />
+                <br />
+                &lt;label for="title"&gt;Title (One liner on what makes this product so great?)&lt;/label&gt;<br />
+                &lt;input type="text" id="title" class="text-field"&gt;&lt;/input&gt;<br />
+                <br />
+                &lt;label for="review-desc"&gt;Description (Talk about what you llike or dislike in detail)&lt;/label&gt;<br />
+                &lt;textarea id="review-desc" class="text-field"&gt;&lt;/textarea&gt;<br />
+                <br />
+                &lt;h3 class="title"&gt;Your Information&lt;/h3&gt;<br />
+                <br />
+                &lt;div class="grid-col-3of12"&gt;<br />
+                &lt;label for="fname"&gt;First Name&lt;/label&gt;<br />
+                &lt;input type="text" id="fname" class="text-field"&gt;&lt;/input&gt;<br />
+                &lt;/div&gt;<br />
+                <br />
+                &lt;div class="grid-col-3of12 grid-padding-xs"&gt;<br />
+                &lt;label for="lname"&gt;Last Name&lt;/label&gt;<br />
+                &lt;input type="text" id="lname" class="text-field"&gt;&lt;/input&gt;<br />
+                &lt;/div&gt;<br />
+                <br />
+                &lt;div class="grid-col-1of12 grid-hidden"&gt;&amp;nbsp;&lt;/div&gt;<br />
+                <br />
+                &lt;div class="grid-col-5of12"&gt;<br />
+                &lt;label for="location"&gt;Location&lt;/label&gt;<br />
+                &lt;input type="text" id="location" class="text-field"&gt;&lt;/input&gt;<br />
+                &lt;/div&gt;<br />
+                <br />
+                &lt;div class="grid-row"&gt;&lt;/div&gt;<br />
+                <br />
+                &lt;div class="grid-col-6of12"&gt;<br />
+                &lt;input class="button-submit" type="submit"&gt;<br />
+                &lt;input class="button-reset" type="reset"&gt;<br />
+                &lt;/div&gt;<br />
+                <br />
+                &lt;/form&gt;<br />
+                &lt;/div&gt;<br />
+                &lt;/div&gt;
+              </code>
+              <h3>Rendered element:</h3>
+
+              <div id="add-review">
+                <div class="review-content">
+                  <form>
+
+                    <h3 class="title">Review the Product</h3>
+
+                    <p>
+                      <label>Give it a star rating</label>
+
+                      <input type="radio" name="star" id="1" value="1" class="star-radio">
+                      <label class="inline" for="1"> 1 <img class="img-stars" src="img/one_star.png"></label>
+                    </input>
+
+                    <input type="radio" name="star" id="2" value="2" class="star-radio">
+                    <label class="inline" for="2"> 2 <img class="img-stars" src="img/two_stars.png"></label>
+                  </input>
+
+                  <input type="radio" name="star" id="3" value="3" class="star-radio">
+                  <label class="inline" for="3"> 3 <img class="img-stars" src="img/three_stars.png"></label>
+                </input>
+
+                <input type="radio" name="star" id="4" value="4" class="star-radio">
+                <label class="inline" for="4"> 4 <img class="img-stars" src="img/four_stars.png"></label>
+              </input>
+
+              <input type="radio" name="star" id="5" value="5" class="star-radio">
+              <label class="inline" for="5"> 5 <img class="img-stars" src="img/five_stars.png"></label>
+            </input>
+
+          </p>
+
+          <label for="title">Title (One liner on what makes this product so great?)</label>
+          <input type="text" id="title" class="text-field"></input>
+
+          <label for="review-desc">Description (Talk about what you llike or dislike in detail)</label>
+          <textarea id="review-desc" class="text-field"></textarea>
+
+          <h3 class="title">Your Information</h3>
+
+          <div class="grid-col-3of12">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" class="text-field"></input>
+          </div>
+
+          <div class="grid-col-3of12 grid-padding-xs">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" class="text-field"></input>
+          </div>
+
+          <div class="grid-col-1of12 grid-hidden">&nbsp;</div>
+
+          <div class="grid-col-5of12">
+            <label for="location">Location</label>
+            <input type="text" id="location" class="text-field"></input>
+          </div>
+
+          <div class="grid-row"></div>
+
+          <div class="grid-col-6of12">
+            <input class="button-submit" type="submit">
+            <input class="button-reset" type="reset">
+          </div>
+
+        </form>
+      </div>
+    </div>
+
+  </section>
 
 
 
-          <section>
-            <h2>Grid Structure</h2>
-
-            <h3>Landing Page</h3>
-
-            <img src="img/grid_structure.png" alt="Grid Structure">
 
 
-            <h3>Rendered element:</h3>
-          </section>
+
+  <section>
+    <!--  divider -->
+    <hr class="blue-divider">
+    <h2>NAME</h2>
+
+    <h3>Sample code:</h3>
+    <code>
+      INSERT
+    </code>
+    <h3>Rendered element:</h3>
+    INSERT
+  </section>
 
 
-        </section>
-        <!-- // COMBINED ELEMENTS SECTION -->
+
+  <section>
+    <h2>Grid Structure</h2>
+
+    <h3>Landing Page</h3>
+
+    <img src="img/grid_structure.png" alt="Grid Structure">
+
+
+    <h3>Rendered element:</h3>
+  </section>
+
+
+</section>
+<!-- // COMBINED ELEMENTS SECTION -->
 
 
 
 </div>
 </div>
-      </body>
-      </html>
+</body>
+</html>
