@@ -180,7 +180,7 @@
   .button-navbar:hover, .button-nav:focus, .nav-current {
     background: none;
     color: #FFEBD4;
-
+    border-bottom: 3px solid;
   }
 
   .call-out {
@@ -684,7 +684,7 @@
     padding: 0.55em 1em;
     margin: 0.5em;
     font-family: 'Open Sans';
-    font-size: 0.5em;
+    font-size: 0.85em;
     text-decoration: none;
     border-radius: 3px;
     border-style: solid;
@@ -698,8 +698,10 @@
   }
 
   .btn-shop:hover, .btn-shop:focus {
-    background-color: #BA6604;
-    color: #fff;
+    background-color: #fff;
+    color: rgba(0,0,0,0.75);
+    -webkit-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
   }
 
 
@@ -996,7 +998,8 @@
 
   .mini-hero img {
     width: 70%;
-    max-width: 440px;
+    min-width: 340px;
+    max-width: 370px;
     top: 40px;
     left: 25px;
     position: relative;
@@ -1012,7 +1015,12 @@
 
 
   .mini-hero-text-wrapper {
-    margin-top: -2em;
+    margin-top: 4em;
+  }
+
+  .hp-mini-hero-text-wrapper {
+    position: relative;
+    top: -50px;
   }
 
   .mini-hero-text-wrapper h2 {
