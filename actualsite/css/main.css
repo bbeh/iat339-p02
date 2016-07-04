@@ -766,6 +766,10 @@
   display: none;
 }
 
+#addmore-button {
+  display: none;
+}
+
   .product-listing {
     margin: 1em auto;
     overflow: hidden;
@@ -1256,11 +1260,27 @@
 
   .location-input {
     float: left;
+    display: block;
   }
 
   .location-content {
     margin: 0.5em;
     float: left;
+    display: block;
+  }
+
+  .span-h4 {
+    font-family: 'Conv_KlinicSlabMedium';
+    font-size: 1.25em;
+    margin: 0.25rem 0 0.55rem 0;
+    color: #333;
+    display: block;
+  }
+
+  .span-p {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
   }
 
   .shipping-content {

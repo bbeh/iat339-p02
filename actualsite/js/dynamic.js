@@ -1,5 +1,14 @@
 $(document).ready(
+		function() {
+			var nojava = document.getElementById('no-java');
+			nojava.style.display="none";
 
+			document.getElementById('avail-notif').style.display="block";
+
+	});
+
+
+$(document).ready(
 
 
 	function() {
@@ -11,6 +20,12 @@ $(document).ready(
 				var kimauttison = document.getElementById('kim-auttison');
 				var ccc = document.getElementById('ccc');
 				var petropolis = document.getElementById('petropolis');
+				var notif = document.getElementById('avail-notif');
+
+				notif.style.display="none";
+				
+
+
 				
 				if (map == 'surrey') {
 					kimauttison.style.display="block";
