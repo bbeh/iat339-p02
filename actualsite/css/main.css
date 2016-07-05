@@ -189,6 +189,7 @@
 
   .call-out {
     border: 2px solid #F95738;
+    border-radius: 3px;
   }
 
   .call-out-title {
@@ -670,6 +671,7 @@
     padding: 2em;
     text-align: center;
     margin-bottom: 3em;
+    border-radius: 3px;
   }
  
   .coupon-code h2{
@@ -712,6 +714,7 @@
     transition: background 0.25s ease-in-out;
     text-align: center;
     float: right;
+    border-radius: 3px;
   }
 
   .btn-next:hover, .btn-next:focus {
@@ -730,6 +733,7 @@
     transition: background 0.25s ease-in-out;
     text-align: center;
     float: left;
+    border-radius: 3px;
   }
 
   .btn-previous:hover, .btn-previous:focus {
@@ -775,13 +779,13 @@
 
   .crew-post{
     margin-top: 2em;
-    border: solid 1px #999999;
+/*    border: solid 1px #999999;*/
     border-radius: 3px;
     margin-bottom: 3em;
     overflow: hidden;
-    /*
+    
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    transition: all 0.3s cubic-bezier(.25,.8,.25,1);*/
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
   }
 
   .crew-text-card{
@@ -795,12 +799,14 @@
 
   .crew-title h2{
     text-align: left;
-    padding: 0.25em 0;
+    padding: 1.25em 0 0.5em 0;
   }
 
   .crew-image{
     display: block;
     background-color: rgba(247,147,30,1);
+    padding-bottom: 100%;
+    margin-bottom: -100%;
   }
 
   .crew-image img {
@@ -888,6 +894,7 @@
     background-repeat: no-repeat;
     padding: 0.5em;
     margin: 1em;
+    border-radius: 3px;
   }
 
 
@@ -1056,6 +1063,7 @@
     width: 90%;
     height: 10em;
     position: relative;
+    border-radius: 3px;
   }
 
   .mini-hero img {
@@ -1206,6 +1214,7 @@
     background: none;
     text-transform: uppercase;
     font-weight: 600;
+    border-radius: 3px;
   }
 
   .btn-std:hover, .btn-std:focus, .btn-std-current {
@@ -1239,6 +1248,7 @@
     background: none;
     text-transform: uppercase;
     font-weight: 600;
+    border-radius: 3px;
   }
 
   .btn-std-alt:hover, .btn-std-alt:focus, .btn-std-alt-current {
@@ -1261,7 +1271,7 @@
     color: #FFF;
     font-size: 0.85em;
     background-color: #F7931E;
-    border-radius: 0;
+    border-radius: 3px;
     border: 0px;
     text-decoration: none;
     -webkit-transition: background 0.25s ease-in-out;
@@ -1283,7 +1293,7 @@
     color: #FFF;
     font-size: 0.85em;
     background-color: #999999;
-    border-radius: 0;
+    border-radius: 3px;
     border: 0px;
     text-decoration: none;
     -webkit-transition: background 0.25s ease-in-out;
@@ -1306,6 +1316,7 @@
     border-width: 0.1rem;
     width: 100%;
     margin-right: 1em;
+    border-radius: 3px;
 
   }
 
@@ -1319,6 +1330,7 @@
     border-width: 0.1rem;
     width: 80%;
     margin-right: 1em;
+    border-radius: 3px;
   }
 
   .text-field-xs {
@@ -1331,6 +1343,7 @@
     border-width: 0.1rem;
     width: 30%;
     margin-right: 1em;
+    border-radius: 3px;
   }
 
 
@@ -1340,6 +1353,7 @@
     min-height: 100px;
     width: 100%;
     margin-bottom: 1em;
+    border-radius: 3px;
   }
 
   .location:hover {
@@ -1495,6 +1509,7 @@
     -webkit-transition: background 0.25s ease-in-out;
     transition: background 0.25s ease-in-out;
     text-align: center;
+    border-radius: 3px;
   }
 
   .btn-checkout:hover, .btn-checkout:focus {
@@ -1512,6 +1527,7 @@
     -webkit-transition: background 0.25s ease-in-out;
     transition: background 0.25s ease-in-out;
     text-align: center;
+    border-radius: 3px;
   }
 
   .btn-cancel:hover, .btn-cancel:focus {
@@ -1573,7 +1589,7 @@
     color: #FFF;
     font-size: 0.85em;
     background-color: #F7931E;
-    border-radius: 0;
+    border-radius: 3px;
     border: 0px;
     text-decoration: none;
     -webkit-transition: background 0.25s ease-in-out;
@@ -1613,6 +1629,11 @@
       position: initial;
       width: initial;
     }
+
+    .crew-image{
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
 
   }
 
