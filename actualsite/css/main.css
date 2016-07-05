@@ -554,7 +554,11 @@
 
   .blog-date{
     padding: 0 1em 0 1em;
-    display: inline-block;
+    display: block;
+  }
+
+  .blog-post h3 {
+    margin-top: 0.75rem;
   }
 
   .blog-date p{
@@ -585,6 +589,12 @@
   .sidebar li {
     list-style-image: url(../img/bullet_arrow.gif);
     margin: 0.5em 0 0.5em 0;
+  }
+
+  .simple-link {
+    text-decoration: none;
+    color: #000;
+    border-bottom: 1px dotted #999;
   }
 
   .sidebar h4 {
@@ -1596,6 +1606,16 @@
     }
 
   }
+
+  @media (max-width: 50em) {
+
+    .sidebar {
+      position: initial;
+      width: initial;
+    }
+
+  }
+
 
 
 
