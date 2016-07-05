@@ -102,6 +102,10 @@
     font-size: 0.85em;
   }
 
+  strong {
+    border-bottom: 1px solid #999;
+  }
+
 
 
   .hidden {
@@ -1551,7 +1555,11 @@
   }
 
   .green-checkbox {
+    margin-top: 3em !important;
+  }
 
+  .order-info {
+    margin-bottom: 3em;
   }
 
   .no-deco {
@@ -1563,6 +1571,9 @@
 
   }
 
+  .img-10 {
+    width: 10%;
+  }
   .img-50 {
     width: 50%;
   }
@@ -1635,6 +1646,11 @@
     margin-bottom: 0;
   }
 
+    .cart-button-wrapper {
+    margin-right: -1.5em;
+    margin-left: -0.5em;
+  }
+
   }
 
 
@@ -1650,6 +1666,7 @@
       padding-bottom: 2em;
       -webkit-transition: all 0.5s ease-in-out;
       transition: all 0.5s ease-in-out;
+      border-radius: 3px;
     }
       .hero-banner-2-text {
       margin: 2em auto;
@@ -1658,6 +1675,7 @@
       padding-top: 2em;
       -webkit-transition: all 0.5s ease-in-out;
       transition: all 0.5s ease-in-out;
+      border-radius: 3px;
     }
 
       .hero-blog-text {
@@ -1667,7 +1685,29 @@
       padding-top: 2em;
       -webkit-transition: all 0.5s ease-in-out;
       transition: all 0.5s ease-in-out;
+      border-radius: 3px;
     }
+
+    .hero-banner-4-text {
+    margin: 1em auto;
+    color: #E3F2FA;
+    width: 100%;
+    position: absolute;
+    left: -120px;
+    top: -20px;
+    padding: 2em 2em 1em 2em;
+    background: rgba(0,0,0,0.65);
+    padding-top: 2em;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    border-radius: 3px;
+  }
+
+  a.series {
+    color: #0088E3;
+  }
+
+
 
   }
 

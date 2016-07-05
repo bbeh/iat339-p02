@@ -65,6 +65,11 @@
 	width: 100%;
 }
 
+.grid-col-5xs {
+	float: right;
+	width: 100%;
+}
+
 .grid-col-2xs, .grid-col-1xs {
 	width: 100%;
 }
@@ -115,6 +120,10 @@
 		width: 25%;
 	}
 
+	.grid-col-5xs {
+		width: 41.66%;
+	}
+
 }
 
 /*
@@ -152,6 +161,10 @@
 	}
 
 	.grid-col-3xs {
+		float: left;
+}
+
+	.grid-col-5xs {
 		float: left;
 }
 
