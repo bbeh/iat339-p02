@@ -218,6 +218,10 @@
 	padding: 0 0 0 5em;
 	}
 
+	.grid-col-pt25of10 {
+		width: 2.5%;
+	}
+
 	.grid-col-pt5of10 {
 		width: 5%;
 	}
@@ -230,8 +234,16 @@
 		width: 20%;
 	}
 
+	.grid-col-2pt5of10 {
+		width: 25%;
+	}
+
 	.grid-col-3of10 {
 		width: 30%;
+	}
+
+	.grid-col-3pt5of10 {
+		width: 35%;
 	}
 
 	.grid-col-4of10 {
