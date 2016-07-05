@@ -47,17 +47,68 @@
           <!--  divider -->
           <hr class="blue-divider">
 
-          <h2>Navigation Button</h2>
+          <h2>Banner Button</h2>
 
           <h3>CSS selector:</h3>
-          <p>.button-nav</p>
+          <p>.btn-std</p>
 
           <h3>Sample code:</h3>
-          <code>&lt;a href="#" class="button-nav"&gt;Contact Us&lt;/a&gt;</code>
+          <code>
+           &lt;a href="products-jetpacks.html" class="btn-std"&gt;Get me Ahead&lt;/a&gt;</code>
+
+           <h3>Rendered element:</h3>
+           <a href="products-jetpacks.html" class="btn-std">Get me Ahead</a>
+         </section>
+
+         <section>
+          <!--  divider -->
+          <hr class="blue-divider">
+
+          <h2>Read More Button</h2>
+
+          <h3>CSS selector:</h3>
+          <p>.btn-readmore</p>
+
+          <h3>Sample code:</h3>
+          <code>
+           &lt;a href="#" class="btn-readmore"&gt;Read More&lt;/a&gt;  </code>
+
+           <h3>Rendered element:</h3>
+           <a href="#" class="btn-readmore">Read More</a>  
+         </section>
+
+         <section>
+          <!--  divider -->
+          <hr class="blue-divider">
+
+          <h2>Mini Banner Shop Button</h2>
+
+          <h3>CSS selector:</h3>
+          <p>.btn-shop</p>
+
+          <h3>Sample code:</h3>
+          <code> &lt;a href="products-jetpacks.html" class="btn-shop"&gt;Shop Now&lt;/a&gt;</code>
 
           <h3>Rendered element:</h3>
-          <a class="button-nav" href="#">Contact Us</a>
+          <a href="products-jetpacks.html" class="btn-shop">Shop Now</a>
+        </section>
 
+        <section>
+          <!--  divider -->
+          <hr class="blue-divider">
+
+          <h2>Checkout Button</h2>
+
+          <h3>CSS selector:</h3>
+          <p>.btn-checkout</p>
+
+          <h3>Sample code:</h3>
+          <code>
+            &lt;a href="#" class="btn-checkout"&gt;Next Step: Billing&lt;/a&gt;
+          </code>
+
+          <h3>Rendered element:</h3>
+          <a href="#" class="btn-checkout">Next Step: Billing</a>
         </section>
 
         <section>
@@ -66,13 +117,13 @@
           <h2>In-text link</h2>
 
           <h3>CSS Selector:</h3>
-          <p>.intext-link</p>
+          <p>.simple-link</p>
 
           <h3>Sample code:</h3>
-          <code>&lt;a href="#" class="intext-link"&gt;Sample Link&lt;/a&gt;</code>
+          <code>&lt;a href="#" class="simple-link"&gt;Sample Link&lt;/a&gt;</code>
 
           <h3>Rendered element:</h3>
-          <a class="intext-link" href="#">Sample Link</a>
+          <a class="simple-link" href="#">Sample Link</a>
         </section>
 
         <section>
@@ -99,16 +150,18 @@
           <h2>Text Input Field</h2>
 
           <h3>CSS selector:</h3>
-          <p>.sample-label</p>
+          <p>label</p>
           <p>.text-field</p>
 
           <h3>Sample code:</h3>
-          <code>&lt;label class="sample-label" &gt;Sample Label&lt;/label&gt;</code>
-          <code>&lt;input class="text-field" type="text"&gt;</code>
+          <code>&lt;label for="first"&gt;First Name&lt;/label&gt;
+          </code>
+          <code>&lt;input type="text" name="first" id="first" class="text-field"&gt;</code>
 
           <h3>Rendered element:</h3>
-          <label for="sampleinput" class="sample-label">Sample Label</label>
-          <input id="sampleinput" type="text" class="text-field" placeholder="This is an input text field">
+          <label for="first">First Name</label>
+          <input type="text" name="first" id="first" class="text-field">
+
         </section>
 
       </section>
@@ -127,440 +180,469 @@
           <h2>Headings</h2>
 
           <h3>CSS selector:</h3>
-          <p>.heading-one</p>
-          <p>.heading-two</p>
-          <p>.heading-three</p>
+          <p>h1</p>
+          <p>h2</p>
+          <p>h3</p>
 
           <h3>Sample code:</h3>
-          <code>&lt;h1 class="heading-one"&gt;Heading One&lt;/h1&gt;</code>
-          <code>&lt;h2 class="heading-two"&gt;Heading Two&lt;/h2&gt;</code>
-          <code>&lt;h3 class="heading-three"&gt;Heading Three&lt;/h3&gt;</code>
-
-          <h3>Rendered element:</h3>
-          <h1 class="heading-one">Heading One</h1>
-          <h2 class="heading-two">Heading Two</h2>
-          <h3 class="heading-three">Heading Three</h3>
-
-
-        </section>
-
-        <section>
-          <!--  divider -->
-          <hr class="blue-divider">
-          <h2>Paragraphs</h2>
-
-          <h3>CSS selector:</h3>
-          <p>.body-text</p>
-
-          <h3>Sample code:</h3>
-          <code>&lt;p class="body-text"&gt;
-            Sample Body Text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae convallis elit. Donec tempus purus ac quam ullamcorper pellentesque. Ut at tincidunt eros. Fusce tristique porta orci, eu sagittis tortor fringilla non. Suspendisse rutrum lobortis neque. Etiam cursus tempus metus, at sollicitudin lorem auctor in. Aliquam ultricies nec elit et blandit. Aliquam aliquet malesuada metus in bibendum. Donec mollis sagittis odio, ac varius mauris laoreet eget. Nunc tincidunt, tellus nec scelerisque fermentum, enim sem fringilla est, bibendum egestas libero enim in elit. Maecenas ut eleifend nunc. Aliquam tristique malesuada pulvinar. Nunc eget ligula condimentum, lobortis mi ac, malesuada nibh.
-            &lt;/p&gt;</code>
+          <code>
+            &lt;h1&gt;Heading One&lt;/h1&gt;<br />
+            &lt;h2&gt;Heading Two&lt;/h2&gt;<br />
+            &lt;h3&gt;Heading Three&lt;/h3&gt;</code>
 
             <h3>Rendered element:</h3>
-            <p class="body-text">Sample Body Text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae convallis elit. Donec tempus purus ac quam ullamcorper pellentesque. Ut at tincidunt eros. Fusce tristique porta orci, eu sagittis tortor fringilla non. Suspendisse rutrum lobortis neque. Etiam cursus tempus metus, at sollicitudin lorem auctor in. Aliquam ultricies nec elit et blandit. Aliquam aliquet malesuada metus in bibendum. Donec mollis sagittis odio, ac varius mauris laoreet eget. Nunc tincidunt, tellus nec scelerisque fermentum, enim sem fringilla est, bibendum egestas libero enim in elit. Maecenas ut eleifend nunc. Aliquam tristique malesuada pulvinar. Nunc eget ligula condimentum, lobortis mi ac, malesuada nibh.</p>
+            <h1>Heading One</h1>
+            <h2>Heading Two</h2>
+            <h3>Heading Three</h3>
+
+
           </section>
 
           <section>
             <!--  divider -->
             <hr class="blue-divider">
-            <h2>Bulleted Lists</h2>
+            <h2>Paragraphs</h2>
 
             <h3>CSS selector:</h3>
-            <p>.bullet-list</p>
+            <p>p</p>
 
             <h3>Sample code:</h3>
-            <code>&lt;ul class="bullet-list"&gt;
-              &lt;li&gt;Item One&lt;/li&gt;
-              &lt;li&gt;Item Two&lt;/li&gt;
-              &lt;li&gt;Item Three&lt;/li&gt;
-
-
-              &lt;/ul&gt;</code>
+            <code>&lt;p&gt;
+              Sample Body Text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae convallis elit. Donec tempus purus ac quam ullamcorper pellentesque. Ut at tincidunt eros. Fusce tristique porta orci, eu sagittis tortor fringilla non. Suspendisse rutrum lobortis neque. Etiam cursus tempus metus, at sollicitudin lorem auctor in. Aliquam ultricies nec elit et blandit. Aliquam aliquet malesuada metus in bibendum. Donec mollis sagittis odio, ac varius mauris laoreet eget. Nunc tincidunt, tellus nec scelerisque fermentum, enim sem fringilla est, bibendum egestas libero enim in elit. Maecenas ut eleifend nunc. Aliquam tristique malesuada pulvinar. Nunc eget ligula condimentum, lobortis mi ac, malesuada nibh.
+              &lt;/p&gt;</code>
 
               <h3>Rendered element:</h3>
-              <ul class="bullet-list">
-                <li>Item One</li>
-                <li>Item Two</li>
-                <li>Item Three</li>
-              </ul>
-
+              <p>Sample Body Text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae convallis elit. Donec tempus purus ac quam ullamcorper pellentesque. Ut at tincidunt eros. Fusce tristique porta orci, eu sagittis tortor fringilla non. Suspendisse rutrum lobortis neque. Etiam cursus tempus metus, at sollicitudin lorem auctor in. Aliquam ultricies nec elit et blandit. Aliquam aliquet malesuada metus in bibendum. Donec mollis sagittis odio, ac varius mauris laoreet eget. Nunc tincidunt, tellus nec scelerisque fermentum, enim sem fringilla est, bibendum egestas libero enim in elit. Maecenas ut eleifend nunc. Aliquam tristique malesuada pulvinar. Nunc eget ligula condimentum, lobortis mi ac, malesuada nibh.</p>
             </section>
 
             <section>
               <!--  divider -->
               <hr class="blue-divider">
-              <h2>Numbered Lists</h2>
+              <h2>Bulleted Lists</h2>
 
               <h3>CSS selector:</h3>
-              <p>.number-list</p>
+              <p>.sidebar li</p>
 
               <h3>Sample code:</h3>
-              <code>&lt;ol class="number-list"&gt;
+              <code>&lt;ul class="bullet-list"&gt;
                 &lt;li&gt;Item One&lt;/li&gt;
                 &lt;li&gt;Item Two&lt;/li&gt;
                 &lt;li&gt;Item Three&lt;/li&gt;
 
 
-                &lt;/ol&gt;</code>
+                &lt;/ul&gt;</code>
 
                 <h3>Rendered element:</h3>
-                <ol class="number-list">
+                <ul class="bullet-list">
                   <li>Item One</li>
                   <li>Item Two</li>
                   <li>Item Three</li>
-                </ol>
+                </ul>
 
               </section>
-
-            </section>
-            <!-- // TEXT ELEMENTS SECTION -->
-
-
-
-            <!-- COMBINED ELEMENTS SECTION // -->
-            <section id="combined_elements">
-              <h2>Combined Elements</h2>
-
+<!-- 
               <section>
                 <!--  divider -->
                 <hr class="blue-divider">
-                <h2>Main Navigation</h2>
+                <h2>Numbered Lists</h2>
 
                 <h3>CSS selector:</h3>
-                <p>.button-navbar</p>
+                <p>.number-list</p>
 
                 <h3>Sample code:</h3>
-                <code><br />
-                  &lt;header id="top"&gt;<br />
-                  &lt;h1&gt;&lt;a href="index.html"&gt;Jetpacks&lt;/a&gt;&lt;/h1&gt;<br />
-                  <br />
-                  &lt;div class="grid-row"&gt;<br />
-                  &lt;div class="grid-col-12of12"&gt;<br />
-                  &lt;nav class="grid-row global-nav"&gt;<br />
-                  &lt;a href="products-jetpacks.html" class="button-navbar nav-current"&gt;Products&lt;/a&gt;<br />
-                  &lt;a href="#" class="button-navbar"&gt;Safety/Tech&lt;/a&gt;<br />
-                  &lt;a href="crew.html" class="button-navbar"&gt;Crew&lt;/a&gt;<br />
-                  &lt;a href="updates.html" class="button-navbar" &gt;Updates&lt;/a&gt;<br />
-                  &lt;a href="testdrive.html" class="button-navbar"&gt;Test Drive&lt;/a&gt;<br />
-                  &lt;/nav&gt;<br />
-                  &lt;/div&gt;<br />
-                  &lt;/div&gt;<br />
-                  &lt;/header&gt;
-                </code>
+                <code>&lt;ol class="number-list"&gt;
+                  &lt;li&gt;Item One&lt;/li&gt;
+                  &lt;li&gt;Item Two&lt;/li&gt;
+                  &lt;li&gt;Item Three&lt;/li&gt;
 
-                <h3>Rendered element:</h3>
 
-                <header id="top">
-                  <h1><a href="index.html">Jetpacks</a></h1>
+                  &lt;/ol&gt;</code>
 
-                  <div class="grid-row">
-                    <div class="grid-col-12of12">
-                      <nav class="grid-row global-nav">
-                        <a href="products-jetpacks.html" class="button-navbar nav-current">Products</a>
-                        <a href="#" class="button-navbar">Safety/Tech</a>
-                        <a href="crew.html" class="button-navbar">Crew</a>
-                        <a href="updates.html" class="button-navbar" >Updates</a>
-                        <a href="testdrive.html" class="button-navbar">Test Drive</a>
-                      </nav>
-                    </div>
-                  </div>
-                </header>
+                  <h3>Rendered element:</h3>
+                  <ol class="number-list">
+                    <li>Item One</li>
+                    <li>Item Two</li>
+                    <li>Item Three</li>
+                  </ol>
+
+                </section> -->
 
               </section>
-
-              <section>
-                <!--  divider -->
-                <hr class="blue-divider">
-                <h2>Footer</h2>
-
-                <h3>Sample code:</h3>
-                <code><br />
-                 &lt;div class="grid-row"&gt;<br />
-                 &lt;div class="grid-col-12of12"&gt;<br />
-                 &lt;div id="wide-footer"&gt;<br />
-                 &lt;div class="grid-col-1of12"&gt;<br />
-                 &amp;nbsp;<br />
-                 &lt;/div&gt;<br />
-                 &lt;div class="grid-col-3of12"&gt;<br />
-                 &lt;h4&gt;Our Promise&lt;/h4&gt;<br />
-                 &lt;p&gt;We promise to be the best at what we do. We also promise you that we will innovate where possible to provide our customers with the best Jetpacks money can buy without breaking the bank.&lt;/p&gt;<br />
-                 &lt;/div&gt;<br />
-                 &lt;div class="grid-col-1of12"&gt;<br />
-                 &amp;nbsp;<br />
-                 &lt;/div&gt;<br />
-                 &lt;div class="grid-col-3of12"&gt;<br />
-                 &lt;h4&gt;Satisfaction Guarantee&lt;/h4&gt;<br />
-                 &lt;p&gt;All our Jetpacks come with a 100% satisfaction guarantee. If you are not fully satisfied with the purchase of your Jetpack we will refund your purchase price excluding shipping &amp; handling.&lt;/p&gt;<br />
-                 &lt;/div&gt;<br />
-                 &lt;div class="grid-col-1of12"&gt;<br />
-                 &amp;nbsp;<br />
-                 &lt;/div&gt;<br />
-                 &lt;div class="grid-col-3of12"&gt;<br />
-                 &lt;h4&gt;Contact Information&lt;/h4&gt;<br />
-                 &lt;p&gt;<br />
-                 Jetpacks Ltd.&lt;br/&gt;<br />
-                 8390 Landing Way&lt;br/&gt;<br />
-                 Richmond, BC  V9F 0S3&lt;br/&gt;<br />
-                 &lt;/p&gt;<br />
-                 <br />
-                 <br />
-                 &lt;p&gt;<br />
-                 Tel. 604-899-9888 &lt;br /&gt;<br />
-                 &lt;a href="#"&gt;hello@jetpacks.com&lt;/a&gt;<br />
-                 &lt;/p&gt;<br />
-                 &lt;/div&gt;<br />
-                 &lt;/div&gt;<br />
-                 &lt;/div&gt;<br />
-                 &lt;/div&gt;<br />
-                 <br />
-                 <br />
-                 &lt;div class="grid-row"&gt;<br />
-                 &lt;div class="grid-col-12of12"&gt;<br />
-                 &lt;div id="thin-footer"&gt;<br />
-                 Copyright &amp;copy; 2016. JETPACKS Ltd. |<br />
-                 &lt;a href="https://github.com/bbeh/iat339-p02"&gt;Github&lt;/a&gt; | &lt;a href="style_guide.html"&gt;Style Guide&lt;/a&gt; | &lt;a href="citations.html"&gt;Citations&lt;/a&gt;<br />
-                 &lt;/div&gt;<br />
-                 &lt;/div&gt;<br />
-                 &lt;/div&gt;
-               </code>
+              <!-- // TEXT ELEMENTS SECTION -->
 
 
-               <h3>Rendered element:</h3>
 
-               <div class="grid-row">
-                <div class="grid-col-12of12">
-                 <div id="wide-footer">
-                  <div class="grid-col-1of12">
-                   &nbsp;
-                 </div>
-                 <div class="grid-col-3of12">
-                   <h4>Our Promise</h4>
-                   <p>We promise to be the best at what we do. We also promise you that we will innovate where possible to provide our customers with the best Jetpacks money can buy without breaking the bank.</p>
-                 </div>
-                 <div class="grid-col-1of12">
-                   &nbsp;
-                 </div>
-                 <div class="grid-col-3of12">
-                   <h4>Satisfaction Guarantee</h4>
-                   <p>All our Jetpacks come with a 100% satisfaction guarantee. If you are not fully satisfied with the purchase of your Jetpack we will refund your purchase price excluding shipping & handling.</p>
-                 </div>
-                 <div class="grid-col-1of12">
-                   &nbsp;
-                 </div>
-                 <div class="grid-col-3of12">
-                   <h4>Contact Information</h4>
-                   <p>
-                    Jetpacks Ltd.<br/>
-                    8390 Landing Way<br/>
-                    Richmond, BC  V9F 0S3<br/>
-                  </p>
+              <!-- COMBINED ELEMENTS SECTION // -->
+              <section id="combined_elements">
+                <h2>Combined Elements</h2>
+
+                <section>
+                  <!--  divider -->
+                  <hr class="blue-divider">
+                  <h2>Main Navigation</h2>
+
+                  <h3>CSS selector:</h3>
+                  <p>.button-navbar</p>
+
+                  <h3>Sample code:</h3>
+                  <code><br />
+                    &lt;header id="top"&gt;<br />
+                    &lt;h1&gt;&lt;a href="index.html"&gt;Jetpacks&lt;/a&gt;&lt;/h1&gt;<br />
+                    <br />
+                    &lt;div class="grid-row"&gt;<br />
+                    &lt;div class="grid-col-12of12"&gt;<br />
+                    &lt;nav class="grid-row global-nav"&gt;<br />
+                    &lt;a href="products-jetpacks.html" class="button-navbar nav-current"&gt;Products&lt;/a&gt;<br />
+                    &lt;a href="#" class="button-navbar"&gt;Safety/Tech&lt;/a&gt;<br />
+                    &lt;a href="crew.html" class="button-navbar"&gt;Crew&lt;/a&gt;<br />
+                    &lt;a href="updates.html" class="button-navbar" &gt;Updates&lt;/a&gt;<br />
+                    &lt;a href="testdrive.html" class="button-navbar"&gt;Test Drive&lt;/a&gt;<br />
+                    &lt;/nav&gt;<br />
+                    &lt;/div&gt;<br />
+                    &lt;/div&gt;<br />
+                    &lt;/header&gt;
+                  </code>
+
+                  <h3>Rendered element:</h3>
+
+                  <header id="top">
+                    <h1><a href="index.html">Jetpacks</a></h1>
+
+                    <div class="grid-row">
+                      <div class="grid-col-12of12">
+                        <nav class="grid-row global-nav">
+                          <a href="products-jetpacks.html" class="button-navbar nav-current">Products</a>
+                          <a href="#" class="button-navbar">Safety/Tech</a>
+                          <a href="crew.html" class="button-navbar">Crew</a>
+                          <a href="updates.html" class="button-navbar" >Updates</a>
+                          <a href="testdrive.html" class="button-navbar">Test Drive</a>
+                        </nav>
+                      </div>
+                    </div>
+                  </header>
+
+                </section>
+
+                <section>
+                  <!--  divider -->
+                  <hr class="blue-divider">
+                  <h2>Footer</h2>
+
+                  <h3>Sample code:</h3>
+                  <code><br />
+                   &lt;div class="grid-row"&gt;<br />
+                   &lt;div class="grid-col-12of12"&gt;<br />
+                   &lt;div id="wide-footer"&gt;<br />
+                   &lt;div class="grid-col-1of12"&gt;<br />
+                   &amp;nbsp;<br />
+                   &lt;/div&gt;<br />
+                   &lt;div class="grid-col-3of12"&gt;<br />
+                   &lt;h4&gt;Our Promise&lt;/h4&gt;<br />
+                   &lt;p&gt;We promise to be the best at what we do. We also promise you that we will innovate where possible to provide our customers with the best Jetpacks money can buy without breaking the bank.&lt;/p&gt;<br />
+                   &lt;/div&gt;<br />
+                   &lt;div class="grid-col-1of12"&gt;<br />
+                   &amp;nbsp;<br />
+                   &lt;/div&gt;<br />
+                   &lt;div class="grid-col-3of12"&gt;<br />
+                   &lt;h4&gt;Satisfaction Guarantee&lt;/h4&gt;<br />
+                   &lt;p&gt;All our Jetpacks come with a 100% satisfaction guarantee. If you are not fully satisfied with the purchase of your Jetpack we will refund your purchase price excluding shipping &amp; handling.&lt;/p&gt;<br />
+                   &lt;/div&gt;<br />
+                   &lt;div class="grid-col-1of12"&gt;<br />
+                   &amp;nbsp;<br />
+                   &lt;/div&gt;<br />
+                   &lt;div class="grid-col-3of12"&gt;<br />
+                   &lt;h4&gt;Contact Information&lt;/h4&gt;<br />
+                   &lt;p&gt;<br />
+                   Jetpacks Ltd.&lt;br/&gt;<br />
+                   8390 Landing Way&lt;br/&gt;<br />
+                   Richmond, BC  V9F 0S3&lt;br/&gt;<br />
+                   &lt;/p&gt;<br />
+                   <br />
+                   <br />
+                   &lt;p&gt;<br />
+                   Tel. 604-899-9888 &lt;br /&gt;<br />
+                   &lt;a href="#"&gt;hello@jetpacks.com&lt;/a&gt;<br />
+                   &lt;/p&gt;<br />
+                   &lt;/div&gt;<br />
+                   &lt;/div&gt;<br />
+                   &lt;/div&gt;<br />
+                   &lt;/div&gt;<br />
+                   <br />
+                   <br />
+                   &lt;div class="grid-row"&gt;<br />
+                   &lt;div class="grid-col-12of12"&gt;<br />
+                   &lt;div id="thin-footer"&gt;<br />
+                   Copyright &amp;copy; 2016. JETPACKS Ltd. |<br />
+                   &lt;a href="https://github.com/bbeh/iat339-p02"&gt;Github&lt;/a&gt; | &lt;a href="style_guide.html"&gt;Style Guide&lt;/a&gt; | &lt;a href="citations.html"&gt;Citations&lt;/a&gt;<br />
+                   &lt;/div&gt;<br />
+                   &lt;/div&gt;<br />
+                   &lt;/div&gt;
+                 </code>
 
 
-                  <p>
-                    Tel. 604-899-9888 <br />
-                    <a href="#">hello@jetpacks.com</a>
-                  </p>
+                 <h3>Rendered element:</h3>
+
+                 <div class="grid-row">
+                  <div class="grid-col-12of12">
+                   <div id="wide-footer">
+                    <div class="grid-col-1of12">
+                     &nbsp;
+                   </div>
+                   <div class="grid-col-3of12">
+                     <h4>Our Promise</h4>
+                     <p>We promise to be the best at what we do. We also promise you that we will innovate where possible to provide our customers with the best Jetpacks money can buy without breaking the bank.</p>
+                   </div>
+                   <div class="grid-col-1of12">
+                     &nbsp;
+                   </div>
+                   <div class="grid-col-3of12">
+                     <h4>Satisfaction Guarantee</h4>
+                     <p>All our Jetpacks come with a 100% satisfaction guarantee. If you are not fully satisfied with the purchase of your Jetpack we will refund your purchase price excluding shipping & handling.</p>
+                   </div>
+                   <div class="grid-col-1of12">
+                     &nbsp;
+                   </div>
+                   <div class="grid-col-3of12">
+                     <h4>Contact Information</h4>
+                     <p>
+                      Jetpacks Ltd.<br/>
+                      8390 Landing Way<br/>
+                      Richmond, BC  V9F 0S3<br/>
+                    </p>
+
+
+                    <p>
+                      Tel. 604-899-9888 <br />
+                      <a href="#">hello@jetpacks.com</a>
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
 
 
-          <div class="grid-row">
-            <div class="grid-col-12of12">
-             <div id="thin-footer">
-              Copyright &copy; 2016. JETPACKS Ltd. |
-              <a href="https://github.com/bbeh/iat339-p02">Github</a> | <a href="style_guide.html">Style Guide</a> | <a href="citations.html">Citations</a>
+            <div class="grid-row">
+              <div class="grid-col-12of12">
+               <div id="thin-footer">
+                Copyright &copy; 2016. JETPACKS Ltd. |
+                <a href="https://github.com/bbeh/iat339-p02">Github</a> | <a href="style_guide.html">Style Guide</a> | <a href="citations.html">Citations</a>
+              </div>
             </div>
+          </div>
+        </section>
+
+
+
+        <section>
+          <!--  divider -->
+          <hr class="blue-divider">
+          <h2>Product Category</h2>
+
+          <h3>Sample Code</h3>
+          <code>
+           &lt;div class="grid-row"&gt;<br />
+           &lt;div class="grid-col-4of12 text-center"&gt;<br />
+           &lt;a href="#water" class="no-deco"&gt;<br />
+           &lt;div class="mini-hero mini-hero-water"&gt;<br />
+           &lt;div class="mini-hero-text-wrapper"&gt;<br />
+           &lt;h2&gt;WATER&lt;/h2&gt;<br />
+           &lt;/div&gt;<br />
+           &lt;/div&gt;<br />
+           &lt;/a&gt;<br />
+           &lt;/div&gt;<br />
+           &lt;/div&gt;
+         </code>
+         <h3>Rendered element:</h3>
+         <div class="grid-row">
+          <div class="grid-col-4of12 text-center">
+            <a href="#water" class="no-deco">
+              <div class="mini-hero mini-hero-water">
+                <div class="mini-hero-text-wrapper">
+                  <h2>WATER</h2>
+                </div>
+              </div>
+            </a>
           </div>
         </div>
       </section>
 
-
-
       <section>
         <!--  divider -->
         <hr class="blue-divider">
-        <h2>Product Category</h2>
+        <h2>Product Listing (sale)</h2>
 
-        <h3>Sample Code</h3>
+        <h3>Sample code:</h3>
         <code>
-         &lt;div class="grid-row"&gt;<br />
-         &lt;div class="grid-col-4of12 text-center"&gt;<br />
-         &lt;a href="#water" class="no-deco"&gt;<br />
-         &lt;div class="mini-hero mini-hero-water"&gt;<br />
-         &lt;div class="mini-hero-text-wrapper"&gt;<br />
-         &lt;h2&gt;WATER&lt;/h2&gt;<br />
+          &lt;div class="grid-col-4of12"&gt;<br />
+          &lt;div class="product-listing text-center"&gt;<br />
+          &lt;a href="products-detailed.html"&gt;<br />
+          &lt;div class="product-image"&gt;<br />
+          &lt;img class="product-listing-image" src="img/products/water_alliance.png" alt="Water jetpack named Alliance"&gt;<br />
+          &lt;/div&gt;<br />
+          &lt;h2&gt;Alliance&lt;/h2&gt;<br />
+          <br />
+          &lt;h3 class="sale"&gt;$299.99&lt;/h3&gt;<br />
+          &lt;h3 class="strike small-price"&gt;$499.99&lt;/h3&gt;<br />
+          <br />
+          &lt;/a&gt;<br />
+          &lt;/div&gt;<br />
+          &lt;/div&gt;
+        </code>
+
+
+        <h3>Rendered element:</h3>
+        <div class="grid-row">
+          <div class="grid-col-4of12">
+            <div class="product-listing text-center">
+              <a href="products-detailed.html">
+                <div class="product-image">
+                  <img class="product-listing-image" src="img/products/water_alliance.png" alt="Water jetpack named Alliance">
+                </div>
+                <h2>Alliance</h2>
+
+                <h3 class="sale">$299.99</h3>
+                <h3 class="strike small-price">$499.99</h3>
+
+              </a>
+            </div>
+          </div>
+        </div>                    
+      </section>
+      <section>
+        <!--  divider -->
+        <hr class="blue-divider">
+        <h2>Product Listing</h2>
+
+        <h3>Sample code:</h3>
+        <code>
+          &lt;div class="grid-col-4of12"&gt;<br />
+          &lt;div class="product-listing text-center"&gt;<br />
+          &lt;a href="products-detailed.html"&gt;<br />
+          &lt;div class="product-image"&gt;<br />
+          &lt;img class="product-listing-image" src="img/products/water_alliance.png" alt="Water jetpack named Alliance"&gt;<br />
+          &lt;/div&gt;<br />
+          &lt;h2&gt;Alliance&lt;/h2&gt;<br />
+          <br />
+          &lt;h3 class="sale"&gt;$299.99&lt;/h3&gt;<br />
+          &lt;h3 class="strike small-price"&gt;$499.99&lt;/h3&gt;<br />
+          <br />
+          &lt;/a&gt;<br />
+          &lt;/div&gt;<br />
+          &lt;/div&gt;
+        </code>
+
+
+        <h3>Rendered element:</h3>
+        <div class="grid-row">
+
+          <div class="grid-col-4of12">
+            <div class="product-listing text-center">
+              <a href="products-detailed.html">
+                <div class="product-image">
+                  <img class="product-listing-image" src="img/products/space_royal_thrust.png" alt="Space jetpack named Royal Thrust">
+                </div>
+                <h2>Royal Thrust</h2>
+                <h3>$449.99</h3>
+              </a>
+            </div>
+          </div>
+
+
+          <div class="grid-col-4of12">
+            <div class="product-listing text-center">
+              <a href="products-detailed.html">
+                <div class="product-image">
+                  <img class="product-listing-image" src="img/products/space_royal_thrust.png" alt="Space jetpack named Royal Thrust">
+                </div>
+                <h2>Royal Thrust</h2>
+                <h3>$449.99</h3>
+              </a>
+            </div>
+          </div>
+
+          <div class="grid-col-4of12">
+            <div class="product-listing text-center">
+              <a href="products-detailed.html">
+                <div class="product-image">
+                  <img class="product-listing-image" src="img/products/space_royal_thrust.png" alt="Space jetpack named Royal Thrust">
+                </div>
+                <h2>Royal Thrust</h2>
+                <h3>$449.99</h3>
+              </a>
+            </div>
+          </div>
+        </div>                    
+      </section>
+
+
+      <section>
+        <!-- divider -->
+        <hr class="blue-divider">
+        <h2>Mini Hero</h2>
+
+        <h3>Sample code:</h3>
+        <code>
+          &lt;div class="grid-row"&gt;<br />
+          &lt;div class="grid-col-6of12 text-center"&gt;<br />
+          &lt;div class="mini-hero mini-hero-green"&gt;<br />
+          &lt;a href="products-jetpacks.html"&gt;&lt;img src="img/spring_sale.png" alt="Spring Sale Promo Banner"&gt;&lt;/a&gt;<br />
+          &lt;div class="hp-mini-hero-text-wrapper"&gt;<br />
+          &lt;a href="products-jetpacks.html" class="btn-shop"&gt;Let's Shop&lt;/a&gt;<br />
+          &lt;/div&gt;<br />
+          &lt;/div&gt;
+        </code>
+        <h3>Rendered element:</h3>
+
+        <div class="grid-row">
+          <div class="grid-col-6of12 text-center">
+           <div class="mini-hero mini-hero-green">
+            <a href="products-jetpacks.html"><img src="img/spring_sale.png" alt="Spring Sale Promo Banner"></a>
+            <div class="hp-mini-hero-text-wrapper">
+             <a href="products-jetpacks.html" class="btn-shop">Let's Shop</a>
+           </div>
+         </div>
+       </section>
+
+       <section>
+        <!--  divider -->
+        <hr class="blue-divider">
+        <h2>Hero Banner 1</h2>
+
+        <h3>Sample code:</h3>
+        <code>
+         &lt;div class="grid-col-12of12"&gt;<br />
+         &lt;div class="hero-banner-1"&gt;<br />
+         &lt;div class="hero-img-wrapper"&gt;<br />
+         &lt;div class="img-hero"&gt;<br />
+         &lt;img src="img/her2.png" width="600" alt="3 People flying on Jetpacks"&gt;<br />
          &lt;/div&gt;<br />
          &lt;/div&gt;<br />
-         &lt;/a&gt;<br />
+         &lt;div class="hero-banner-1-text-wrapper"&gt;<br />
+         &lt;div class="hero-banner-1-text"&gt;<br />
+         &lt;h2&gt;Go Fast!&lt;/h2&gt;<br />
+         &lt;p&gt;Be the first in the pack with our all new hyper-space jetpacks.&lt;/p&gt;<br />
+         &lt;a href="products-jetpacks.html" class="btn-std"&gt;Get me Ahead&lt;/a&gt;<br />
+         &lt;/div&gt;<br />
          &lt;/div&gt;<br />
          &lt;/div&gt;
        </code>
        <h3>Rendered element:</h3>
-       <div class="grid-row">
-        <div class="grid-col-4of12 text-center">
-          <a href="#water" class="no-deco">
-            <div class="mini-hero mini-hero-water">
-              <div class="mini-hero-text-wrapper">
-                <h2>WATER</h2>
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <!--  divider -->
-      <hr class="blue-divider">
-      <h2>Product Listing (sale)</h2>
-
-      <h3>Sample code:</h3>
-      <code>
-        &lt;div class="grid-col-4of12"&gt;<br />
-        &lt;div class="product-listing text-center"&gt;<br />
-        &lt;a href="products-detailed.html"&gt;<br />
-        &lt;div class="product-image"&gt;<br />
-        &lt;img class="product-listing-image" src="img/products/water_alliance.png" alt="Water jetpack named Alliance"&gt;<br />
-        &lt;/div&gt;<br />
-        &lt;h2&gt;Alliance&lt;/h2&gt;<br />
-        <br />
-        &lt;h3 class="sale"&gt;$299.99&lt;/h3&gt;<br />
-        &lt;h3 class="strike small-price"&gt;$499.99&lt;/h3&gt;<br />
-        <br />
-        &lt;/a&gt;<br />
-        &lt;/div&gt;<br />
-        &lt;/div&gt;
-      </code>
-
-
-      <h3>Rendered element:</h3>
-      <div class="grid-row">
-        <div class="grid-col-4of12">
-          <div class="product-listing text-center">
-            <a href="products-detailed.html">
-              <div class="product-image">
-                <img class="product-listing-image" src="img/products/water_alliance.png" alt="Water jetpack named Alliance">
-              </div>
-              <h2>Alliance</h2>
-
-              <h3 class="sale">$299.99</h3>
-              <h3 class="strike small-price">$499.99</h3>
-
-            </a>
-          </div>
-        </div>
-      </div>                    
-    </section>
-    <section>
-      <!--  divider -->
-      <hr class="blue-divider">
-      <h2>Product Listing</h2>
-
-      <h3>Sample code:</h3>
-      <code>
-        &lt;div class="grid-col-4of12"&gt;<br />
-        &lt;div class="product-listing text-center"&gt;<br />
-        &lt;a href="products-detailed.html"&gt;<br />
-        &lt;div class="product-image"&gt;<br />
-        &lt;img class="product-listing-image" src="img/products/water_alliance.png" alt="Water jetpack named Alliance"&gt;<br />
-        &lt;/div&gt;<br />
-        &lt;h2&gt;Alliance&lt;/h2&gt;<br />
-        <br />
-        &lt;h3 class="sale"&gt;$299.99&lt;/h3&gt;<br />
-        &lt;h3 class="strike small-price"&gt;$499.99&lt;/h3&gt;<br />
-        <br />
-        &lt;/a&gt;<br />
-        &lt;/div&gt;<br />
-        &lt;/div&gt;
-      </code>
-
-
-      <h3>Rendered element:</h3>
-      <div class="grid-row">
-
-        <div class="grid-col-4of12">
-          <div class="product-listing text-center">
-            <a href="products-detailed.html">
-              <div class="product-image">
-                <img class="product-listing-image" src="img/products/space_royal_thrust.png" alt="Space jetpack named Royal Thrust">
-              </div>
-              <h2>Royal Thrust</h2>
-              <h3>$449.99</h3>
-            </a>
-          </div>
-        </div>
-
-
-        <div class="grid-col-4of12">
-          <div class="product-listing text-center">
-            <a href="products-detailed.html">
-              <div class="product-image">
-                <img class="product-listing-image" src="img/products/space_royal_thrust.png" alt="Space jetpack named Royal Thrust">
-              </div>
-              <h2>Royal Thrust</h2>
-              <h3>$449.99</h3>
-            </a>
-          </div>
-        </div>
-
-        <div class="grid-col-4of12">
-          <div class="product-listing text-center">
-            <a href="products-detailed.html">
-              <div class="product-image">
-                <img class="product-listing-image" src="img/products/space_royal_thrust.png" alt="Space jetpack named Royal Thrust">
-              </div>
-              <h2>Royal Thrust</h2>
-              <h3>$449.99</h3>
-            </a>
-          </div>
-        </div>
-      </div>                    
-    </section>
-
-
-    <section>
-      <!--  divider -->
-      <hr class="blue-divider">
-      <h2>Hero Banner 1</h2>
-
-      <h3>Sample code:</h3>
-      <code>
-       &lt;div class="grid-col-12of12"&gt;<br />
-       &lt;div class="hero-banner-1"&gt;<br />
-       &lt;div class="hero-img-wrapper"&gt;<br />
-       &lt;div class="img-hero"&gt;<br />
-       &lt;img src="img/her2.png" width="600" alt="3 People flying on Jetpacks"&gt;<br />
-       &lt;/div&gt;<br />
-       &lt;/div&gt;<br />
-       &lt;div class="hero-banner-1-text-wrapper"&gt;<br />
-       &lt;div class="hero-banner-1-text"&gt;<br />
-       &lt;h2&gt;Go Fast!&lt;/h2&gt;<br />
-       &lt;p&gt;Be the first in the pack with our all new hyper-space jetpacks.&lt;/p&gt;<br />
-       &lt;a href="products-jetpacks.html" class="btn-std"&gt;Get me Ahead&lt;/a&gt;<br />
-       &lt;/div&gt;<br />
-       &lt;/div&gt;<br />
-       &lt;/div&gt;
-     </code>
-     <h3>Rendered element:</h3>
-     <div class="grid-col-12of12">
-      <div class="hero-banner-1">
-       <div class="hero-img-wrapper">
-        <div class="img-hero">
-         <img src="img/her2.png" width="600" alt="3 People flying on Jetpacks">
+       <div class="grid-col-12of12">
+        <div class="hero-banner-1">
+         <div class="hero-img-wrapper">
+          <div class="img-hero">
+           <img src="img/her2.png" width="600" alt="3 People flying on Jetpacks">
+         </div>
        </div>
-     </div>
-     <div class="hero-banner-1-text-wrapper">
-      <div class="hero-banner-1-text">
-       <h2>Go Fast!</h2>
-       <p>Be the first in the pack with our all new hyper-space jetpacks.</p>
-       <a href="products-jetpacks.html" class="btn-std">Get me Ahead</a>
+       <div class="hero-banner-1-text-wrapper">
+        <div class="hero-banner-1-text">
+         <h2>Go Fast!</h2>
+         <p>Be the first in the pack with our all new hyper-space jetpacks.</p>
+         <a href="products-jetpacks.html" class="btn-std">Get me Ahead</a>
+       </div>
      </div>
    </div>
  </div>
-</div>
 </section>
 
 <section>
