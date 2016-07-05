@@ -157,11 +157,11 @@
           <h3>Sample code:</h3>
           <code>&lt;label for="first"&gt;First Name&lt;/label&gt;
           </code>
-          <code>&lt;input type="text" name="first" id="first" class="text-field"&gt;</code>
+          <code>&lt;input type="text" name="first" id="firstlabel" class="text-field"&gt;</code>
 
           <h3>Rendered element:</h3>
-          <label for="first">First Name</label>
-          <input type="text" name="first" id="first" class="text-field">
+          <label for="first_label">First Name</label>
+          <input type="text" name="first" id="first_label" class="text-field">
 
         </section>
 
@@ -1196,22 +1196,22 @@
   <div class="grid-row">
    <h3 class="title">Personal Information</h3>
    <div class="grid-col-6of12 grid-padding-xs">
-    <label for="first">First Name</label>
-    <input type="text" name="first" id="first" class="text-field">
+    <label for="first_personal">First Name</label>
+    <input type="text" name="first" id="first_personal" class="text-field">
   </div>
   <div class="grid-col-6of12 grid-padding-xs">
-    <label for="last">Last Name</label>
-    <input type="text" name="last" id="last" class="text-field">
+    <label for="last_personal">Last Name</label>
+    <input type="text" name="last" id="last_personal" class="text-field">
   </div>
 </div>
 <div class="grid-row">
  <div class="grid-col-6of12 grid-padding-xs">
-  <label for="email">Email Address</label>
-  <input type="email" name="email" id="email" class="text-field">
+  <label for="email_personal">Email Address</label>
+  <input type="email" name="email" id="email_personal" class="text-field">
 </div>
 <div class="grid-col-6of12 grid-padding-xs">
-  <label for="phone">Phone Number</label>
-  <input type="tel" name="phone" id="phone" class="text-field">
+  <label for="phone_personal">Phone Number</label>
+  <input type="tel" name="phone" id="phone_personal" class="text-field">
 </div>
 </div>
 </form>
@@ -1446,12 +1446,12 @@
   <div class="grid-col-7of12">
    <h3 class="title">Shipping Information</h3>
    <div class="grid-col-6of12 grid-padding-xs">
-    <label for="first">First Name</label>
-    <input type="text" name="first" id="first" class="text-field">
+    <label for="first_shipping">First Name</label>
+    <input type="text" name="first" id="first_shipping" class="text-field">
   </div>
   <div class="grid-col-6of12 grid-padding-xs">
-    <label for="last">Last Name</label>
-    <input type="text" name="last" id="last" class="text-field">
+    <label for="last_shipping">Last Name</label>
+    <input type="text" name="last" id="last_shipping" class="text-field">
   </div>
   <div class="grid-row">
     <div class="grid-col-6of12 grid-padding-xs">
@@ -1508,103 +1508,65 @@
 
   <h3>Sample code:</h3>
   <code>
-   &lt;div class="grid-row"&gt;<br />
-   &lt;div class="grid-col-7of12"&gt;<br />
-   &lt;h3 class="title"&gt;Shipping Information&lt;/h3&gt;<br />
-   &lt;div class="grid-col-6of12 grid-padding-xs"&gt;<br />
-   &lt;label for="first"&gt;First Name&lt;/label&gt;<br />
-   &lt;input type="text" name="first" id="first" class="text-field"&gt;<br />
-   &lt;/div&gt;<br />
-   &lt;div class="grid-col-6of12 grid-padding-xs"&gt;<br />
-   &lt;label for="last"&gt;Last Name&lt;/label&gt;<br />
-   &lt;input type="text" name="last" id="last" class="text-field"&gt;<br />
-   &lt;/div&gt;<br />
-   &lt;div class="grid-row"&gt;<br />
-   &lt;div class="grid-col-6of12 grid-padding-xs"&gt;<br />
-   &lt;label for="address"&gt;Address&lt;/label&gt;<br />
-   &lt;input type="text" name="address" id="address" class="text-field"&gt;<br />
-   &lt;/div&gt;<br />
-   &lt;div class="grid-col-6of12 grid-padding-xs"&gt;<br />
-   &lt;label for="city"&gt;City&lt;/label&gt;<br />
-   &lt;input type="text" name="city" id="city" class="text-field"&gt;<br />
-   &lt;/div&gt;<br />
-   &lt;/div&gt;<br />
-   &lt;div class="grid-row"&gt;<br />
-   &lt;div class="grid-col-6of12 grid-padding-xs"&gt;<br />
-   &lt;label for="province"&gt;Province&lt;/label&gt;<br />
-   &lt;select name="province" id="province" class="text-field-sm"&gt;<br />
-   &lt;option value="AB"&gt;Alberta&lt;/option&gt;<br />
-   &lt;option value="BC"&gt;British Columbia&lt;/option&gt;<br />
-   &lt;option value="MB"&gt;Manitoba&lt;/option&gt;<br />
-   &lt;option value="NB"&gt;New Brunswick&lt;/option&gt;<br />
-   &lt;option value="NL"&gt;Newfoundland and Labrador&lt;/option&gt;<br />
-   &lt;option value="NS"&gt;Nova Scotia&lt;/option&gt;<br />
-   &lt;option value="ON"&gt;Ontario&lt;/option&gt;<br />
-   &lt;option value="PE"&gt;Prince Edward Island&lt;/option&gt;<br />
-   &lt;option value="QC"&gt;Quebec&lt;/option&gt;<br />
-   &lt;option value="SK"&gt;Saskatchewan&lt;/option&gt;<br />
-   &lt;option value="NT"&gt;Northwest Territories&lt;/option&gt;<br />
-   &lt;option value="NU"&gt;Nunavut&lt;/option&gt;<br />
-   &lt;option value="YT"&gt;Yukon&lt;/option&gt;<br />
-   &lt;/select&gt;<br />
-   &lt;/div&gt;<br />
-   &lt;div class="grid-col-6of12 grid-padding-xs"&gt;<br />
-   &lt;label for="postal"&gt;Postal Code&lt;/label&gt;<br />
-   &lt;input type="text" name="postal" id="postal" class="text-field-sm"&gt;<br />
-   &lt;/div&gt;<br />
-   &lt;/div&gt;<br />
-   &lt;div class="grid-row"&gt;<br />
-   &lt;div class="grid-col-6of12 grid-padding-xs"&gt;<br />
-   &lt;label for="email"&gt;Email Address&lt;/label&gt;<br />
-   &lt;input type="email" name="email" id="email" class="text-field-sm"&gt;<br />
-   &lt;/div&gt;<br />
-   &lt;div class="grid-col-6of12 grid-padding-xs"&gt;<br />
-   &lt;label for="telephone"&gt;Telephone&lt;/label&gt;<br />
-   &lt;input type="tel" name="telephone" id="telephone" class="text-field-sm"&gt;<br />
-   &lt;/div&gt;<br />
-   &lt;/div&gt;<br />
-   &lt;/div&gt;
- </code>
- <h3>Rendered element:</h3>
- <div class="grid-row">
-  <div class="grid-col-7of12">
-
-    <h3 class="title">Shipping Method</h3>
-
-    <div class="grid-col-12of12 grid-padding-xs">
-
+    <br />
+    &lt;div class="grid-row"&gt;<br />
+    &lt;div class="grid-col-7of12"&gt;<br />
+    &lt;h3 class="title"&gt;Shipping Method&lt;/h3&gt;<br />
+    &lt;div class="grid-col-12of12 grid-padding-xs"&gt;<br />
+    &lt;label for="standard"&gt;<br />
+    &lt;span class="location"&gt;<br />
+    &lt;span class="location-input"&gt;<br />
+    &lt;input type="radio" name="shipping" value="standard" id="standard" class="big-radio"&gt;<br />
+    &lt;/span&gt;<br />
+    &lt;span class="location-content"&gt;<br />
+    &lt;span class="span-h4"&gt;Regular Shipping - FREE&lt;/span&gt;<br />
+    &lt;span class="span-p"&gt;Arrives in 3 - 5 business days.&lt;/span&gt;<br />
+    &lt;/span&gt;<br />
+    &lt;/span&gt;<br />
+    &lt;/label&gt;<br />
+    &lt;label for="express"&gt;<br />
+    &lt;span class="location"&gt;<br />
+    &lt;span class="location-input"&gt;<br />
+    &lt;input type="radio" name="shipping" value="express" id="express" class="big-radio"&gt; <br />
+    &lt;/span&gt;<br />
+    &lt;span class="location-content"&gt;<br />
+    &lt;span class="span-h4"&gt;Express Shipping - $19.99&lt;/span&gt;<br />
+    &lt;span class="span-p"&gt;Arrives in 1 - 3 business days.&lt;/span&gt;<br />
+    &lt;/span&gt;<br />
+    &lt;/span&gt;<br />
+    &lt;/label&gt;<br />
+    &lt;/div&gt;<br />
+    &lt;/div&gt;<br />
+    &lt;/div&gt;
+  </code>
+  <h3>Rendered element:</h3>
+  <div class="grid-row">
+    <div class="grid-col-7of12">
+     <h3 class="title">Shipping Method</h3>
+     <div class="grid-col-12of12 grid-padding-xs">
       <label for="standard">
-        <div class="location">
-          <div class="location-input">
+        <span class="location">
+          <span class="location-input">
             <input type="radio" name="shipping" value="standard" id="standard" class="big-radio">
-          </div>
-
-          <div class="location-content">
-            <h4>Regular Shipping - FREE</h4>
-            <p>Arrives in 3 - 5 business days.</p>
-          </div>
-
-        </div>
+          </span>
+          <span class="location-content">
+            <span class="span-h4">Regular Shipping - FREE</span>
+            <span class="span-p">Arrives in 3 - 5 business days.</span>
+          </span>
+        </span>
       </label>
-
       <label for="express">
-        <div class="location">
-
-          <div class="location-input">
+        <span class="location">
+          <span class="location-input">
             <input type="radio" name="shipping" value="express" id="express" class="big-radio"> 
-          </div>
-
-          <div class="location-content">
-            <h4>Express Shipping - $19.99</h4>
-            <p>Arrives in 1 - 3 business days.</p>
-          </div>
-
-        </div>
+          </span>
+          <span class="location-content">
+            <span class="span-h4">Express Shipping - $19.99</span>
+            <span class="span-p">Arrives in 1 - 3 business days.</span>
+          </span>
+        </span>
       </label>
-
     </div>
-
-
   </div>
 </div>
 </section>
@@ -2363,12 +2325,12 @@
 
       </div>
     </section>
-  <!-- // COMBINED ELEMENTS SECTION -->
+    <!-- // COMBINED ELEMENTS SECTION -->
 
 
 
 
-  <script src="js/jquery.js"></script>
-  <script src="js/dynamic.js"></script>
-</body>
-</html>
+    <script src="js/jquery.js"></script>
+    <script src="js/dynamic.js"></script>
+  </body>
+  </html>
