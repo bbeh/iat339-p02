@@ -72,6 +72,7 @@
 
 .grid-col-2xs, .grid-col-1xs {
 	width: 100%;
+	float: none;
 }
 
 
@@ -110,6 +111,7 @@
 
 	.grid-col-2xs {
 		width: 16.66%;
+		float: left;
 	}
 
 	.grid-col-1xs {
@@ -123,6 +125,8 @@
 	.grid-col-5xs {
 		width: 41.66%;
 	}
+
+
 
 }
 
@@ -150,6 +154,7 @@
 
 	.grid-col-2xs {
 		width: 16.66%;
+		float: left;
 	}
 
 	.grid-col-1of12 {
@@ -162,17 +167,23 @@
 
 	.grid-col-3xs {
 		float: left;
-}
+	}
 
 	.grid-col-5xs {
 		float: left;
-}
+		width: 41.66%;
+	}
+	
 
 	.grid-col-2of12 {
 		width: 16.66%;
 	}
 
 	.grid-col-3of12 {
+		width: 25%;
+	}
+
+	.grid-col-3xs {
 		width: 25%;
 	}
 
