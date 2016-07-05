@@ -539,7 +539,7 @@
   /*blog post styling*/
 
   .blog-post{
-    margin-top: 4em;
+    margin-top: 1em;
     border: solid 1px #999999;
     border-radius: 3px;
     margin-bottom: 3em;
@@ -553,8 +553,7 @@
   }
 
   .blog-date{
-    margin-left: 0.5em;
-    padding: 0.25em;
+    padding: 0 1em 0 1em;
     display: inline-block;
   }
 
@@ -577,14 +576,12 @@
 
   .blog-image{
     display: block;
-    text-align: center;
   }
 
   .blog-image img{
-    width: 80%;
+    width: 100%;
   }
   
-
   .blog-text{
     text-align: left;
     margin-left: 0em;
@@ -714,7 +711,7 @@
   }
 
   .crew-post{
-    margin-top: 4em;
+    margin-top: 2em;
     border: solid 1px #999999;
     border-radius: 3px;
     margin-bottom: 3em;
@@ -735,7 +732,7 @@
 
   .crew-title h2{
     text-align: left;
-    padding: 0.25em;
+    padding: 0.25em 0;
   }
 
   .crew-image{

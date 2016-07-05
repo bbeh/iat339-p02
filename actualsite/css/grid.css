@@ -147,6 +147,10 @@
 		width: 8.33%;
 	}
 
+	.grid-col-1pt5of12 {
+		width: 10%;
+	}
+
 	.grid-col-3xs {
 		float: left;
 }
@@ -212,6 +216,58 @@
 
 	.grid-padding {
 	padding: 0 0 0 5em;
+	}
+
+	.grid-col-pt5of10 {
+		width: 5%;
+	}
+
+	.grid-col-1of10 {
+		width: 10%;
+	}
+
+	.grid-col-2of10 {
+		width: 20%;
+	}
+
+	.grid-col-3of10 {
+		width: 30%;
+	}
+
+	.grid-col-4of10 {
+		width: 40%;
+	}
+
+	.grid-col-4pt5of10 {
+		width: 45%;
+	}
+
+	.grid-col-4pt75of10 {
+		width: 47.5%;
+	}
+
+	.grid-col-5of10 {
+		width: 50%;
+	}
+
+	.grid-col-6of10 {
+		width: 60%;
+	}
+
+	.grid-col-7of10 {
+		width: 70%;
+	}
+
+	.grid-col-8of10 {
+		width: 80%;
+	}
+
+	.grid-col-9of10 {
+		width: 90%;
+	}
+
+	.grid-col-10of10 {
+		width: 1000%;
 	}
 
 
